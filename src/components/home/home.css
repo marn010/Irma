@@ -1,0 +1,35 @@
+@media(min-width:769px){
+   .IrmaAboutBox{
+      display: flex;
+      width: 90%;
+      margin: 15% auto;
+      
+   }
+   .IrmaPicsBox{
+      display: block;
+      width: 50%;
+      margin: 0% auto;
+   }
+   .IrmaMainTextBox{
+      display: block;
+      width: 50%;
+      margin: 0% auto;
+   }
+   .IrmaTextBox{
+      display: block;
+      width: 90%;
+      height: 200px;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      margin: 0% auto;
+   }
+   .IrmaSign{
+      display: block;
+      width: 50%;
+      margin: 0% auto;
+      text-align: center;
+   }
+}
+@media(max-width:768px){
+   
+}
