@@ -30,23 +30,23 @@ export default class Slider extends Component{
          <React.Fragment >
             <div className="container col-9">
                 <Carousel 
-                        autoPlay={false}
-                        autoPlaySpeed={4000}
-                        arrows={true}
-                        showDots={true}
-                        responsive={responsive}
-                        ssr={true} // means to render carousel on server-side.
-                        infinite={true}
-                        draggable={false}
-                        customTransition="all 1s "
-                        transitionDuration={900}
-                        containerClass="carousel-container"
-                        removeArrowOnDeviceType={[ "mobile"]}
-                        deviceType={this.props.deviceType}
-                        dotListClass="custom-dot-list-style"
-                        itemClass="" /*carousel-item-padding*/
-                        centerMode={false}
-                        renderDotsOutside={false}
+                    autoPlay={false}
+                    autoPlaySpeed={4000}
+                    arrows={true}
+                    showDots={true}
+                    responsive={responsive}
+                    ssr={true} // means to render carousel on server-side.
+                    infinite={true}
+                    draggable={false}
+                    customTransition="all 1s "
+                    transitionDuration={900}
+                    containerClass="carousel-container"
+                    removeArrowOnDeviceType={[ "mobile"]}
+                    deviceType={this.props.deviceType}
+                    dotListClass="custom-dot-list-style"
+                    itemClass="" /*carousel-item-padding*/
+                    centerMode={false}
+                    renderDotsOutside={false}
                     >
                         {
                             data.map(() =>{

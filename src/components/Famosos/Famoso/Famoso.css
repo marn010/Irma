@@ -1,0 +1,46 @@
+.Rosa{
+   color: #E9817C;
+}
+@media(min-width:769px){
+   .FamosoMainBox{
+      display: flex;
+      /* height: 80vh; */
+      padding: 5% 0% 2% 0%;
+   }
+   .FamosoPics{
+      display: block;
+      width: 40%;
+      margin: 0% auto;
+      padding: 5% 10%;
+   }
+   .FamousMainPics{
+      display: block;
+      padding: 5% 2%;
+   }
+   .FamousPic{
+      width: 100%;
+   }
+   .FamosoText{
+      display: block;
+      width: 30%;
+      margin: 0% auto;
+      padding: 2%;
+   }
+   .FamosoTitle{
+      position: relative;
+      font-size: 33px;
+      width: 100%;
+   }
+   .MainIcon{
+      position: absolute;
+      top: -25%;
+      right: 5%;
+   }
+   .redesIcon{
+      margin: 0% 1% 0% 1%;
+   }
+
+}
+@media(max-width:768px){
+
+}

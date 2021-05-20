@@ -1,0 +1,72 @@
+export const data = [
+   {
+      Nombre:"Andrea",
+      Apellido:"Serna",
+      Icon:"/assets/icons/Famosos/Andrea_Serna.png",
+      Profesion:"Presentadora, influencer, modelo campañas",
+      Exp:"Head and Shoulders, Cetaphil, Tous, Avon, Pat Primo, Samsung, Rappi",
+      Texto:"Andrea es una gran profesional que ha tenido mucho éxito y reconocimientos a lo largo de su carrera, es una persona muy comprometida con su entrega  en el trabajo. Con Andrea hemos logrado hacer un gran equipo y hemos podido realizar todos nuestros proyectos, tanto nacionales como internacionales.",
+      Redes:[
+         {
+            insta:[
+               {
+                  Link:"www.instagram.com",
+                  img:"/assets/icons/InstagramBlack.png",
+               }
+            ],
+            face:[
+               {
+                  Link:"www.facebook.com",
+                  img:"/assets/icons/FacebookBlack.png",
+               }
+            ],
+            Twitter:[
+               {
+                  Link:"www.twitter.com",
+                  img:"/assets/icons/LinkedinBlack.png",
+               }
+            ]
+         }
+      ],
+      Fotos:[
+         "/assets/img/Famosos/A_Serna01.png",
+         "/assets/img/Famosos/A_Serna02.png",
+      ]
+   },
+   {
+      Nombre:"Yuri Buenaventura",
+      Icon:"/assets/icons/Famosos/.png",
+      Profesion:"Cantante",
+      Exp:"",
+      Texto:"Yuri gran maestro",
+      Redes:[
+         {
+            insta:[
+               {
+                  Link:"www.instagram.com",
+                  img:"/assets/icons/InstagramBlack.png",
+               }
+            ],
+            face:[
+               {
+                  Link:"www.facebook.com",
+                  img:"/assets/icons/FacebookBlack.png",
+               }
+            ],
+            Twitter:[
+               {
+                  Link:"www.twitter.com",
+                  img:"/assets/icons/LinkedinBlack.png",
+               }
+            ]
+         }
+      ],
+      Fotos:[
+         "/assets/icons/LinkedinBlack.png",
+         "/assets/icons/LinkedinBlack.png",
+         "/assets/icons/LinkedinBlack.png",
+         "/assets/icons/LinkedinBlack.png",
+         "/assets/icons/LinkedinBlack.png",  
+      ]
+   }
+]

@@ -1,18 +1,24 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
+import Famoso from './Famosos/Famoso/Famoso';
+import Famosos from './Famosos/Famosos';
 import home from './home/home';
+
+import './index.css'
 
 export default class Main extends Component{
    render(){
       return(
-         <React.Fragment>
+         <div className="Main">
             <Router>
                <Switch>
                   <Route path="/home" component={home}></Route>
+                  <Route path="/famous" component={Famosos}></Route>
+                  <Route path="/Famoso" component={Famoso}></Route>
                   <Redirect to="/home"></Redirect>
                </Switch>
             </Router>
-         </React.Fragment>
+         </div>
       );
    }
 }
