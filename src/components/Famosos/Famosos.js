@@ -30,7 +30,7 @@ export default class Famosos extends Component{
       return(
          <React.Fragment>
             <div className=" FamousMainBox">
-               <div className="bordes FamousPics">
+               <div className="FamousPics">
                   <Carousel 
                      autoPlay={false}
                      autoPlaySpeed={4000}

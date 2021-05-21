@@ -1,0 +1,12 @@
+.FooterMainBox{
+   text-align: center;
+   /* color: #E9817C; */
+}
+.CopyRight{
+   color: white;
+   background-color: #E9817C;
+   padding: 1% 0%;
+}
+.CopyRight p{
+   margin: 0% 0%;
+}

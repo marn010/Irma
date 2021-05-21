@@ -1,13 +1,58 @@
+/* .IrmaTextBox::-webkit-scrollbar-track{
+   background: #e9817c !important;
+}
+.IrmaTextBox::-webkit-scrollbar-thumb{
+   background: #e9817c !important;
+} */
 @media(min-width:769px){
+   .IrmaMain{
+      display: flex;
+      width: 100%;
+      margin: 0% auto 0% auto;
+      height: 100vh;
+      /* align-items: center; */
+   }
+   .IrmaSigning{
+      display: block;
+      width: 50%;
+      margin: 0% auto 0% auto;
+      text-align: center;
+      align-self: center;
+   }
+   .MainSigning{
+      vertical-align: middle0;
+   }
+   .IrmaMainPic{
+      display: block;
+      width: 50%;
+      margin: 0% auto 0% auto;
+      padding: 1% 0% 1% 0%;
+      text-align: -webkit-right;
+   }
+   .IrmaPic{
+      display: block;
+      height: 100%;
+   }
    .IrmaAboutBox{
       display: flex;
       width: 90%;
       margin: 0% auto;
-      
+      height: 100vh;  
+      align-items: center;
    }
    .IrmaPicsBox{
       display: block;
       width: 50%;
+      margin: 0% auto;
+   }
+   .Irma{
+      display: block;
+      width: 100%;
+      margin: 0% auto 0% auto;
+   }
+   .Irmapic{
+      display: block;
+      
       margin: 0% auto;
    }
    .IrmaMainTextBox{
@@ -28,6 +73,7 @@
       width: 50%;
       margin: 0% auto;
       text-align: center;
+      color: #E9817C;
    }
 }
 @media(max-width:768px){

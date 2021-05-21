@@ -33,7 +33,7 @@ export default class Slider extends Component{
                     autoPlay={false}
                     autoPlaySpeed={4000}
                     arrows={true}
-                    showDots={true}
+                    showDots={false}
                     responsive={responsive}
                     ssr={true} // means to render carousel on server-side.
                     infinite={true}

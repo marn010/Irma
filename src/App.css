@@ -1,0 +1,34 @@
+.react-multiple-carousel__arrow--right {
+   color: #e9817c !important;
+   border:solid 1px #e9817c !important;
+}
+.react-multiple-carousel__arrow--right::before {
+   color: #e9817c !important;
+}
+.react-multiple-carousel__arrow--left {
+   color: #e9817c !important;
+   border:solid 1px #e9817c !important;
+}
+.react-multiple-carousel__arrow--left::before {
+   color: #e9817c !important;
+}
+.react-multiple-carousel__arrow{
+   background: transparent !important;
+}
+::-webkit-scrollbar{
+   width: 9px;
+}
+::-webkit-scrollbar-thumb{
+   background-color:#e9817c;
+   border-radius: 5px;
+}
+::-webkit-scrollbar-track-piece{
+   background-color: white;
+}
+
+body{
+   background-image: url(img/Fondo.png);
+   background-size: cover;
+   /* background-repeat: round; */
+   background-repeat: no-repeat repeat ;
+}

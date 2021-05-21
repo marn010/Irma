@@ -8,15 +8,10 @@ export default class Product extends Component{
       const { id } = this.props;
       return(
          <React.Fragment>
-            <Card className="" >
-               <CardImg className="" src={data[id].Image} alt={data[id].Name} height="100%" />
+            <Card className="Irma" >
+               <CardImg className="Irmapic" src={data[id].Image} alt="" height="100%" />
                   <CardText className="">
                      <CardBody>
-                        <p style={{marginBottom:"0%"}}>
-                           <span className="">
-                              <i>{data[id].Name} </i>
-                           </span>
-                        </p>
                      </CardBody>
                   </CardText>
             </Card>

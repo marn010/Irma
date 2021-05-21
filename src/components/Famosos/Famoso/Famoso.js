@@ -25,7 +25,7 @@ export default class Famoso extends Component{
                 slidesToSlide: 1, // optional, default to 1.
               }
         };
-         let id = this.props.location.param1;
+         let id = this.props.location.state.param1;
          let idx = -1;
          return(
             <React.Fragment>
@@ -54,11 +54,12 @@ export default class Famoso extends Component{
                         renderDotsOutside={false}
                         >
                         {
-                           data[0].Fotos.map(() =>{
+                           data[id].Fotos.map(() =>{
                               idx=idx+1;
                               return(
                                  <div className="FamousMainPics">
-                                    <img className="FamousPic" src={data[0].Fotos[idx]} alt="" />
+                                    <img className="FamousPic" src={data[id].Fotos[idx]} alt="" />
+                                    
                                  </div>
                               );
                            })
@@ -69,36 +70,36 @@ export default class Famoso extends Component{
                      <div>
                         <div className="FamosoTitle Rosa">
                            <p>
-                              ____ {data[0].Nombre} <span className="MainIcon"><img src={data[0].Icon} alt="" /> </span>
+                              ____ {data[id].Nombre} {data[id].Apellido} <span className="MainIcon"><img src={data[id].Icon} alt="" /> </span>
                            </p>
                         </div>
                         <p className="Rosa">
-                           {data[0].Profesion}
+                           {data[id].Profesion}
                         </p>
                         <span className="Rosa"> 
-                           {data[0].Exp}
+                           {data[id].Exp}
                         </span>
                      </div>
                      <div>
                         <p>
-                           {data[0].Texto}
+                           {data[id].Texto}
                         </p>
                      </div>
                      <div>
-                        <a className="redesIcon" href={data[0].Redes[0].insta[0].Link} target="blank" >
-                           <img src={data[0].Redes[0].insta[0].img} alt="" />
+                        <a className="redesIcon" href={data[id].Redes[0].insta[0].Link} target="blank" >
+                           <img src={data[id].Redes[0].insta[0].img} alt="" />
                         </a>
-                        <a className="redesIcon" href={data[0].Redes[0].face[0].Link} target="blank" >
-                           <img src={data[0].Redes[0].face[0].img} alt="" />
+                        <a className="redesIcon" href={data[id].Redes[0].face[0].Link} target="blank" >
+                           <img src={data[id].Redes[0].face[0].img} alt="" />
                         </a>
-                        <a className="redesIcon" href={data[0].Redes[0].Twitter[0].Link} target="blank" >
-                           <img src={data[0].Redes[0].Twitter[0].img} alt="" />
+                        <a className="redesIcon" href={data[id].Redes[0].Twitter[0].Link} target="blank" >
+                           <img src={data[id].Redes[0].Twitter[0].img} alt="" />
                         </a>
                      </div>
                   </div>
                </div>
-               <div className="">
-                  <p>Para saber más de <span className="Rosa">{data[0].Nombre}</span>, marcas y estadisticas digitales haz <a>click aqui.</a></p>
+               <div className="MoreInfoBox">
+                  <p>Para saber más de <span className="Rosa">{data[id].Nombre}</span>, marcas y estadisticas digitales haz <span>click aqui.</span></p>
                </div>
             </React.Fragment>
          );

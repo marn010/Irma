@@ -5,13 +5,13 @@
    .FamosoMainBox{
       display: flex;
       /* height: 80vh; */
-      padding: 5% 0% 2% 0%;
+      padding: 3% 0% 0% 0%;
    }
    .FamosoPics{
       display: block;
       width: 40%;
       margin: 0% auto;
-      padding: 5% 10%;
+      padding: 0% 10%;
    }
    .FamousMainPics{
       display: block;
@@ -38,6 +38,17 @@
    }
    .redesIcon{
       margin: 0% 1% 0% 1%;
+   }
+   .MoreInfoBox{
+      display: block;
+      width: 50%;
+      margin: 1% auto 0% auto;
+      border: solid 2px #E9817C;
+      border-radius: 20px;
+      text-align: center;
+   }
+   .MoreInfoBox p{
+      margin: 1% 0%;
    }
 
 }

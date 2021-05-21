@@ -1,0 +1,11 @@
+@media(min-width:769px){
+   .SocialBox{
+      display: block;
+      width: 25%;
+      margin: 1% auto;
+      text-align: center;
+   }
+   .socialIcon{
+      margin: 0% 1%;
+   }
+}
