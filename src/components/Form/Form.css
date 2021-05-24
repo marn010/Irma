@@ -1,32 +1,34 @@
 .margen{
-   margin: 1% 1% 1% 1%;
+   margin: 4.5px;
+}
+.IrmaForm{
+   color: #E9817C;
 }
 @media(min-width:769px){
+   .IrmaForm Label{
+      font-size: 23px;
+   }
    .formMainBox{
       display: flex;
+      position: relative;
+      padding: 5% 0%;
    }
    .formPics{
       display: block;
       position: relative;
       width: 35.5%;
-      margin: 5% auto 0% auto;
-      padding: 2% 0% 2% 2%;
-   }
-   .formBox{
-      display: block;
-      width: 45%;
-      margin: 5% auto 0% auto;
-      padding: 5% 0% 5% 0%;
+      margin: 0% auto 0% auto;
+      padding: 27px 27px 27px 27px;
+      max-width: 480px;
+      max-height: 527px;
    }
    .Foto1{
       position: relative;
-      top: 1%;
-      left: 1%;
    }
    .Foto2{
       position: absolute;
-      top: 5%;
-      right: 5%;
+      top: 26.1875px;
+      right: 23.875px;
    }
    .Foto3{
       position: absolute;
@@ -38,11 +40,34 @@
       
    }
    .Foto5{
-      
+      position: relative;
    }
    .Foto6{
       position: absolute;
       right: 5%;
       bottom: 5%;
+   }
+   .formBox{
+      display: block;
+      width: 45%;
+      margin: 0% auto 0% auto;
+      padding: 4% 2% 0% 2%;
+   }
+   .form{
+      margin: 2% 0%;
+      border-radius: 0% !important;
+   }
+   .form::placeholder{
+      color: #E9817C !important;
+   }
+   .submitBTN{
+      display: block !important;
+      width: 80%;
+      margin: 0% auto 0% auto;
+      background-color: #E9817C !important;
+      color: white !important;
+   }
+   .submitBTN:disabled{
+      background-color: #6C757D !important;
    }
 }

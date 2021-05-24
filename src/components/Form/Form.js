@@ -79,40 +79,47 @@ export default class Forms extends Component{
          <React.Fragment>
             <div className="formMainBox">
                <div className="formPics bordes">
-                  <div>
-                     <img src="/assets/img/Form/Form01.png" alt="" className="Foto1 margen bordes" />
-                     <img src="/assets/img/Form/Form02.png" alt="" className="Foto2 margen bordes" />
-                     <br/>
-                     <img src="/assets/img/Form/Form03.png" alt="" className="Foto3 margen bordes" />
-                     <img src="/assets/img/Form/Form04.png" alt="" className="Foto4 margen bordes" />
-                     <img src="/assets/img/Form/Form05.png" alt="" className="Foto5 margen bordes" />
-                     <img src="/assets/img/Form/Form06.png" alt="" className="Foto6 margen bordes" />
-                  </div>
+                  <img src="/assets/img/Form/Form01.png" alt="" className="Foto1 margen bordes" />
+                  <img src="/assets/img/Form/Form02.png" alt="" className="Foto2 margen bordes" />
+                  <br/>
+                  <img src="/assets/img/Form/Form03.png" alt="" className="Foto3 margen bordes" />
+                  <img src="/assets/img/Form/Form04.png" alt="" className="Foto4 margen bordes" />
+                  <img src="/assets/img/Form/Form05.png" alt="" className="Foto5 margen bordes" />
+                  <img src="/assets/img/Form/Form06.png" alt="" className="Foto6 margen bordes" />
                </div>
                <div className="formBox bordes">
-                  <Form className="" onSubmit={(e)=>this.handleSubmit(e)}>
+                  <Form className="IrmaForm" onSubmit={(e)=>this.handleSubmit(e)}>
+                     <Label>
+                        Envianos tus datos para más información sobre nuestros artistas.
+                     </Label>
                      <FormGroup>
-                        <Input className="form" type="name" name="name" id="name" placeholder="Nombre y Apellido" required onChange={this.handleName}/>
-                        <Input className="form" type="tel" name="tel" id="tel" placeholder="Teléfono" required onChange={this.handleTel}/>
+                        <Row>
+                           <Col md={6}>
+                              <Input className="form" type="name" name="name" id="name" placeholder="Nombre y Apellido*" required onChange={this.handleName}/>
+                           </Col>
+                           <Col md={6}>
+                           <Input className="form" type="tel" name="tel" id="tel" placeholder="Teléfono*" required onChange={this.handleTel}/>
+                           </Col>
+                        </Row>
                      </FormGroup>
                      <FormGroup>
-                        <Input className="form" type="business" name="business" id="business" placeholder="Empresa a la que pertenece" required onChange={this.handleBusiness}/>
+                        <Input className="form" type="business" name="business" id="business" placeholder="Empresa a la que pertenece*" required onChange={this.handleBusiness}/>
                      </FormGroup>
                      <FormGroup>
-                        <Input className="form" type="email" name="email" id="email" placeholder="e-mail" required onChange={this.handleEmail}/>
+                        <Input className="form" type="email" name="email" id="email" placeholder="e-mail*" required onChange={this.handleEmail}/>
                      </FormGroup>
                      <FormGroup>
-                        <Input className="form" type="position" name="position" id="position" placeholder="Cargo" required onChange={this.handlePosition}/>
+                        <Input className="form" type="position" name="position" id="position" placeholder="Cargo*" required onChange={this.handlePosition}/>
                      </FormGroup>
                      <FormGroup>
-                        <Input className="form" type="text" name="message" id="message" placeholder="¿En qué podemos ayudarlo?" required onChange={this.handleMessage}/>
+                        <Input className="form" type="textarea" rows="4" name="message" id="message" placeholder="¿En qué podemos ayudarlo?*" required onChange={this.handleMessage}/>
                      </FormGroup>
                      <FormGroup>
                         <Input className="form" type="checkbox" name="Terms" id="Terms" required onChange={this.handleAggree}/>{' '}
                         Acepto
                      </FormGroup>
                      <FormGroup>
-                        <Button type="submit" disabled={FormAvaible} className="" onClick={this.handleSubmit}>
+                        <Button type="submit" disabled={FormAvaible} className="submitBTN" onClick={this.handleSubmit}>
                            Enviar
                         </Button>
                      </FormGroup>
