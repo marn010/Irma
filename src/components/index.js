@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-d
 import Famoso from './Famosos/Famoso/Famoso';
 import Famosos from './Famosos/Famosos';
 import Footer from './Footer/Footer';
+import Forms from './Form/Form';
 import home from './home/home';
 
 import './index.css'
@@ -18,6 +19,7 @@ export default class Main extends Component{
                   <Route path="/home" component={home}></Route>
                   <Route path="/famous" component={Famosos}></Route>
                   <Route path="/Famoso" component={Famoso}></Route>
+                  <Route path="/ContactUS" component={Forms}></Route>
                   <Redirect to="/home"></Redirect>
                </Switch>
             </Router>

@@ -1,0 +1,48 @@
+.margen{
+   margin: 1% 1% 1% 1%;
+}
+@media(min-width:769px){
+   .formMainBox{
+      display: flex;
+   }
+   .formPics{
+      display: block;
+      position: relative;
+      width: 35.5%;
+      margin: 5% auto 0% auto;
+      padding: 2% 0% 2% 2%;
+   }
+   .formBox{
+      display: block;
+      width: 45%;
+      margin: 5% auto 0% auto;
+      padding: 5% 0% 5% 0%;
+   }
+   .Foto1{
+      position: relative;
+      top: 1%;
+      left: 1%;
+   }
+   .Foto2{
+      position: absolute;
+      top: 5%;
+      right: 5%;
+   }
+   .Foto3{
+      position: absolute;
+      top: 46%;
+      right: 5%;
+   }
+   .Foto4{
+      position: relative;
+      
+   }
+   .Foto5{
+      
+   }
+   .Foto6{
+      position: absolute;
+      right: 5%;
+      bottom: 5%;
+   }
+}

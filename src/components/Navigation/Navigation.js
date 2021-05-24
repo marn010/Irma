@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem, } from 'reactstrap';
+import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem,Form, Button, Input } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 
 import './Navigation.css'
@@ -25,11 +25,11 @@ export default class Navigation extends Component{
    }
    render(){
       return(
-         <div style={{position:"fixed"}}>
+         <div style={{position:"fixed",margin:"0% 0% 0% 5%"}}>
             <Navbar color="faded" light>
-               <NavbarToggler onClick={this.toggleNav} className="mr-2" />
+               <NavbarToggler onClick={this.toggleNav} className="mr-2"/>
                <NavbarBrand href="/" className="mr-auto">
-                  
+                  <img src="/assets/img/Irma/IrmaSigning.png" alt="" className="navbarIrma" />
                </NavbarBrand>
                <Collapse isOpen={this.state.isNavOpen} navbar>
                   <Nav navbar>
@@ -53,6 +53,14 @@ export default class Navigation extends Component{
                      </NavItem>
                   </Nav>
                </Collapse>
+               {/* <Nav navbar>
+                  <NavItem>
+                     <Form inline>
+                        <Input type="text" placeholder="Search" className="mr-sm-2" />
+                        <Button variant="outline-success">Search</Button>
+                     </Form>
+                  </NavItem>
+               </Nav> */}
             </Navbar>
          </div>
       );
