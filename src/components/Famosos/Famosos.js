@@ -29,7 +29,7 @@ export default class Famosos extends Component{
      let id=-1;
       return(
          <React.Fragment>
-            <div className=" FamousMainBox">
+            <div className=" FamousMainBox" id="Famous">
                <div className="FamousPics">
                   <Carousel 
                      autoPlay={false}

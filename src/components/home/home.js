@@ -7,10 +7,10 @@ import HomeMov from './homeMov';
 export default class home extends Component{
    render(){
       return(
-         <React.Fragment>
+         <div id="Home">
             <HomeWeb/>
             <HomeMov/>
-         </React.Fragment>
+         </div>
       );
    }
 }

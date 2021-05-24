@@ -6,12 +6,14 @@ import Footer from './Footer/Footer';
 import home from './home/home';
 
 import './index.css'
+import Navigation from './Navigation/Navigation';
 
 export default class Main extends Component{
    render(){
       return(
          <div className="Main">
             <Router>
+               <Navigation/>
                <Switch>
                   <Route path="/home" component={home}></Route>
                   <Route path="/famous" component={Famosos}></Route>

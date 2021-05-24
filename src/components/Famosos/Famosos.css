@@ -26,6 +26,7 @@
    }
    .FamousMainPic{
       width: 80%;
+      vertical-align: bottom !important;
    }
    .VerMas{
       position: absolute;

@@ -1,0 +1,23 @@
+.navbar-dark {
+	background-color: white;
+}
+.nav-title{
+	color: #01B6B8 !important;
+}
+.nav-text{
+	color:#606060 !important;
+}
+/* .NavBtn{
+	background-color: rgb(225,225,225) !important;
+} */
+.navbar-light .navbar-toggler{
+   border-color: #E9817C !important;
+   color: #E9817C !important;
+}
+.navbar-toggler-icon{
+   background-image: url(../../img/NavbarIcon.png) !important;
+}
+.NavMenu{
+	background-color:white;
+	z-index: 100;
+}

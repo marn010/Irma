@@ -14,6 +14,7 @@ export default class Product extends Component{
             <img className="FamousMainPic" src={data[id].Foto} alt={data[id].Nombre} />
             <Link to={{
                pathname:"/Famoso",
+               hash:"#"+data[id].Nombre,
                state: {
                   param1: id,
                },
