@@ -5,6 +5,7 @@ import "react-multi-carousel/lib/styles.css";
 import './Famoso.css';
 
 import { data } from './dataFamoso';
+import { Link } from 'react-router-dom';
 
 export default class Famoso extends Component{
       render(){
@@ -27,6 +28,8 @@ export default class Famoso extends Component{
         };
          let id = this.props.location.state.param1;
          let idx = -1;
+         let name = data[id].Nombre ;
+         let lastname = data[id].Apellido;
          return(
             <React.Fragment>
                <div>
@@ -99,7 +102,18 @@ export default class Famoso extends Component{
                   </div>
                </div>
                <div className="MoreInfoBox">
-                  <p>Para saber más de <span className="Rosa">{data[id].Nombre}</span>, marcas y estadisticas digitales haz <span>click aqui.</span></p>
+                  <p>Para saber más de <span className="Rosa">{data[id].Nombre}</span>, marcas y estadisticas digitales haz&nbsp; 
+                  <Link to={{
+                     pathname:"/ContactUS",
+                     state:{
+                        param1: name,
+                        param2: lastname,
+                     }
+                  }} >
+                      click aqui.
+                  </Link></p>
+                  
+                  
                </div>
             </React.Fragment>
          );

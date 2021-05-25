@@ -20,7 +20,7 @@ export default class Forms extends Component{
       this.handleName = this.handleName.bind(this);
       this.handleTel = this.handleTel.bind(this);
       this.handleBusiness = this.handleBusiness.bind(this);
-      this.handleEmail = this. handleEmail.bind(this);
+      this.handleEmail = this.handleEmail.bind(this);
       this.handlePosition = this.handlePosition.bind(this);
       this.handleMessage = this.handleMessage.bind(this);
       this.handleAggree = this.handleAggree.bind(this);
@@ -51,18 +51,21 @@ export default class Forms extends Component{
       axios.post('/correo/',{
          name: e.target.name.value,
          email: e.target.email.value,
-         address: e.target.address.value,
          tel: e.target.tel.value,
-         city: e.target.city.value,
+         business: e.target.business.value,
+         position: e.target.position.value,
+         message: e.target.message.value,
+         Artist: this.ArtistName ,
       }).then((response)=>{
          debugger;
          if(response.data.status === 'success'){
             alert("Message Sent.");
             e.target.name.value="";
             e.target.email.value="";
-            e.target.address.value="";
             e.target.tel.value="";
-            e.target.city.value="";
+            e.target.business.value="";
+            e.target.position.value="";
+            e.target.message.value="";
          } else if(response.data.status === 'fail'){
             alert("Message failed to send.")
          }
@@ -70,6 +73,8 @@ export default class Forms extends Component{
    }
    render(){
       let FormAvaible = "1";
+      let ArtistName = this.props.location.state.param1;
+      let ArtistLastname = this.props.location.state.param2;
       if(this.state.Name && this.state.Tel && this.state.Business && this.state.Email  && this.state.Position && this.state.Message && this.state.Aggree){
          FormAvaible="";
       }else{
@@ -90,7 +95,7 @@ export default class Forms extends Component{
                <div className="formBox bordes">
                   <Form className="IrmaForm" onSubmit={(e)=>this.handleSubmit(e)}>
                      <Label>
-                        Envianos tus datos para más información sobre nuestros artistas.
+                        Envianos tus datos para más información sobre nuestros artistas. ({ArtistName} {ArtistLastname})
                      </Label>
                      <FormGroup>
                         <Row>

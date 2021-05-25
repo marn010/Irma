@@ -5,16 +5,16 @@ import { data } from './dataFamous';
 
 export default class Product extends Component{
    render(){
-      let id = this.props.id
+      let { item,id } = this.props;
       return(
          <div className="ProductBox">
             <span className="FamousName">
-               ____ {data[id].Nombre}
+               ____ {item.Nombre}
             </span>
-            <img className="FamousMainPic" src={data[id].Foto} alt={data[id].Nombre} />
+            <img className="FamousMainPic" src={item.Foto} alt={item.Nombre} />
             <Link to={{
                pathname:"/Famoso",
-               hash:"#"+data[id].Nombre,
+               hash:"#"+item.Nombre,
                state: {
                   param1: id,
                },
