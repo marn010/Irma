@@ -8,7 +8,7 @@ export default class Footer extends Component{
       return(
          <div className="FooterMainBox">
             <Social/>
-            <div className="CopyRight">
+            <div className="CopyRight MuseoS-500">
                <p>
                   Todos los derechos reservados <br/>Irma.Manager 2020
                </p>

@@ -36,7 +36,7 @@ export default class Famoso extends Component{
 
                </div>
                <div className=" FamosoMainBox">
-                  <div className="bordes FamosoPics">
+                  <div className="FamosoPics">
                      <Carousel 
                         autoPlay={false}
                         autoPlaySpeed={4000}
@@ -69,7 +69,7 @@ export default class Famoso extends Component{
                         }
                      </Carousel>
                   </div>
-                  <div className="bordes FamosoText">
+                  <div className="FamosoText">
                      <div>
                         <div className="FamosoTitle Rosa">
                            <p>

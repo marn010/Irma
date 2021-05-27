@@ -3,9 +3,12 @@
 }
 @media(min-width:769px){
    .FamousMainBox{
+      position: relative;
       display: flex;
-      height: 100vh;
+      height: 79.8vh;
       align-items: center;
+      padding: 5% 0% 0% 0%;
+
    }
    .FamousPics{
       display: block;

@@ -30,5 +30,53 @@ body{
    background-image: url(img/Fondo.png);
    background-size: cover;
    /* background-repeat: round; */
-   background-repeat: no-repeat repeat ;
+   background-repeat:  no-repeat repeat ;
+}
+@font-face {
+   font-family: Afterglow;
+   src: url("./fonts/Afterglow-Regular.ttf");
+}
+@font-face {
+   font-family: DinPro;
+   src: url("./fonts/DINPro-Regular.otf");
+}
+@font-face {
+   font-family: Gotham-Light;
+   src: url("./fonts/Gotham-Light\ 6.ttf");
+}
+@font-face {
+   font-family: MuseoSans-500;
+   src: url("./fonts/MuseoSans-500.otf");
+}
+@font-face {
+   font-family: MuseoSans-700;
+   src: url("./fonts/MuseoSans-700.otf");
+}
+@font-face {
+   font-family: MuseoSans-900;
+   src: url("./fonts/MuseoSans-900.otf");
+}
+.Afterglow{
+   font-family: Afterglow;
+}
+.DinPro{
+   font-family: DinPro;
+}
+.Gotham-light{
+   font-family: Gotham-Light;
+}
+.MuseoS-500{
+   font-family: MuseoSans-500;
+}
+.MuseoS-700{
+   font-family: MuseoSans-700;
+}
+.MuseoS-900{
+   font-family: MuseoSans-900;
+}
+.react-multiple-carousel__arrow--left{
+   left: 0% !important;
+}
+.react-multiple-carousel__arrow--right{
+   right: 0% !important;
 }

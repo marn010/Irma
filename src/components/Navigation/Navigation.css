@@ -1,7 +1,15 @@
+.navbar{
+	justify-content: start !important;
+}
 .navbar-dark {
 	background-color: white;
 }
-
+.searchBar{
+	position: absolute;
+	width: 50%;
+	right: 10%;
+	top: 25%;
+}
 /* .NavBtn{
 	background-color: rgb(225,225,225) !important;
 } */
@@ -23,5 +31,18 @@
 }
 .MainNavbar{
 	position: fixed;
+	width: 100%;
 	margin: 0% 0% 0% 5%;
+}
+.formTitle{
+	letter-spacing: 15px;
+}
+.searchfield{
+	border: solid 1px #E9817C !important;
+	color: #E9817C !important;
+	background-color: transparent !important;
+	border-radius: 25px !important;
+}
+.searchfield::placeholder{
+	color: #E9817C !important;
 }

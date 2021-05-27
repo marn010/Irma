@@ -27,7 +27,7 @@ export default class HomeWeb extends Component{
                   <div style={{textAlign:"center"}}>
                      <img src="/assets/img/Irma/IrmaSigning.png" alt="" />
                   </div>
-                  <div className="IrmaTextBox">
+                  <div className="IrmaTextBox MuseoS-500">
                      <p className="">
                      Durante mucho tiempo he caminado al lado de personas de las que he aprendido y con las que he crecido. Hoy quiero compartir con ustedes esta etapa de mi vida, IRMA ARISTIZÁBAL, donde toda mi experiencia estará encaminada en representar a las personas más talentosas y bellas de nuestro país siempre con profesionalismo, calidad y compromiso.
                      </p>

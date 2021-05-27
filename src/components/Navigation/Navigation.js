@@ -1,6 +1,6 @@
-import React, { Component, useContext, useState } from 'react';
-import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem, } from 'reactstrap';
-import { Form, Button, Input } from 'reactstrap';
+import React, { useContext, useState } from 'react';
+import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem, Row, Col, Label, } from 'reactstrap';
+import { Form, Input } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 
 import './Navigation.css'
@@ -19,7 +19,7 @@ const Navigation = () => {
       );
    }
    const closeNavbar = () =>{
-      this.toggleNav();
+      toggleNav();
    }
    const searchAnyElse = e => {
       e.preventDefault();
@@ -27,10 +27,10 @@ const Navigation = () => {
       updateSearchValue(searchValue.toLowerCase());
    }
    return(
-      <div className="MainNavbar" >
+      <div className="MainNavbar " >
          <Navbar color="faded" light>
             <NavbarToggler onClick={toggleNav} className="mr-2"/>
-            <NavbarBrand href="/" className="mr-auto">
+            <NavbarBrand href="/" className="mr-auto" style={{textAlign:"left"}}>
                <img src="/assets/img/Irma/IrmaSigning.png" alt="" className="navbarIrma" />
             </NavbarBrand>
             <Collapse isOpen={isNavOpen} navbar>
@@ -56,10 +56,17 @@ const Navigation = () => {
                </Nav>
             </Collapse>
             <Nav navbar>
-               <NavItem>
+               <NavItem className="searchBar">
                   <Form inline onSubmit={searchAnyElse}>
-                     <Input type="text" onChange={(e)=> updateSearchValue( e.target.value.toLowerCase())} placeholder="Search" className="mr-sm-2" />
-                     <Button variant="outline-success">Search</Button>
+                     <Row>
+                        <Col md={6}>
+                           <Label className="formTitle Rosa">management</Label>
+                        </Col>
+                        <Col md={6}>
+                           <Input type="text" onChange={(e)=> updateSearchValue( e.target.value.toLowerCase())} placeholder="búsqueda personalizada" className="mr-sm-2 searchfield Afterglow" />
+                           {/* <Button variant="outline-success">Search</Button> */}
+                        </Col>
+                     </Row>
                   </Form>
                </NavItem>
             </Nav>

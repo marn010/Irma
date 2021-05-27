@@ -1,4 +1,4 @@
-import React, { Component, useContext } from 'react';
+import React, { useContext } from 'react';
 import Carousel from 'react-multi-carousel';
 
 import { data } from './dataFamous';

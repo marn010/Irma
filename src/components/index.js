@@ -22,8 +22,8 @@ export default class Main extends Component{
                   <Route path="/ContactUS" component={Forms}></Route>
                   <Redirect to="/home"></Redirect>
                </Switch>
+               <Footer/>
             </Router>
-            <Footer/>
          </div>
       );
    }

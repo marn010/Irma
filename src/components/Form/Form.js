@@ -83,16 +83,16 @@ export default class Forms extends Component{
       return(
          <React.Fragment>
             <div className="formMainBox">
-               <div className="formPics bordes">
-                  <img src="/assets/img/Form/Form01.png" alt="" className="Foto1 margen bordes" />
-                  <img src="/assets/img/Form/Form02.png" alt="" className="Foto2 margen bordes" />
+               <div className="formPics ">
+                  <img src="/assets/img/Form/Form01.png" alt="" className="Foto1 margen " />
+                  <img src="/assets/img/Form/Form02.png" alt="" className="Foto2 margen " />
                   <br/>
-                  <img src="/assets/img/Form/Form03.png" alt="" className="Foto3 margen bordes" />
-                  <img src="/assets/img/Form/Form04.png" alt="" className="Foto4 margen bordes" />
-                  <img src="/assets/img/Form/Form05.png" alt="" className="Foto5 margen bordes" />
-                  <img src="/assets/img/Form/Form06.png" alt="" className="Foto6 margen bordes" />
+                  <img src="/assets/img/Form/Form03.png" alt="" className="Foto3 margen " />
+                  <img src="/assets/img/Form/Form04.png" alt="" className="Foto4 margen " />
+                  <img src="/assets/img/Form/Form05.png" alt="" className="Foto5 margen " />
+                  <img src="/assets/img/Form/Form06.png" alt="" className="Foto6 margen " />
                </div>
-               <div className="formBox bordes">
+               <div className="formBox ">
                   <Form className="IrmaForm" onSubmit={(e)=>this.handleSubmit(e)}>
                      <Label>
                         Envianos tus datos para más información sobre nuestros artistas. ({ArtistName} {ArtistLastname})
