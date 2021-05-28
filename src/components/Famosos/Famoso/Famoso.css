@@ -5,13 +5,15 @@
    .FamosoMainBox{
       display: flex;
       /* height: 80vh; */
-      padding: 3.4% 0% 0% 0%;
+      padding: 0% 0% 0% 0%;
+      align-items: center;
+      justify-content: center;
    }
    .FamosoPics{
       display: block;
-      width: 60%;
-      margin: 0% auto;
-      padding: 0% 10%;
+      width: 40%;
+      /* margin: 0% auto; */
+      padding: 0% 0%;
    }
    .FamousMainPics{
       display: block;
@@ -19,14 +21,14 @@
    }
    .FamousPic{
       display: block;
-      width: 80%;
+      width: 70%;
       margin: 0% auto 0% auto;
       padding: 10% 0% 10% 0%;
    }
    .FamosoText{
       display: block;
-      width: 30%;
-      margin: 0% auto;
+      width: 40%;
+      /* margin: 0% auto; */
       padding: 2%;
    }
    .FamosoTitle{

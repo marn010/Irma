@@ -5,9 +5,9 @@
    .FamousMainBox{
       position: relative;
       display: flex;
-      height: 79.8vh;
+      /* height: 79.8vh; */
       align-items: center;
-      padding: 5% 0% 0% 0%;
+      padding: 5% 0% 5% 0%;
 
    }
    .FamousPics{

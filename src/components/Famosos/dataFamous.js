@@ -77,7 +77,7 @@ export const data = [
    },
    {
       Nombre:"Laura Londoño",
-      Foto:"/assets/img/Famosos/Laura_Londoño.png",
+      Foto:"/assets/img/Famosos/Laura_Londono.png",
    },
    {
       Nombre:"Laura Tobón",
@@ -129,7 +129,7 @@ export const data = [
    },
    {
       Nombre:"Mario Alberto Yepes",
-      Foto:"/assets/img/Famosos/MArio_Alberto_Yepes.png",
+      Foto:"/assets/img/Famosos/Mario_Alberto_Yepes.png",
    },
    {
       Nombre:"Falcao",

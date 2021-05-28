@@ -25,7 +25,11 @@
 ::-webkit-scrollbar-track-piece{
    background-color: white;
 }
-
+.react-multiple-carousel__arrow{
+   position: absolute;
+   top: 45%;
+   bottom: 45%;
+}
 body{
    background-image: url(img/Fondo.png);
    background-size: cover;

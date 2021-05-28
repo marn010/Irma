@@ -200,7 +200,7 @@ export const data = [
       ],
       Fotos:[
          "/assets/img/Famosos/A_Azcarate01.png",
-         "/assets/img/Famosos/A_azcarate02.png",
+         "/assets/img/Famosos/A_Azcarate02.png",
       ]
    },
    {
@@ -675,8 +675,8 @@ export const data = [
          }
       ],
       Fotos:[
-         "/assets/img/Famosos/L_Londoño01.png",
-         "/assets/img/Famosos/L_Londoño02.png",
+         "/assets/img/Famosos/L_Londono01.png",
+         "/assets/img/Famosos/L_Londono02.png",
       ]
    },
    {

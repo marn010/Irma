@@ -26,6 +26,7 @@ const Navigation = () => {
       console.log(searchValue);
       updateSearchValue(searchValue.toLowerCase());
    }
+
    return(
       <div className="MainNavbar " >
          <Navbar color="faded" light>
@@ -46,11 +47,11 @@ const Navigation = () => {
                   </NavItem>
                   <NavItem>
                      <NavLink
-                     className="nav-link"
-                     to="/famous"
-                     target=""
-                     onClick={closeNavbar}>
-                        Artistas
+                        className="nav-link"
+                        to="AboutMe"
+                        target=""
+                        onClick={closeNavbar}>
+                           IRMA
                      </NavLink>
                   </NavItem>
                </Nav>
