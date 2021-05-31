@@ -7,8 +7,7 @@ import './Navigation.css'
 import GlobalState from '../../globalState';
 
 const Navigation = () => {
-
-
+   const {state: globalState} = useContext(GlobalState);
    const { updateSearchValue } = useContext(GlobalState);
    const [isNavOpen, setisNavOpen] = useState(false);
    const [searchValue, setSearchValue] = useState('');
@@ -23,8 +22,10 @@ const Navigation = () => {
    }
    const searchAnyElse = e => {
       e.preventDefault();
-      console.log(searchValue);
-      updateSearchValue(searchValue.toLowerCase());
+      /* debugger; */
+      console.log(globalState.searchValue);
+      setSearchValue(globalState.searchValue);
+      /* updateSearchValue(searchValue.toLowerCase()); */
    }
 
    return(
@@ -64,7 +65,7 @@ const Navigation = () => {
                            <Label className="formTitle Rosa">management</Label>
                         </Col>
                         <Col md={6}>
-                           <Input type="text" onChange={(e)=> updateSearchValue( e.target.value.toLowerCase())} placeholder="búsqueda personalizada" className="mr-sm-2 searchfield Afterglow" />
+                           <Input type="text" name="search" id="search" onChange={(e)=> updateSearchValue( e.target.value.toLowerCase())} placeholder="búsqueda personalizada" className="mr-sm-2 searchfield Afterglow" />
                            {/* <Button variant="outline-success">Search</Button> */}
                         </Col>
                      </Row>

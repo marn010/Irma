@@ -117,7 +117,7 @@ export default class Forms extends Component{
                         <Input className="form" type="position" name="position" id="position" placeholder="Cargo*" required onChange={this.handlePosition}/>
                      </FormGroup>
                      <FormGroup>
-                        <Input className="form" type="textarea" rows="4" name="message" id="message" placeholder="¿En qué podemos ayudarlo?*" required onChange={this.handleMessage}/>
+                        <Input className="form" type="textarea" rows="2" name="message" id="message" placeholder="¿En qué podemos ayudarlo?*" required onChange={this.handleMessage}/>
                      </FormGroup>
                      <FormGroup>
                         <Input className="form" type="checkbox" name="Terms" id="Terms" required onChange={this.handleAggree}/>{' '}

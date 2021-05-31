@@ -3,21 +3,19 @@ import Slider from '../home/homeSlider';
 
 import './About.css';
 
+
 function About(){
    return(
       <React.Fragment>
-         <div className="IrmaMain">
-               <div className="IrmaSigning">
+         <div className="IrmaMain bordes">
+               <div className="IrmaSigning bordes">
                   <img className="MainSigning" src="/assets/img/Irma/IrmaSigning.png" alt="" />
                </div>
-               <div className="IrmaMainPic">
+               <div className="IrmaMainPic bordes">
                   <img className="IrmaPic" src="/assets/img/IrmaMain.png" alt="Irma" />
                </div>
-            </div>
-            <div>
-
-            </div>
-            <div className="IrmaAboutBox">
+         </div>
+         <div className="IrmaAboutBox">
                <div className="IrmaPicsBox">
                   <Slider />
                </div>

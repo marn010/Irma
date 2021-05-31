@@ -9,6 +9,22 @@ import { Link } from 'react-router-dom';
 
 export default class Famoso extends Component{
       render(){
+         /* const ButtonGroup = ({ next, previous, ...rest }) => {
+            const {
+                carouselState: { currentSlide, totalItems, slidesToShow }
+            } = rest;
+
+            return (
+                <div className="carousel-button-group">
+                    <button aria-label="Go to previous slide"
+                        className={currentSlide === 0 ? "disable" : "react-multiple-carousel__arrow react-multiple-carousel__arrow--left"} 
+                        onClick={() => previous()}></button>
+                    <button aria-label="Go to next slide" 
+                        className={currentSlide === totalItems - slidesToShow ? "disable" : "react-multiple-carousel__arrow react-multiple-carousel__arrow--right"} 
+                        onClick={() => next()}></button>
+                </div>
+            );
+        }; */
          const responsive = {
             desktop: {
                 breakpoint: { max: 3000, min: 1024 },
@@ -41,7 +57,13 @@ export default class Famoso extends Component{
                         autoPlay={false}
                         autoPlaySpeed={4000}
                         arrows={true}
-                        showDots={true}
+                        renderButtonGroupOutside={true}
+                        /* customButtonGroup={<ButtonGroup
+                           next={this.props.next}
+                           previous={this.props.previous}
+                           rest={this.props.rest}
+                       />} */
+                        showDots={false}
                         responsive={responsive}
                         ssr={true} // means to render carousel on server-side.
                         infinite={true}
@@ -61,8 +83,7 @@ export default class Famoso extends Component{
                               idx=idx+1;
                               return(
                                  <div className="FamousMainPics">
-                                    <img className="FamousPic" src={data[id].Fotos[idx]} alt="" />
-                                    
+                                    <img className="FamousPic" src={data[id].Fotos[idx]} alt="" key={idx} /> 
                                  </div>
                               );
                            })

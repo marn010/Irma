@@ -56,9 +56,7 @@ const Famosos = (props) => {
                         data.filter((item)=>
                            item.Nombre?.toLowerCase().includes(globalState.searchValue)).map((item,id) =>{
                            return(
-                              <div className="">
-                                 <Product item={item} id={id}/>
-                              </div>
+                              <Product item={item} id={id} key={id}/>
                            );
                         })
                      }

@@ -24,8 +24,8 @@ export default class Main extends Component{
                   <Route path="/AboutMe" component={About}></Route>
                   <Redirect to="/home"></Redirect>
                </Switch>
-               <Footer/>
             </Router>
+            <Footer/>
          </div>
       );
    }

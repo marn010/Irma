@@ -28,7 +28,7 @@ export default class Slider extends Component{
      let id=-1;
       return(
          <React.Fragment >
-            <div className="container col-9">
+            <div className="">
                 <Carousel 
                     autoPlay={false}
                     autoPlaySpeed={4000}

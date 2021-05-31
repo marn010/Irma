@@ -1,6 +1,7 @@
 .bordes{
    border: solid 1px red;
 }
+
 @media(min-width:769px){
    .FamousMainBox{
       position: relative;

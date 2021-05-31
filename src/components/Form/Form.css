@@ -11,14 +11,15 @@
    .formMainBox{
       display: flex;
       position: relative;
-      padding: 5% 0%;
+      padding: 0% 0%;
+      align-items: center;
    }
    .formPics{
       display: block;
       position: relative;
       width: 35.5%;
       margin: 0% auto 0% auto;
-      padding: 27px 27px 27px 27px;
+      /* padding: 27px 27px 27px 27px; */
       max-width: 480px;
       max-height: 527px;
    }
@@ -51,7 +52,7 @@
       display: block;
       width: 45%;
       margin: 0% auto 0% auto;
-      padding: 4% 2% 0% 2%;
+      padding: 0% 2% 0% 2%;
    }
    .form{
       margin: 2% 0%;
