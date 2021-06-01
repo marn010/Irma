@@ -1,4 +1,5 @@
 import React, { useState, createContext } from 'react';
+import useToken from '../components/Hooks/useToken';
 
 const GlobalState = createContext({});
 
@@ -13,9 +14,14 @@ export const ContextProvider = ({ children }) => {
       searchValue
    })
   };
-
+  let { token, setToken } = useToken();
+  const updateToken = (token)=>{
+    setToken({
+      token
+    })
+  }
   return (
-    <GlobalState.Provider value={{state, updateSearchValue}}>
+    <GlobalState.Provider value={{state, updateSearchValue, token, updateToken}}>
       { children }
     </GlobalState.Provider>
   );

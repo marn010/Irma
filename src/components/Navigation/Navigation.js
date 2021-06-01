@@ -2,15 +2,19 @@ import React, { useContext, useState } from 'react';
 import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem, Row, Col, Label, } from 'reactstrap';
 import { Form, Input } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
+import Login from '../Login/Login';
 
 import './Navigation.css'
 import GlobalState from '../../globalState';
+
 
 const Navigation = () => {
    const {state: globalState} = useContext(GlobalState);
    const { updateSearchValue } = useContext(GlobalState);
    const [isNavOpen, setisNavOpen] = useState(false);
-   const [searchValue, setSearchValue] = useState('');
+   const {token: globalToken} = useContext(GlobalState);
+   const { updateToken } = useContext(GlobalState);
+   
 
    const toggleNav = () =>{
       setisNavOpen(
@@ -22,9 +26,8 @@ const Navigation = () => {
    }
    const searchAnyElse = e => {
       e.preventDefault();
-      /* debugger; */
       console.log(globalState.searchValue);
-      setSearchValue(globalState.searchValue);
+      /* setSearchValue(globalState.searchValue); */
       /* updateSearchValue(searchValue.toLowerCase()); */
    }
 
@@ -70,6 +73,9 @@ const Navigation = () => {
                         </Col>
                      </Row>
                   </Form>
+               </NavItem>
+               <NavItem>
+                  <Login setToken={updateToken} />
                </NavItem>
             </Nav>
          </Navbar>

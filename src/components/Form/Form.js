@@ -73,8 +73,8 @@ export default class Forms extends Component{
    }
    render(){
       let FormAvaible = "1";
-      let ArtistName = this.props.location.state.param1;
-      let ArtistLastname = this.props.location.state.param2;
+      let ArtistName = this.props.param1;
+      let ArtistLastname = this.props.param2;
       if(this.state.Name && this.state.Tel && this.state.Business && this.state.Email  && this.state.Position && this.state.Message && this.state.Aggree){
          FormAvaible="";
       }else{
