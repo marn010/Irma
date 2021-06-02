@@ -1,8 +1,9 @@
 import React, { useContext, useState } from 'react';
-import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem, Row, Col, Label, } from 'reactstrap';
+import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem, Row, Col, Label, Button, } from 'reactstrap';
 import { Form, Input } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 import Login from '../Login/Login';
+import Modal from 'react-modal';
 
 import './Navigation.css'
 import GlobalState from '../../globalState';
@@ -14,7 +15,7 @@ const Navigation = () => {
    const [isNavOpen, setisNavOpen] = useState(false);
    const {token: globalToken} = useContext(GlobalState);
    const { updateToken } = useContext(GlobalState);
-   
+   const [showModal, setshowModal] = useState(false);
 
    const toggleNav = () =>{
       setisNavOpen(
@@ -29,6 +30,12 @@ const Navigation = () => {
       console.log(globalState.searchValue);
       /* setSearchValue(globalState.searchValue); */
       /* updateSearchValue(searchValue.toLowerCase()); */
+   }
+   const handleOpenModal =() =>{
+      setshowModal(true)
+   }
+   const handleCloseModal = () =>{
+      setshowModal(false)
    }
 
    return(
@@ -75,10 +82,21 @@ const Navigation = () => {
                   </Form>
                </NavItem>
                <NavItem>
-                  <Login setToken={updateToken} />
+                  <Button className="LoginBTN" onClick={handleOpenModal}>
+                     Login
+                  </Button>
                </NavItem>
             </Nav>
          </Navbar>
+         <Modal 
+            isOpen={showModal}
+            contentLabel="onRequestClose Example"
+            onRequestClose={handleCloseModal}
+            className="Modal"
+            overlayClassName="Overlay"
+         >
+            <Login setToken={updateToken}  />
+         </Modal>
       </div>
    );
 }

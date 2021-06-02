@@ -15,7 +15,8 @@ export default function Login({setToken}){
       alert("La clave ingresada fue: " + password);
       /* alert("El Hash producido es: " + hash); */
       if(hash===pass){
-         setToken({token:pass})
+         setToken(pass)
+         
          alert("codigo aceptado")
       }else{
          alert("El código ingresado no corresponde con nuestra base de datos.")
@@ -23,11 +24,11 @@ export default function Login({setToken}){
    }
 
    return(
-      <div>
+      <div className="mainLogBox">
          <form onSubmit={handleSubmit}>
-            <div className="">
+            <div className="input">
                <label className="">
-                  <p></p>
+                  <p>Ingresa el codigo</p>
                   <input type="password" onChange={e => setPassword(e.target.value)} />
                </label>
             </div>

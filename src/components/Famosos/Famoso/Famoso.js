@@ -66,8 +66,8 @@ function Famoso(props){
                      data[id].Fotos.map(() =>{
                         idx=idx+1;
                         return(
-                           <div className="FamousMainPics">
-                              <img className="FamousPic" src={data[id].Fotos[idx]} alt="" key={idx} /> 
+                           <div className="FamousMainPics" key={idx}>
+                              <img className="FamousPic" src={data[id].Fotos[idx]} alt=""  /> 
                            </div>
                         );
                      })
