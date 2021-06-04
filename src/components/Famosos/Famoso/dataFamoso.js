@@ -10,19 +10,19 @@ export const data = [
          {
             insta:[
                {
-                  Link:"www.instagram.com",
+                  Link:"https://www.instagram.com/andreasernafotos/",
                   img:"/assets/icons/Insta_Pink.png",
                }
             ],
             face:[
                {
-                  Link:"www.facebook.com",
-                  img:"/assets/icons/Face_Pink.png",
+                  Link:"",
+                  img:"",
                }
             ],
             Twitter:[
                {
-                  Link:"www.twitter.com",
+                  Link:"https://twitter.com/AndreaSernaTV",
                   img:"/assets/icons/Twitter_Pink.png",
                }
             ]
@@ -44,20 +44,20 @@ export const data = [
          {
             insta:[
                {
-                  Link:"www.instagram.com",
+                  Link:"https://www.instagram.com/adrianaarboledar/",
                   img:"/assets/icons/Insta_Pink.png",
                }
             ],
             face:[
                {
-                  Link:"www.facebook.com",
-                  img:"/assets/icons/Face_Pink.png",
+                  Link:"",
+                  img:"",
                }
             ],
             Twitter:[
                {
-                  Link:"www.twitter.com",
-                  img:"/assets/icons/Twitter_Pink.png",
+                  Link:"",
+                  img:"",
                }
             ]
          }
@@ -78,20 +78,20 @@ export const data = [
          {
             insta:[
                {
-                  Link:"www.instagram.com",
+                  Link:"https://www.instagram.com/adrianatarud/",
                   img:"/assets/icons/Insta_Pink.png",
                }
             ],
             face:[
                {
-                  Link:"www.facebook.com",
-                  img:"/assets/icons/Face_Pink.png",
+                  Link:"",
+                  img:"",
                }
             ],
             Twitter:[
                {
-                  Link:"www.twitter.com",
-                  img:"/assets/icons/Twitter_Pink.png",
+                  Link:"",
+                  img:"",
                }
             ]
          }
@@ -112,20 +112,20 @@ export const data = [
          {
             insta:[
                {
-                  Link:"www.instagram.com",
+                  Link:"https://www.instagram.com/anabelizam/",
                   img:"/assets/icons/Insta_Pink.png",
                }
             ],
             face:[
                {
-                  Link:"www.facebook.com",
-                  img:"/assets/icons/Face_Pink.png",
+                  Link:"",
+                  img:"",
                }
             ],
             Twitter:[
                {
-                  Link:"www.twitter.com",
-                  img:"/assets/icons/Twitter_Pink.png",
+                  Link:"",
+                  img:"",
                }
             ]
          }
@@ -146,20 +146,20 @@ export const data = [
          {
             insta:[
                {
-                  Link:"www.instagram.com",
+                  Link:"https://www.instagram.com/anasofiahenaoe/",
                   img:"/assets/icons/Insta_Pink.png",
                }
             ],
             face:[
                {
-                  Link:"www.facebook.com",
-                  img:"/assets/icons/Face_Pink.png",
+                  Link:"",
+                  img:"",
                }
             ],
             Twitter:[
                {
-                  Link:"www.twitter.com",
-                  img:"/assets/icons/Twitter_Pink.png",
+                  Link:"",
+                  img:"",
                }
             ]
          }
@@ -180,19 +180,19 @@ export const data = [
          {
             insta:[
                {
-                  Link:"www.instagram.com",
+                  Link:"https://www.instagram.com/laazcarateoficial/",
                   img:"/assets/icons/Insta_Pink.png",
                }
             ],
             face:[
                {
-                  Link:"www.facebook.com",
-                  img:"/assets/icons/Face_Pink.png",
+                  Link:"https://www.tiktok.com/@laazcarate?lang=es",
+                  img:"/assets/icons/.png",
                }
             ],
             Twitter:[
                {
-                  Link:"www.twitter.com",
+                  Link:"https://twitter.com/LAAZCARATE",
                   img:"/assets/icons/Twitter_Pink.png",
                }
             ]
@@ -214,19 +214,19 @@ export const data = [
          {
             insta:[
                {
-                  Link:"www.instagram.com",
+                  Link:"https://www.instagram.com/santosalexandra/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
                }
             ],
             face:[
                {
-                  Link:"www.facebook.com",
-                  img:"/assets/icons/Face_Pink.png",
+                  Link:"",
+                  img:"",
                }
             ],
             Twitter:[
                {
-                  Link:"www.twitter.com",
+                  Link:"https://twitter.com/Santosalexandra",
                   img:"/assets/icons/Twitter_Pink.png",
                }
             ]
@@ -248,20 +248,20 @@ export const data = [
          {
             insta:[
                {
-                  Link:"www.instagram.com",
+                  Link:"https://www.instagram.com/cardozo_80/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
                }
             ],
             face:[
                {
-                  Link:"www.facebook.com",
-                  img:"/assets/icons/Face_Pink.png",
+                  Link:"",
+                  img:"",
                }
             ],
             Twitter:[
                {
-                  Link:"www.twitter.com",
-                  img:"/assets/icons/Twitter_Pink.png",
+                  Link:"",
+                  img:"",
                }
             ]
          }
@@ -282,19 +282,19 @@ export const data = [
          {
             insta:[
                {
-                  Link:"www.instagram.com",
+                  Link:"https://www.instagram.com/claudiabahamon/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
                }
             ],
             face:[
                {
-                  Link:"www.facebook.com",
+                  Link:"https://www.tiktok.com/@claudiabahamon?lang=es",
                   img:"/assets/icons/Face_Pink.png",
                }
             ],
             Twitter:[
                {
-                  Link:"www.twitter.com",
+                  Link:"https://twitter.com/CLAUDIABAHAMON",
                   img:"/assets/icons/Twitter_Pink.png",
                }
             ]
@@ -316,20 +316,20 @@ export const data = [
          {
             insta:[
                {
-                  Link:"www.instagram.com",
+                  Link:"https://www.instagram.com/catalinaaristizabalh/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
                }
             ],
             face:[
                {
-                  Link:"www.facebook.com",
-                  img:"/assets/icons/Face_Pink.png",
+                  Link:"https://www.tiktok.com/@catalinaaristizabal_ca?lang=es",
+                  img:"/assets/icons/.png",
                }
             ],
             Twitter:[
                {
-                  Link:"www.twitter.com",
-                  img:"/assets/icons/Twitter_Pink.png",
+                  Link:"",
+                  img:"",
                }
             ]
          }
@@ -350,19 +350,19 @@ export const data = [
          {
             insta:[
                {
-                  Link:"www.instagram.com",
+                  Link:"https://www.instagram.com/crisshurtado/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
                }
             ],
             face:[
                {
-                  Link:"www.facebook.com",
-                  img:"/assets/icons/Face_Pink.png",
+                  Link:"https://www.tiktok.com/@cristinahurtadoalvarez?lang=es",
+                  img:"/assets/icons/.png",
                }
             ],
             Twitter:[
                {
-                  Link:"www.twitter.com",
+                  Link:"https://twitter.com/CrissHurtado",
                   img:"/assets/icons/Twitter_Pink.png",
                }
             ]
@@ -384,20 +384,20 @@ export const data = [
          {
             insta:[
                {
-                  Link:"www.instagram.com",
+                  Link:"https://www.instagram.com/carocastrolive/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
                }
             ],
             face:[
                {
-                  Link:"www.facebook.com",
-                  img:"/assets/icons/Face_Pink.png",
+                  Link:"",
+                  img:"",
                }
             ],
             Twitter:[
                {
-                  Link:"www.twitter.com",
-                  img:"/assets/icons/Twitter_Pink.png",
+                  Link:"",
+                  img:"",
                }
             ]
          }
@@ -418,19 +418,19 @@ export const data = [
          {
             insta:[
                {
-                  Link:"www.instagram.com",
+                  Link:"https://www.instagram.com/madameperine/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
                }
             ],
             face:[
                {
-                  Link:"www.facebook.com",
-                  img:"/assets/icons/Face_Pink.png",
+                  Link:"",
+                  img:"",
                }
             ],
             Twitter:[
                {
-                  Link:"www.twitter.com",
+                  Link:"https://twitter.com/madameperine",
                   img:"/assets/icons/Twitter_Pink.png",
                }
             ]
@@ -452,20 +452,20 @@ export const data = [
          {
             insta:[
                {
-                  Link:"www.instagram.com",
+                  Link:"https://www.instagram.com/ericaruini/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
                }
             ],
             face:[
                {
-                  Link:"www.facebook.com",
-                  img:"/assets/icons/Face_Pink.png",
+                  Link:"",
+                  img:"",
                }
             ],
             Twitter:[
                {
-                  Link:"www.twitter.com",
-                  img:"/assets/icons/Twitter_Pink.png",
+                  Link:"",
+                  img:"",
                }
             ]
          }
@@ -486,19 +486,19 @@ export const data = [
          {
             insta:[
                {
-                  Link:"www.instagram.com",
+                  Link:"https://www.instagram.com/estefiborge/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
                }
             ],
             face:[
                {
-                  Link:"www.facebook.com",
-                  img:"/assets/icons/Face_Pink.png",
+                  Link:"https://www.tiktok.com/@estefiborge?lang=es",
+                  img:"/assets/icons/.png",
                }
             ],
             Twitter:[
                {
-                  Link:"www.twitter.com",
+                  Link:"https://twitter.com/estefiborge",
                   img:"/assets/icons/Twitter_Pink.png",
                }
             ]
@@ -520,19 +520,19 @@ export const data = [
          {
             insta:[
                {
-                  Link:"www.instagram.com",
+                  Link:"https://www.instagram.com/fannylu/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
                }
             ],
             face:[
                {
-                  Link:"www.facebook.com",
-                  img:"/assets/icons/Face_Pink.png",
+                  Link:"https://www.tiktok.com/@fannylu?lang=es",
+                  img:"/assets/icons/TikTok.png",
                }
             ],
             Twitter:[
                {
-                  Link:"www.twitter.com",
+                  Link:"https://twitter.com/FannyLu",
                   img:"/assets/icons/Twitter_Pink.png",
                }
             ]
@@ -554,19 +554,19 @@ export const data = [
          {
             insta:[
                {
-                  Link:"www.instagram.com",
+                  Link:"https://www.instagram.com/gabrielatafur/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
                }
             ],
             face:[
                {
-                  Link:"www.facebook.com",
-                  img:"/assets/icons/Face_Pink.png",
+                  Link:"https://www.tiktok.com/@gabrielatafurnader?lang=es",
+                  img:"/assets/icons/Face_Pinks.png",
                }
             ],
             Twitter:[
                {
-                  Link:"www.twitter.com",
+                  Link:"https://twitter.com/GabrielaTafur",
                   img:"/assets/icons/Twitter_Pink.png",
                }
             ]
@@ -588,19 +588,19 @@ export const data = [
          {
             insta:[
                {
-                  Link:"www.instagram.com",
+                  Link:"https://www.instagram.com/kathysaenzh/",
                   img:"/assets/icons/Insta_Pink.png",
                }
             ],
             face:[
                {
-                  Link:"www.facebook.com",
-                  img:"/assets/icons/Face_Pink.png",
+                  Link:"",
+                  img:"",
                }
             ],
             Twitter:[
                {
-                  Link:"www.twitter.com",
+                  Link:"https://twitter.com/kathysaenzh",
                   img:"/assets/icons/Twitter_Pink.png",
                }
             ]
@@ -622,19 +622,19 @@ export const data = [
          {
             insta:[
                {
-                  Link:"www.instagram.com",
+                  Link:"https://www.instagram.com/laurabarjum/",
                   img:"/assets/icons/Insta_Pink.png",
                }
             ],
             face:[
                {
-                  Link:"www.facebook.com",
-                  img:"/assets/icons/Face_Pink.png",
+                  Link:"https://www.tiktok.com/@laurabarjum?lang=es",
+                  img:"/assets/icons/.png",
                }
             ],
             Twitter:[
                {
-                  Link:"www.twitter.com",
+                  Link:"https://twitter.com/laurabarjumofcl",
                   img:"/assets/icons/Twitter_Pink.png",
                }
             ]
@@ -656,20 +656,20 @@ export const data = [
          {
             insta:[
                {
-                  Link:"www.instagram.com",
+                  Link:"https://www.instagram.com/londonotlaura/",
                   img:"/assets/icons/Insta_Pink.png",
                }
             ],
             face:[
                {
-                  Link:"www.facebook.com",
-                  img:"/assets/icons/Face_Pink.png",
+                  Link:"https://www.tiktok.com/@londonotlaura?lang=es",
+                  img:"/assets/icons/.png",
                }
             ],
             Twitter:[
                {
-                  Link:"www.twitter.com",
-                  img:"/assets/icons/Twitter_Pink.png",
+                  Link:"",
+                  img:"",
                }
             ]
          }
@@ -690,19 +690,19 @@ export const data = [
          {
             insta:[
                {
-                  Link:"www.instagram.com",
+                  Link:"https://www.instagram.com/laura_tobon/",
                   img:"/assets/icons/Insta_Pink.png",
                }
             ],
             face:[
                {
-                  Link:"www.facebook.com",
-                  img:"/assets/icons/Face_Pink.png",
+                  Link:"https://www.tiktok.com/@laura_tobon?lang=es",
+                  img:"/assets/icons/",
                }
             ],
             Twitter:[
                {
-                  Link:"www.twitter.com",
+                  Link:"https://twitter.com/lauratobonyepes",
                   img:"/assets/icons/Twitter_Pink.png",
                }
             ]
@@ -724,19 +724,19 @@ export const data = [
          {
             insta:[
                {
-                  Link:"www.instagram.com",
+                  Link:"https://www.instagram.com/barrazamariajose/",
                   img:"/assets/icons/Insta_Pink.png",
                }
             ],
             face:[
                {
-                  Link:"www.facebook.com",
-                  img:"/assets/icons/Face_Pink.png",
+                  Link:"",
+                  img:"",
                }
             ],
             Twitter:[
                {
-                  Link:"www.twitter.com",
+                  Link:"https://twitter.com/MJoseBarraza",
                   img:"/assets/icons/Twitter_Pink.png",
                }
             ]
@@ -758,19 +758,19 @@ export const data = [
          {
             insta:[
                {
-                  Link:"www.instagram.com",
+                  Link:"https://www.instagram.com/maluperiodista/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
                }
             ],
             face:[
                {
-                  Link:"www.facebook.com",
-                  img:"/assets/icons/Face_Pink.png",
+                  Link:"",
+                  img:"",
                }
             ],
             Twitter:[
                {
-                  Link:"www.twitter.com",
+                  Link:"https://twitter.com/MaluPeriodista",
                   img:"/assets/icons/Twitter_Pink.png",
                }
             ]
@@ -792,19 +792,19 @@ export const data = [
          {
             insta:[
                {
-                  Link:"www.instagram.com",
+                  Link:"https://www.instagram.com/pilarschmitt/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
                }
             ],
             face:[
                {
-                  Link:"www.facebook.com",
-                  img:"/assets/icons/Face_Pink.png",
+                  Link:"",
+                  img:"",
                }
             ],
             Twitter:[
                {
-                  Link:"www.twitter.com",
+                  Link:"https://twitter.com/pschmittf",
                   img:"/assets/icons/Twitter_Pink.png",
                }
             ]
@@ -826,19 +826,19 @@ export const data = [
          {
             insta:[
                {
-                  Link:"www.instagram.com",
+                  Link:"https://www.instagram.com/toyamontoya/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
                }
             ],
             face:[
                {
-                  Link:"www.facebook.com",
-                  img:"/assets/icons/Face_Pink.png",
+                  Link:"",
+                  img:"",
                }
             ],
             Twitter:[
                {
-                  Link:"www.twitter.com",
+                  Link:"https://twitter.com/ToyaMontoya",
                   img:"/assets/icons/Twitter_Pink.png",
                }
             ]
@@ -860,19 +860,19 @@ export const data = [
          {
             insta:[
                {
-                  Link:"www.instagram.com",
+                  Link:"https://www.instagram.com/tatacalde7/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
                }
             ],
             face:[
                {
-                  Link:"www.facebook.com",
-                  img:"/assets/icons/Face_Pink.png",
+                  Link:"",
+                  img:"",
                }
             ],
             Twitter:[
                {
-                  Link:"www.twitter.com",
+                  Link:"https://twitter.com/TataCalde",
                   img:"/assets/icons/Twitter_Pink.png",
                }
             ]
@@ -894,20 +894,20 @@ export const data = [
          {
             insta:[
                {
-                  Link:"www.instagram.com",
+                  Link:"https://www.instagram.com/yeimypv/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
                }
             ],
             face:[
                {
-                  Link:"www.facebook.com",
-                  img:"/assets/icons/Face_Pink.png",
+                  Link:"",
+                  img:"",
                }
             ],
             Twitter:[
                {
-                  Link:"www.twitter.com",
-                  img:"/assets/icons/Twitter_Pink.png",
+                  Link:"",
+                  img:"",
                }
             ]
          }
@@ -928,19 +928,19 @@ export const data = [
          {
             insta:[
                {
-                  Link:"www.instagram.com",
+                  Link:"https://www.instagram.com/yanethwaldman/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
                }
             ],
             face:[
                {
-                  Link:"www.facebook.com",
-                  img:"/assets/icons/Face_Pink.png",
+                  Link:"https://www.tiktok.com/@yanethwaldman?lang=es",
+                  img:"/assets/icons/.png",
                }
             ],
             Twitter:[
                {
-                  Link:"www.twitter.com",
+                  Link:"https://twitter.com/YanethWaldman",
                   img:"/assets/icons/Twitter_Pink.png",
                }
             ]
@@ -962,20 +962,20 @@ export const data = [
          {
             insta:[
                {
-                  Link:"www.instagram.com",
+                  Link:"https://www.instagram.com/carlitosvargasm/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
                }
             ],
             face:[
                {
-                  Link:"www.facebook.com",
-                  img:"/assets/icons/Face_Pink.png",
+                  Link:"https://www.tiktok.com/@carlitosvargasm?lang=es",
+                  img:"/assets/icons/.png",
                }
             ],
             Twitter:[
                {
-                  Link:"www.twitter.com",
-                  img:"/assets/icons/Twitter_Pink.png",
+                  Link:"",
+                  img:"",
                }
             ]
          }
@@ -996,19 +996,19 @@ export const data = [
          {
             insta:[
                {
-                  Link:"www.instagram.com",
+                  Link:"https://www.instagram.com/jossenarvaezm/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
                }
             ],
             face:[
                {
-                  Link:"www.facebook.com",
-                  img:"/assets/icons/Face_Pink.png",
+                  Link:"https://www.tiktok.com/@jossenarvaezm?lang=es",
+                  img:"/assets/icons/.png",
                }
             ],
             Twitter:[
                {
-                  Link:"www.twitter.com",
+                  Link:"https://twitter.com/jossenarvaez",
                   img:"/assets/icons/Twitter_Pink.png",
                }
             ]
@@ -1030,19 +1030,19 @@ export const data = [
          {
             insta:[
                {
-                  Link:"www.instagram.com",
+                  Link:"https://www.instagram.com/novoarafael/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
                }
             ],
             face:[
                {
-                  Link:"www.facebook.com",
-                  img:"/assets/icons/Face_Pink.png",
+                  Link:"",
+                  img:"",
                }
             ],
             Twitter:[
                {
-                  Link:"www.twitter.com",
+                  Link:"https://twitter.com/NovoaRafaell",
                   img:"/assets/icons/Twitter_Pink.png",
                }
             ]
@@ -1064,19 +1064,19 @@ export const data = [
          {
             insta:[
                {
-                  Link:"www.instagram.com",
+                  Link:"https://www.instagram.com/sebastianmartinezn/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
                }
             ],
             face:[
                {
-                  Link:"www.facebook.com",
-                  img:"/assets/icons/Face_Pink.png",
+                  Link:"https://www.tiktok.com/@sebillasboy1?lang=es",
+                  img:"/assets/icons/.png",
                }
             ],
             Twitter:[
                {
-                  Link:"www.twitter.com",
+                  Link:"https://twitter.com/SebastianMActor",
                   img:"/assets/icons/Twitter_Pink.png",
                }
             ]
@@ -1098,19 +1098,19 @@ export const data = [
          {
             insta:[
                {
-                  Link:"www.instagram.com",
+                  Link:"https://www.instagram.com/marioayepes/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
                }
             ],
             face:[
                {
-                  Link:"www.facebook.com",
-                  img:"/assets/icons/Face_Pink.png",
+                  Link:"",
+                  img:"",
                }
             ],
             Twitter:[
                {
-                  Link:"www.twitter.com",
+                  Link:"https://twitter.com/MarioAYepes",
                   img:"/assets/icons/Twitter_Pink.png",
                }
             ]
@@ -1132,19 +1132,19 @@ export const data = [
          {
             insta:[
                {
-                  Link:"www.instagram.com",
+                  Link:"https://www.instagram.com/falcao/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
                }
             ],
             face:[
                {
-                  Link:"www.facebook.com",
-                  img:"/assets/icons/Face_Pink.png",
+                  Link:"",
+                  img:"",
                }
             ],
             Twitter:[
                {
-                  Link:"www.twitter.com",
+                  Link:"https://twitter.com/FALCAO",
                   img:"/assets/icons/Twitter_Pink.png",
                }
             ]
@@ -1166,19 +1166,19 @@ export const data = [
          {
             insta:[
                {
-                  Link:"www.instagram.com",
+                  Link:"https://www.instagram.com/santiagoarias13/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
                }
             ],
             face:[
                {
-                  Link:"www.facebook.com",
-                  img:"/assets/icons/Face_Pink.png",
+                  Link:"",
+                  img:"",
                }
             ],
             Twitter:[
                {
-                  Link:"www.twitter.com",
+                  Link:"https://twitter.com/santiagoarias13",
                   img:"/assets/icons/Twitter_Pink.png",
                }
             ]
@@ -1200,19 +1200,19 @@ export const data = [
          {
             insta:[
                {
-                  Link:"www.instagram.com",
+                  Link:"https://www.instagram.com/karinjimenez91/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
                }
             ],
             face:[
                {
-                  Link:"www.facebook.com",
-                  img:"/assets/icons/Face_Pink.png",
+                  Link:"",
+                  img:"",
                }
             ],
             Twitter:[
                {
-                  Link:"www.twitter.com",
+                  Link:"https://twitter.com/karinjimenez91",
                   img:"/assets/icons/Twitter_Pink.png",
                }
             ]
@@ -1233,19 +1233,19 @@ export const data = [
          {
             insta:[
                {
-                  Link:"www.instagram.com",
+                  Link:"https://www.instagram.com/yuri_buenaventura/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
                }
             ],
             face:[
                {
-                  Link:"www.facebook.com",
-                  img:"/assets/icons/Face_Pink.png",
+                  Link:"",
+                  img:"",
                }
             ],
             Twitter:[
                {
-                  Link:"www.twitter.com",
+                  Link:"https://twitter.com/YuriTura",
                   img:"/assets/icons/Twitter_Pink.png",
                }
             ]

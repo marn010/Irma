@@ -13,7 +13,7 @@ const Navigation = () => {
    const {state: globalState} = useContext(GlobalState);
    const { updateSearchValue } = useContext(GlobalState);
    const [isNavOpen, setisNavOpen] = useState(false);
-   const {token: globalToken} = useContext(GlobalState);
+   /* const {token: globalToken} = useContext(GlobalState); */
    const { updateToken } = useContext(GlobalState);
    const [showModal, setshowModal] = useState(false);
 

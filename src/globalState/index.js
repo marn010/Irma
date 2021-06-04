@@ -6,9 +6,7 @@ const GlobalState = createContext({});
 const stateObj = {
   searchValue: ""
 };
-const tokenObj = {
-  token: ""
-};
+
 export const ContextProvider = ({ children }) => {
   const [state, setState] = useState(stateObj);
   const updateSearchValue = (searchValue) =>{

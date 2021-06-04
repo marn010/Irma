@@ -7,7 +7,7 @@ export default class Social extends Component{
       return(
          <React.Fragment>
             <div className="SocialBox">
-               <a href="https://www.instagram.com" target="blank">
+               <a href="https://www.instagram.com/irma.manager/" target="blank">
                   <img className="socialIcon" src="/assets/icons/Insta_Pink.png" alt="Instagram" />
                </a>
                <a href="https://www.Linkedin.com" target="blank">

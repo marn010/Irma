@@ -1,11 +1,11 @@
-import React, { useState, useContext } from 'react';
-import GlobalState from '../../globalState';
+import React, { useState } from 'react';
+/* import GlobalState from '../../globalState'; */
 
 import './Login.css';
 
 export default function Login({setToken}){
    const [password,setPassword] = useState();
-   const {token: globalToken} = useContext(GlobalState);
+   /* const {token: globalToken} = useContext(GlobalState); */
 
    const pass= 'tprgQLEMrp1zdjNsqzgrTUw049ip1aA/xOFIW9YH/sw=';
    var crypto = require('crypto');

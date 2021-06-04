@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React from 'react';
 
 import Forms from '../Form/Form';
 /* import GlobalState from '../../globalState'; */
@@ -6,7 +6,7 @@ import useToken from '../Hooks/useToken';
 
 export default function ContactUS(props){
    /* const {token: globalToken} =useContext(GlobalState); */
-   let { token, setToken} = useToken();
+   let { token } = useToken();
    let param1 = props.location.state.param1;
    let param2 = props.location.state.param2;
    
