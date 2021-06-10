@@ -43,6 +43,7 @@
    .FamosoPics{
       display: block;
       width: 45%;
+      /* max-width: 612px; */
       /* margin: 0% auto; */
       /* padding: 0% 0%; */
    }
@@ -61,6 +62,7 @@
       display: block;
       margin: 0% auto 0% auto;
       padding: 10% 0% 10% 0%;
+      width: 75%;
    }
    .FamosoText{
       display: block;

@@ -55,8 +55,9 @@ const Famosos = (props) => {
                      {  
                         data.filter((item)=>
                            item.Nombre?.toLowerCase().includes(globalState.searchValue)).map((item,id) =>{
+                              let IDX = item.ID;
                            return(
-                              <Product item={item} id={id} key={id}/>
+                                 <Product item={item} id={IDX} key={id}/>
                            );
                         })
                      }

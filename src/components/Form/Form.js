@@ -5,6 +5,7 @@ import axios from 'axios';
 import './Form.css';
 
 export default class Forms extends Component{
+   
    constructor(){
       super();
       this.state = {
@@ -24,6 +25,7 @@ export default class Forms extends Component{
       this.handlePosition = this.handlePosition.bind(this);
       this.handleMessage = this.handleMessage.bind(this);
       this.handleAggree = this.handleAggree.bind(this);
+      this.handleSubmit = this.handleSubmit.bind(this);
    }
    handleName(){
       this.setState({Name: true})
@@ -48,6 +50,8 @@ export default class Forms extends Component{
    }
    handleSubmit(e){
       e.preventDefault();
+      /*/correo/*/
+      /*http://localhost/ */
       axios.post('/correo/',{
          name: e.target.name.value,
          email: e.target.email.value,
@@ -55,10 +59,10 @@ export default class Forms extends Component{
          business: e.target.business.value,
          position: e.target.position.value,
          message: e.target.message.value,
-         Artist: this.ArtistName ,
+         Artist: this.props.param1 + ' ' + this.props.param2,
       }).then((response)=>{
          debugger;
-         if(response.data.status === 'success'){
+         if(response.data.status === 'success' || response.statusText === 'OK'){
             alert("Message Sent.");
             e.target.name.value="";
             e.target.email.value="";
@@ -76,9 +80,9 @@ export default class Forms extends Component{
       let ArtistName = this.props.param1;
       let ArtistLastname = this.props.param2;
       if(this.state.Name && this.state.Tel && this.state.Business && this.state.Email  && this.state.Position && this.state.Message && this.state.Aggree){
-         FormAvaible="";
+         FormAvaible=false;
       }else{
-         FormAvaible="1";
+         FormAvaible=true;
       }
       return(
          <React.Fragment>
@@ -124,7 +128,7 @@ export default class Forms extends Component{
                         Acepto
                      </FormGroup>
                      <FormGroup>
-                        <Button type="submit" disabled={FormAvaible} className="submitBTN" onClick={this.handleSubmit}>
+                        <Button type="submit" disabled={FormAvaible}  className="submitBTN" >
                            Enviar
                         </Button>
                      </FormGroup>

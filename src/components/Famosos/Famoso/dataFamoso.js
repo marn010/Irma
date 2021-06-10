@@ -24,6 +24,7 @@ export const data = [
                {
                   Link:"https://twitter.com/AndreaSernaTV",
                   img:"/assets/icons/Twitter_Pink.png",
+                  Nick:"AndreaSernaTV",
                }
             ]
          }
@@ -1190,12 +1191,12 @@ export const data = [
       ]
    },
    {
-      Nombre:"Karim",
+      Nombre:"Karin",
       Apellido:"Jiménez",
       Icon:"/assets/icons/Famosos/K_Jimenez_Icon.png",
       Profesion:"Modelo, Influencer.",
       Exp:"",
-      Texto:"Karim una mujer apasionada por la moda y ha  sobresalido como influencer en los medios digitales. Ahora, como empresaria, nos muestra una nueva etapa donde su diseño y creatividad son sus mejores aliados. ",
+      Texto:"Karin una mujer apasionada por la moda y ha  sobresalido como influencer en los medios digitales. Ahora, como empresaria, nos muestra una nueva etapa donde su diseño y creatividad son sus mejores aliados. ",
       Redes:[
          {
             insta:[
@@ -1252,8 +1253,8 @@ export const data = [
          }
       ],
       Fotos:[
-         "/assets/icons/Y_Buenaventura01.png",
-         "/assets/icons/Y_Buenaventura02.png", 
+         "/assets/img/Famosos/Y_Buenaventura01.png",
+         "/assets/img/Famosos/Y_Buenaventura02.png", 
       ]
    }
 ]

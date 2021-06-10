@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
+
 /* import { data } from './dataFamous'; */
 
 export default class Product extends Component{
    render(){
       let { item,id } = this.props;
+      
       return(
          <div className="ProductBox">
             <span className="FamousName Afterglow">

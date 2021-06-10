@@ -9,11 +9,9 @@ import 'font-awesome/css/font-awesome.css';
 import { ContextProvider } from './globalState';
 
 ReactDOM.render(
-  <React.StrictMode>
     <ContextProvider>
       <App />
-    </ContextProvider>
-  </React.StrictMode>,
+    </ContextProvider>,
   document.getElementById('root')
 );
 
