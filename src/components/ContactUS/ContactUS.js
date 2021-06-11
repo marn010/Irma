@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Forms from '../Form/Form';
 /* import GlobalState from '../../globalState'; */
 import useToken from '../Hooks/useToken';
+import DigitalAssets from '../digitalAssets/digitalAssets';
 
 
 
@@ -14,12 +15,18 @@ export default function ContactUS(props){
    let param2 = props.location.state.param2;
    let param3 = props.location.state.param3;
    const [fName, setFName ] = useState('');
-   
+   const [fFollowers, setFollowers ] = useState('');
+   const [fNick, setfNick ] = useState('');
    useEffect(() => {
       axios.post('http://localhost/',{
          nick: param3,
       }).then(res=>{
-         console.log(res.data)
+         console.log(res.data.twitter.name)
+         setFName(res.data.twitter.name);
+         console.log(res.data.twitter.screen_name)
+         setfNick(res.data.twitter.screen_name)
+         console.log(res.data.twitter.followers_count)
+         setFollowers(res.data.twitter.followers_count);
       }).catch(err=>{
          console.error(err)
       })
@@ -31,9 +38,7 @@ export default function ContactUS(props){
    }
    return(
       <React.Fragment>
-         <p>it works!</p>
-         <p> aqui pondria mas informacion si tuviera.</p>
-         <p>Nombre:  {param3} </p>
+         <DigitalAssets fName={fName} fFollowers={fFollowers} fNick={fNick}/>
       </React.Fragment>
    );
 }

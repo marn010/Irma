@@ -59,6 +59,7 @@ export const data = [
                {
                   Link:"",
                   img:"",
+                  Nick:"",
                }
             ]
          }
@@ -93,6 +94,7 @@ export const data = [
                {
                   Link:"",
                   img:"",
+                  Nick:"",
                }
             ]
          }
@@ -127,6 +129,7 @@ export const data = [
                {
                   Link:"",
                   img:"",
+                  Nick:"",
                }
             ]
          }
@@ -161,6 +164,7 @@ export const data = [
                {
                   Link:"",
                   img:"",
+                  Nick:"",
                }
             ]
          }
@@ -195,6 +199,7 @@ export const data = [
                {
                   Link:"https://twitter.com/LAAZCARATE",
                   img:"/assets/icons/Twitter_Pink.png",
+                  Nick:"LAAZCARATE",
                }
             ]
          }
@@ -229,6 +234,7 @@ export const data = [
                {
                   Link:"https://twitter.com/Santosalexandra",
                   img:"/assets/icons/Twitter_Pink.png",
+                  Nick:"Santosalexandra",
                }
             ]
          }
@@ -263,6 +269,7 @@ export const data = [
                {
                   Link:"",
                   img:"",
+                  Nick:"",
                }
             ]
          }
@@ -297,6 +304,7 @@ export const data = [
                {
                   Link:"https://twitter.com/CLAUDIABAHAMON",
                   img:"/assets/icons/Twitter_Pink.png",
+                  Nick:"CLAUDIABAHAMON",
                }
             ]
          }
@@ -331,6 +339,7 @@ export const data = [
                {
                   Link:"",
                   img:"",
+                  Nick:"",
                }
             ]
          }
@@ -365,6 +374,7 @@ export const data = [
                {
                   Link:"https://twitter.com/CrissHurtado",
                   img:"/assets/icons/Twitter_Pink.png",
+                  Nick:"CrissHurtado",
                }
             ]
          }
@@ -399,6 +409,7 @@ export const data = [
                {
                   Link:"",
                   img:"",
+                  Nick:"",
                }
             ]
          }
@@ -433,6 +444,7 @@ export const data = [
                {
                   Link:"https://twitter.com/madameperine",
                   img:"/assets/icons/Twitter_Pink.png",
+                  Nick:"madameperine",
                }
             ]
          }
@@ -467,6 +479,7 @@ export const data = [
                {
                   Link:"",
                   img:"",
+                  Nick:"",
                }
             ]
          }
@@ -501,6 +514,7 @@ export const data = [
                {
                   Link:"https://twitter.com/estefiborge",
                   img:"/assets/icons/Twitter_Pink.png",
+                  Nick:"estefiborge",
                }
             ]
          }
@@ -535,6 +549,7 @@ export const data = [
                {
                   Link:"https://twitter.com/FannyLu",
                   img:"/assets/icons/Twitter_Pink.png",
+                  Nick:"FannyLu",
                }
             ]
          }
@@ -569,6 +584,7 @@ export const data = [
                {
                   Link:"https://twitter.com/GabrielaTafur",
                   img:"/assets/icons/Twitter_Pink.png",
+                  Nick:"GabrielaTafur",
                }
             ]
          }
@@ -603,6 +619,7 @@ export const data = [
                {
                   Link:"https://twitter.com/kathysaenzh",
                   img:"/assets/icons/Twitter_Pink.png",
+                  Nick:"kathysaenzh",
                }
             ]
          }
@@ -637,6 +654,7 @@ export const data = [
                {
                   Link:"https://twitter.com/laurabarjumofcl",
                   img:"/assets/icons/Twitter_Pink.png",
+                  Nick:"laurabarjumofcl",
                }
             ]
          }
@@ -671,6 +689,7 @@ export const data = [
                {
                   Link:"",
                   img:"",
+                  Nick:"",
                }
             ]
          }
@@ -705,6 +724,7 @@ export const data = [
                {
                   Link:"https://twitter.com/lauratobonyepes",
                   img:"/assets/icons/Twitter_Pink.png",
+                  Nick:"lauratobonyepes",
                }
             ]
          }
@@ -739,6 +759,7 @@ export const data = [
                {
                   Link:"https://twitter.com/MJoseBarraza",
                   img:"/assets/icons/Twitter_Pink.png",
+                  Nick:"MJoseBarraza",
                }
             ]
          }
@@ -773,6 +794,7 @@ export const data = [
                {
                   Link:"https://twitter.com/MaluPeriodista",
                   img:"/assets/icons/Twitter_Pink.png",
+                  Nick:"MaluPeriodista",
                }
             ]
          }
@@ -807,6 +829,7 @@ export const data = [
                {
                   Link:"https://twitter.com/pschmittf",
                   img:"/assets/icons/Twitter_Pink.png",
+                  Nick:"pschmittf",
                }
             ]
          }
@@ -841,6 +864,7 @@ export const data = [
                {
                   Link:"https://twitter.com/ToyaMontoya",
                   img:"/assets/icons/Twitter_Pink.png",
+                  Nick:"ToyaMontoya",
                }
             ]
          }
@@ -875,6 +899,7 @@ export const data = [
                {
                   Link:"https://twitter.com/TataCalde",
                   img:"/assets/icons/Twitter_Pink.png",
+                  Nick:"TataCalde",
                }
             ]
          }
@@ -909,6 +934,7 @@ export const data = [
                {
                   Link:"",
                   img:"",
+                  Nick:"",
                }
             ]
          }
@@ -943,6 +969,7 @@ export const data = [
                {
                   Link:"https://twitter.com/YanethWaldman",
                   img:"/assets/icons/Twitter_Pink.png",
+                  Nick:"YanethWaldman",
                }
             ]
          }
@@ -977,6 +1004,7 @@ export const data = [
                {
                   Link:"",
                   img:"",
+                  Nick:"",
                }
             ]
          }
@@ -1011,6 +1039,7 @@ export const data = [
                {
                   Link:"https://twitter.com/jossenarvaez",
                   img:"/assets/icons/Twitter_Pink.png",
+                  Nick:"jossenarvaez",
                }
             ]
          }
@@ -1045,6 +1074,7 @@ export const data = [
                {
                   Link:"https://twitter.com/NovoaRafaell",
                   img:"/assets/icons/Twitter_Pink.png",
+                  Nick:"NovoaRafaell",
                }
             ]
          }
@@ -1079,6 +1109,7 @@ export const data = [
                {
                   Link:"https://twitter.com/SebastianMActor",
                   img:"/assets/icons/Twitter_Pink.png",
+                  Nick:"SebastianMActor",
                }
             ]
          }
@@ -1113,6 +1144,7 @@ export const data = [
                {
                   Link:"https://twitter.com/MarioAYepes",
                   img:"/assets/icons/Twitter_Pink.png",
+                  Nick:"MArioAYepes",
                }
             ]
          }
@@ -1147,7 +1179,9 @@ export const data = [
                {
                   Link:"https://twitter.com/FALCAO",
                   img:"/assets/icons/Twitter_Pink.png",
+                  Nick:"FALCAO",
                }
+
             ]
          }
       ],
@@ -1181,6 +1215,7 @@ export const data = [
                {
                   Link:"https://twitter.com/santiagoarias13",
                   img:"/assets/icons/Twitter_Pink.png",
+                  Nick:"santiagoarias13",
                }
             ]
          }
@@ -1215,6 +1250,7 @@ export const data = [
                {
                   Link:"https://twitter.com/karinjimenez91",
                   img:"/assets/icons/Twitter_Pink.png",
+                  Nick:"karinjimenez91",
                }
             ]
          }
@@ -1248,6 +1284,7 @@ export const data = [
                {
                   Link:"https://twitter.com/YuriTura",
                   img:"/assets/icons/Twitter_Pink.png",
+                  Nick:"YuriTura",
                }
             ]
          }

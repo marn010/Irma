@@ -1,0 +1,28 @@
+@media(min-width:769px){
+ .MainBox{
+     display: block;
+     width: 100%;
+     margin: 0% auto 0% auto;
+     text-align: center;
+ }
+ .socialBox{
+     display: flex;
+     width: 100%;
+     margin: 0% auto 0% auto;
+ }
+ .twitterBox{
+     display: block;
+     width: 33%;
+     margin: 0% auto 0% auto;
+ }
+ .instaBox{
+     display: block;
+     width: 33%;
+     margin: 0% auto 0% auto;
+ }
+ .faceBox{
+     display: block;
+     width: 33%;
+     margin: 0% auto 0% auto;
+ }   
+}

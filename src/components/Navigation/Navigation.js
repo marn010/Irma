@@ -95,7 +95,7 @@ const Navigation = () => {
             className="Modal"
             overlayClassName="Overlay"
          >
-            <Login setToken={updateToken}  />
+            <Login setToken={updateToken} handleCloseModal={handleCloseModal}  />
          </Modal>
       </div>
    );
