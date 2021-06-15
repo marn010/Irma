@@ -9,8 +9,6 @@ export default function DigitalAssets(props){
     return(
         <React.Fragment>
            <div className="MainBox">
-                <p>it works!</p>
-                <p> aqui pondria mas informacion si tuviera.</p>
                 <div className="socialBox">
                     <div className="twitterBox" >
                         <h2>
