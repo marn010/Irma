@@ -4,6 +4,13 @@
      width: 100%;
      margin: 0% auto 0% auto;
      text-align: center;
+     color: #e9817c;
+ }
+ .MainBox p{
+     color: black;
+ }
+ .MainBox span{
+     color: #e9817c;
  }
  .socialBox{
      display: flex;

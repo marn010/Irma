@@ -18,6 +18,8 @@ export default function ContactUS(props){
    const [fFollowers, setFollowers ] = useState('');
    const [fNick, setfNick ] = useState('');
    useEffect(() => {
+      /*http://localhost/ */
+      /*/api/ */
       axios.post('http://localhost/',{
          nick: param3,
       }).then(res=>{

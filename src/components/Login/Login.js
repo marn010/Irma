@@ -12,7 +12,7 @@ export default function Login({setToken,handleCloseModal}){
    const handleSubmit = async e=> {
       e.preventDefault();
       const hash = crypto.createHash('sha256').update(password).digest('base64');
-      alert("La clave ingresada fue: " + password);
+      /* alert("La clave ingresada fue: " + password); */
       /* alert("El Hash producido es: " + hash); */
       handleCloseModal();
       if(hash===pass){

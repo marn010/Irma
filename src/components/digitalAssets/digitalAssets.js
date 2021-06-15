@@ -16,19 +16,27 @@ export default function DigitalAssets(props){
                         <h2>
                             Twitter
                         </h2>
-                        <p>Nombre:  {fName} </p>
-                        <p>Nick: @{fNick}</p>
-                        <p>Followers: {fFollowers}</p>
+                        <p>Nombre:<br/> <span>{fName}</span>  </p>
+                        <p>Nick:<br/> <span>@{fNick}</span></p>
+                        <p>Seguidores<br/> <span>{fFollowers}</span></p>
+                        <p>Impresiones<br/><span></span> </p>
                     </div>
                     <div className="instaBox">
                         <h2>
                             Instagram
                         </h2>
+                        <p>Seguidores<br/> <span></span></p>
+                        <p>Impresiones<br/> <span></span></p>
+                        <p>Post Engagements <br/> <span></span></p>
                     </div>
                     <div className="faceBox">
                         <h2>
                             Facebook
                         </h2>
+                        <p>Seguidores <br/> <span></span></p>
+                        <p>Alcance Orgánico <br/> <span></span></p>
+                        <p>Views-video <br/> <span></span></p>
+                        <p>Post Engagements <br/> <span></span></p>
                     </div>
                 </div>
            </div>
