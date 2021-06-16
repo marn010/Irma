@@ -8,7 +8,6 @@ export default class HomeWeb extends Component{
    render(){
       return(
          <React.Fragment>
-            
             <Famosos/>
          </React.Fragment>
       );

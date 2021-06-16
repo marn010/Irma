@@ -7,7 +7,7 @@ export default function Login({setToken,handleCloseModal}){
    const [password,setPassword] = useState();
    /* const {token: globalToken} = useContext(GlobalState); */
 
-   const pass= 'tprgQLEMrp1zdjNsqzgrTUw049ip1aA/xOFIW9YH/sw=';
+   const pass= 'r3yIDGF4x9qEnFUheBa69M3zfY9v1cMuaTqycscZbvk=';
    var crypto = require('crypto');
    const handleSubmit = async e=> {
       e.preventDefault();
