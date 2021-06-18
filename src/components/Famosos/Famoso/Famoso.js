@@ -1,33 +1,23 @@
 import React from 'react';
-import Carousel from 'react-multi-carousel';
 import { Link } from 'react-router-dom';
+import Slider from 'react-slick';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
-import "react-multi-carousel/lib/styles.css";
 import './Famoso.css';
 
 import { data } from './dataFamoso';
 
 
 function Famoso(props){
-
+   const settings = {
+      dots: false,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 2,
+      slidesToScroll: 2
+    };
    
-   const responsive = {
-      desktop: {
-            breakpoint: { max: 3000, min: 1024 },
-            items: 2,
-            slidesToSlide: 2, // optional, default to 1.
-         },
-         tablet: {
-            breakpoint: { max: 1024, min: 464 },
-            items: 2,
-            slidesToSlide: 2, // optional, default to 1.
-         },
-         mobile: {
-            breakpoint: { max: 464, min: 0 },
-            items: 1,
-            slidesToSlide: 1, // optional, default to 1.
-         }
-   };
    let id = props.location.state.param1;
    let idx = -1;
    let name = data[id].Nombre ;
@@ -37,31 +27,7 @@ function Famoso(props){
       <React.Fragment>
          <div className=" FamosoMainBox">
             <div className="FamosoPics">
-               <Carousel 
-                  autoPlay={false}
-                  autoPlaySpeed={4000}
-                  arrows={true}
-                  renderButtonGroupOutside={true}
-                  /* customButtonGroup={<ButtonGroup
-                     next={this.props.next}
-                     previous={this.props.previous}
-                     rest={this.props.rest}
-                  />} */
-                  showDots={false}
-                  responsive={responsive}
-                  ssr={true} // means to render carousel on server-side.
-                  infinite={false}
-                  draggable={false}
-                  customTransition="all 1s "
-                  transitionDuration={900}
-                  containerClass="carousel-container"
-                  removeArrowOnDeviceType={[ "mobile"]}
-                  deviceType={props.deviceType}
-                  dotListClass="custom-dot-list-style"
-                  itemClass="" /*carousel-item-padding*/
-                  centerMode={false}
-                  renderDotsOutside={false}
-                  >
+             <Slider {...settings}>
                   {
                      data[id].Fotos.map(() =>{
                         idx=idx+1;
@@ -72,7 +38,7 @@ function Famoso(props){
                         );
                      })
                   }
-               </Carousel>
+               </Slider>
             </div>
             <div className="FamosoText">
                <div>
