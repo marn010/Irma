@@ -50,7 +50,7 @@ function Famoso(props){
                   showDots={false}
                   responsive={responsive}
                   ssr={true} // means to render carousel on server-side.
-                  infinite={true}
+                  infinite={false}
                   draggable={false}
                   customTransition="all 1s "
                   transitionDuration={900}

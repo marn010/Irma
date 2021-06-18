@@ -32,6 +32,10 @@ export const data = [
       Fotos:[
          "/assets/img/Famosos/A_Serna01.png",
          "/assets/img/Famosos/A_Serna02.png",
+         "/assets/img/Famosos/A_Serna01.png",
+         "/assets/img/Famosos/A_Serna02.png",
+         "/assets/img/Famosos/A_Serna01.png",
+         "/assets/img/Famosos/A_Serna02.png",
       ]
    },
    {

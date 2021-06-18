@@ -20,7 +20,7 @@ export default function ContactUS(props){
    useEffect(() => {
       /*http://localhost/ */
       /*/api/ */
-      axios.post('/api/',{
+      axios.post('http://localhost/',{
          nick: param3,
       }).then(res=>{
          console.log(res.data.twitter.name)
@@ -40,28 +40,7 @@ export default function ContactUS(props){
    }
    return(
       <React.Fragment>
-         <DigitalAssets fName={fName} fFollowers={fFollowers} fNick={fNick}/>
+         <DigitalAssets fName={fName} fFollowers={fFollowers} fNick={fNick} nick={param3}/>
       </React.Fragment>
    );
 }
-/*
-() => {
-      debugger;
-     
-      const result =  axios.get(
-         'https://api.twitter.com/1.1/users/show.json?screen_name=marn010',{ 
-            headers:{
-               'Authorization' : 'Bearer AAAAAAAAAAAAAAAAAAAAAKrmQQEAAAAA%2Bi40vtGEi9JD%2FW4U65TKb%2FUB8k4%3DSXD7Ou10jvzlNy08UsDpT4anNrTs2hGW6Atwl3Fw4TTZK4ziVn'
-         }
-      })
-      .then((res) =>{
-         setFName(res.data);
-         debugger;
-         console.log(res.data)
-      })
-      .catch((error)=>{
-         debugger;
-         console.error(error)
-      })
-   }
- */
