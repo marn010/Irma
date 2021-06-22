@@ -60,8 +60,9 @@ export default class Forms extends Component{
          position: e.target.position.value,
          message: e.target.message.value,
          Artist: this.props.param1 + ' ' + this.props.param2,
+         IdArtist: this.props.ID,
       }).then((response)=>{
-         debugger;
+         /* debugger; */
          if(response.data.status === 'success' || response.statusText === 'OK'){
             alert("Message Sent.");
             e.target.name.value="";
@@ -77,8 +78,6 @@ export default class Forms extends Component{
    }
    render(){
       let FormAvaible = "1";
-      let ArtistName = this.props.param1;
-      let ArtistLastname = this.props.param2;
       if(this.state.Name && this.state.Tel && this.state.Business && this.state.Email  && this.state.Position && this.state.Message && this.state.Aggree){
          FormAvaible=false;
       }else{
@@ -99,7 +98,7 @@ export default class Forms extends Component{
                <div className="formBox ">
                   <Form className="IrmaForm" onSubmit={(e)=>this.handleSubmit(e)}>
                      <Label>
-                        Envianos tus datos para más información sobre nuestros artistas. ({ArtistName} {ArtistLastname})
+                        Envianos tus datos para más información sobre nuestros artistas. {/* ({ArtistName} {ArtistLastname} {ID}) */}
                      </Label>
                      <FormGroup>
                         <Row>

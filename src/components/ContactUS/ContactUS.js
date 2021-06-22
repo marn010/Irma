@@ -14,13 +14,14 @@ export default function ContactUS(props){
    let param1 = props.location.state.param1;
    let param2 = props.location.state.param2;
    let param3 = props.location.state.param3;
+   let ID = props.location.state.ID;
    const [fName, setFName ] = useState('');
    const [fFollowers, setFollowers ] = useState('');
    const [fNick, setfNick ] = useState('');
    useEffect(() => {
       /*http://localhost/ */
       /*/api/ */
-      axios.post('http://localhost/',{
+      axios.post('/api/',{
          nick: param3,
       }).then(res=>{
          console.log(res.data.twitter.name)
@@ -35,12 +36,12 @@ export default function ContactUS(props){
    },[])
    if(!token){
       return(
-         <Forms param1={param1} param2={param2}/>
+         <Forms param1={param1} param2={param2} ID={ID}/>
       );
    }
    return(
       <React.Fragment>
-         <DigitalAssets fName={fName} fFollowers={fFollowers} fNick={fNick} nick={param3}/>
+         <DigitalAssets fName={fName} fFollowers={fFollowers} fNick={fNick} nick={param3}  ID={ID} />
       </React.Fragment>
    );
 }

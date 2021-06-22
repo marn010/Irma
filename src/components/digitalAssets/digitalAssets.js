@@ -10,11 +10,12 @@ export default function DigitalAssets(props){
     let fFollowers = Intl.NumberFormat("es-ES").format(props.fFollowers);
     let fNick = props.fNick;
     let nick = props.nick;
+    let ID = props.ID;
     return(
         <React.Fragment>
            <div className="MainBox">
                <h1>
-                   Activos Digitales
+                   Activos Digitales {ID}
                </h1>
                 <div className="socialBox">
                     {nick && <Twitter fName={fName} fFollowers={fFollowers} fNick={fNick} />}

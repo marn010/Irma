@@ -23,6 +23,7 @@ function Famoso(props){
    let name = data[id].Nombre ;
    let lastname = data[id].Apellido;
    let nick = data[id].Redes[0].Twitter[0].Nick;
+   let ID = data[id].ID;
    return(
       <React.Fragment>
          <div className=" FamosoMainBox">
@@ -80,6 +81,7 @@ function Famoso(props){
                   param1: name,
                   param2: lastname,
                   param3: nick,
+                  ID: ID,
                }
             }} >
                   click aqui.

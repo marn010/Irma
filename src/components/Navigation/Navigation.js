@@ -38,6 +38,7 @@ const Navigation = () => {
       setshowModal(false)
    }
 
+   Modal.setAppElement('#root');
    return(
       <div className="MainNavbar " >
          <Navbar color="faded" light>

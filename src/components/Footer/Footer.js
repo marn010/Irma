@@ -10,7 +10,7 @@ export default class Footer extends Component{
             <Social/>
             <div className="CopyRight MuseoS-500">
                <p>
-                  Todos los derechos reservados <br/>Irma.Manager 2020
+                  Todos los derechos reservados <br/>Irma.Manager 2021
                </p>
             </div>
          </div>

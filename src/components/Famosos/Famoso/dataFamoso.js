@@ -2,6 +2,7 @@ export const data = [
    {
       Nombre:"Andrea",
       Apellido:"Serna",
+      ID:"#$00",
       Icon:"/assets/icons/Famosos/Andrea_Serna.png",
       Profesion:"Presentadora, influencer, modelo campañas",
       Exp:"Head and Shoulders, Cetaphil, Tous, Avon, Pat Primo, Samsung, Rappi",
@@ -12,12 +13,14 @@ export const data = [
                {
                   Link:"https://www.instagram.com/andreasernafotos/",
                   img:"/assets/icons/Insta_Pink.png",
+                  Nick:"andreasernafotos",
                }
             ],
             face:[
                {
                   Link:"",
                   img:"",
+                  Nick:"",
                }
             ],
             Twitter:[
@@ -39,6 +42,7 @@ export const data = [
    {
       Nombre:"Adriana",
       Apellido:"Arboleda",
+      ID:"#$01",
       Icon:"/assets/icons/Famosos/A_Arboleda_Icon.png",
       Profesion:"Diseñadora de modas, presentadora, empresaria, modelo de campañas.",
       Exp:"Pink Filosofy, vocera  del movimento 'Vístete de Colombia'.",
@@ -49,12 +53,14 @@ export const data = [
                {
                   Link:"https://www.instagram.com/adrianaarboledar/",
                   img:"/assets/icons/Insta_Pink.png",
+                  Nick:"adrianaarboledar",
                }
             ],
             face:[
                {
                   Link:"",
                   img:"",
+                  Nick:"",
                }
             ],
             Twitter:[
@@ -74,6 +80,7 @@ export const data = [
    {
       Nombre:"Adriana",
       Apellido:"Tarud",
+      ID:"#$02",
       Icon:"/assets/icons/Famosos/A_Tarud_Icon.png",
       Profesion:"Ex señorita colombia ( ), PR,modelo y presentadora de eventos. ",
       Exp:"",
@@ -84,12 +91,14 @@ export const data = [
                {
                   Link:"https://www.instagram.com/adrianatarud/",
                   img:"/assets/icons/Insta_Pink.png",
+                  Nick:"adrianatarud",
                }
             ],
             face:[
                {
                   Link:"",
                   img:"",
+                  Nick:"",
                }
             ],
             Twitter:[
@@ -109,6 +118,7 @@ export const data = [
    {
       Nombre:"Ana",
       Apellido:"Beliza",
+      ID:"#$03",
       Icon:"/assets/icons/Famosos/A_Beliza_Icon.png",
       Profesion:"Modelo, influencer, editora de moda @revistalternativa.",
       Exp:"",
@@ -119,12 +129,14 @@ export const data = [
                {
                   Link:"https://www.instagram.com/anabelizam/",
                   img:"/assets/icons/Insta_Pink.png",
+                  Nick:"anabelizam",
                }
             ],
             face:[
                {
                   Link:"",
                   img:"",
+                  Nick:"",
                }
             ],
             Twitter:[
@@ -144,6 +156,7 @@ export const data = [
    {
       Nombre:"Ana Sofía",
       Apellido:"Henao",
+      ID:"#$04",
       Icon:"/assets/icons/Famosos/A_Henao_Icon.png",
       Profesion:"Modelo, influencer. ",
       Exp:"Aquarella, Kalley , Baby Ganics , Rappi.",
@@ -154,12 +167,14 @@ export const data = [
                {
                   Link:"https://www.instagram.com/anasofiahenaoe/",
                   img:"/assets/icons/Insta_Pink.png",
+                  Nick:"anasofiahenaoe",
                }
             ],
             face:[
                {
                   Link:"",
                   img:"",
+                  Nick:"",
                }
             ],
             Twitter:[
@@ -179,6 +194,7 @@ export const data = [
    {
       Nombre:"Alejandra",
       Apellido:"Azcárate",
+      ID:"#$05",
       Icon:"/assets/icons/Famosos/A_Azcarate_Icon.png",
       Profesion:"Comediante, modelo, presentadora, locutora. ",
       Exp:"Studio F, Aviatur, Blind, Jaguar,Ishop, Apple, Bulova.",
@@ -189,12 +205,14 @@ export const data = [
                {
                   Link:"https://www.instagram.com/laazcarateoficial/",
                   img:"/assets/icons/Insta_Pink.png",
+                  Nick:"laazcarateoficial",
                }
             ],
             face:[
                {
                   Link:"https://www.tiktok.com/@laazcarate?lang=es",
                   img:"/assets/icons/.png",
+                  Nick:"laazcarate",
                }
             ],
             Twitter:[
@@ -214,6 +232,7 @@ export const data = [
    {
       Nombre:"Alexandra",
       Apellido:"Santos",
+      ID:"#$06",
       Icon:"/assets/icons/Famosos/A_Santos_Icon.png",
       Profesion:"Presentadora, modelo, Health Coach.",
       Exp:"",
@@ -224,6 +243,7 @@ export const data = [
                {
                   Link:"https://www.instagram.com/santosalexandra/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
+                  Nick:"santosalexandra",
                }
             ],
             face:[
@@ -249,6 +269,7 @@ export const data = [
    {
       Nombre:"Ángela",
       Apellido:"Cardozo",
+      ID:"#$07",
       Icon:"/assets/icons/Famosos/A_Cardozo_Icon.png",
       Profesion:"Presentadora TV, modelo, influencer.",
       Exp:"",
@@ -284,6 +305,7 @@ export const data = [
    {
       Nombre:"Claudia",
       Apellido:"Bahamón",
+      ID:"#$08",
       Icon:"/assets/icons/Famosos/C_Bahamon_Icon.png",
       Profesion:"Modelo, presentadora, influencer, ecologista.",
       Exp:"Vanart, Intibon, Desodorante Savital.",
@@ -294,12 +316,14 @@ export const data = [
                {
                   Link:"https://www.instagram.com/claudiabahamon/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
+                  Nick:"claudiabahamon",
                }
             ],
             face:[
                {
                   Link:"https://www.tiktok.com/@claudiabahamon?lang=es",
                   img:"/assets/icons/Face_Pink.png",
+                  Nick:"claudiabahamon",
                }
             ],
             Twitter:[
@@ -319,6 +343,7 @@ export const data = [
    {
       Nombre:"Catalina",
       Apellido:"Aristizábal",
+      ID:"#$09",
       Icon:"/assets/icons/Famosos/C_Aristizabal_Icon.png",
       Profesion:"Modelo, presentadora, influencer.",
       Exp:"",
@@ -329,12 +354,14 @@ export const data = [
                {
                   Link:"https://www.instagram.com/catalinaaristizabalh/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
+                  Nick:"catalinaaristizabalh",
                }
             ],
             face:[
                {
                   Link:"https://www.tiktok.com/@catalinaaristizabal_ca?lang=es",
                   img:"/assets/icons/.png",
+                  Nick:"catalinaaristizabal_ca",
                }
             ],
             Twitter:[
@@ -354,6 +381,7 @@ export const data = [
    {
       Nombre:"Cristina",
       Apellido:"Hurtado",
+      ID:"#$10",
       Icon:"/assets/icons/Famosos/C_Hurtado_Icon.png",
       Profesion:"Presentadora TV y radio, modelo, empresaria, influencer.",
       Exp:"Tuti fruti, Henkell Igora.",
@@ -364,12 +392,14 @@ export const data = [
                {
                   Link:"https://www.instagram.com/crisshurtado/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
+                  Nick:"crisshurtado",
                }
             ],
             face:[
                {
                   Link:"https://www.tiktok.com/@cristinahurtadoalvarez?lang=es",
                   img:"/assets/icons/.png",
+                  Nick:"cristinahurtadoalvarez",
                }
             ],
             Twitter:[
@@ -389,6 +419,7 @@ export const data = [
    {
       Nombre:"Carolina",
       Apellido:"Castro",
+      ID:"#$11",
       Icon:"/assets/icons/Famosos/C_Castro_Icon.png",
       Profesion:"Empresaria, modelo, influencer.",
       Exp:"Tuti fruti, Henkell Igora.",
@@ -399,12 +430,14 @@ export const data = [
                {
                   Link:"https://www.instagram.com/carocastrolive/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
+                  Nick:"carocastrolive",
                }
             ],
             face:[
                {
                   Link:"",
                   img:"",
+                  Nick:"",
                }
             ],
             Twitter:[
@@ -424,6 +457,7 @@ export const data = [
    {
       Nombre:"Catalina",
       Apellido:"García Madameperine",
+      ID:"#$12",
       Icon:"/assets/icons/Famosos/C_Madameperine_Icon.png",
       Profesion:"Cantante.",
       Exp:"",
@@ -434,12 +468,14 @@ export const data = [
                {
                   Link:"https://www.instagram.com/madameperine/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
+                  Nick:"madameperine",
                }
             ],
             face:[
                {
                   Link:"",
                   img:"",
+                  Nick:"",
                }
             ],
             Twitter:[
@@ -459,6 +495,7 @@ export const data = [
    {
       Nombre:"Erica",
       Apellido:"Ruini",
+      ID:"#$13",
       Icon:"/assets/icons/Famosos/E_Ruini_Icon.png",
       Profesion:"Modelo.",
       Exp:"Punto Blanco, Johanna Ortiz, Kaanass Shoes, Spirito.",
@@ -469,12 +506,14 @@ export const data = [
                {
                   Link:"https://www.instagram.com/ericaruini/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
+                  Nick:"ericaruini",
                }
             ],
             face:[
                {
                   Link:"",
                   img:"",
+                  Nick:"",
                }
             ],
             Twitter:[
@@ -494,6 +533,7 @@ export const data = [
    {
       Nombre:"Estefi",
       Apellido:"Borge",
+      ID:"#$14",
       Icon:"/assets/icons/Famosos/E_Borge.png",
       Profesion:"Actriz, modelo, presentadora, escritora.",
       Exp:"",
@@ -504,12 +544,14 @@ export const data = [
                {
                   Link:"https://www.instagram.com/estefiborge/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
+                  Nick:"estefiborge",
                }
             ],
             face:[
                {
                   Link:"https://www.tiktok.com/@estefiborge?lang=es",
                   img:"/assets/icons/.png",
+                  Nick:"estefiborge",
                }
             ],
             Twitter:[
@@ -529,6 +571,7 @@ export const data = [
    {
       Nombre:"Fanny",
       Apellido:"Lu",
+      ID:"#$15",
       Icon:"/assets/icons/Famosos/F_Lu_Icon.png",
       Profesion:"Cantante.",
       Exp:"",
@@ -539,12 +582,14 @@ export const data = [
                {
                   Link:"https://www.instagram.com/fannylu/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
+                  Nick:"fannylu",
                }
             ],
             face:[
                {
                   Link:"https://www.tiktok.com/@fannylu?lang=es",
                   img:"/assets/icons/TikTok.png",
+                  Nick:"fannylu",
                }
             ],
             Twitter:[
@@ -564,6 +609,7 @@ export const data = [
    {
       Nombre:"Gabriela",
       Apellido:"Tafur",
+      ID:"#$16",
       Icon:"/assets/icons/Famosos/G_Tafur_Icon.png",
       Profesion:"Modelo, influencer. ",
       Exp:"ARKITECT & DANIELLA BATLLE, BMW, W Radio, Yanbal.",
@@ -574,12 +620,14 @@ export const data = [
                {
                   Link:"https://www.instagram.com/gabrielatafur/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
+                  Nick:"gabrielatafur",
                }
             ],
             face:[
                {
                   Link:"https://www.tiktok.com/@gabrielatafurnader?lang=es",
                   img:"/assets/icons/Face_Pinks.png",
+                  Nick:"gabrielatafurnader",
                }
             ],
             Twitter:[
@@ -599,6 +647,7 @@ export const data = [
    {
       Nombre:"Kathy",
       Apellido:"Sáenz",
+      ID:"#$17",
       Icon:"/assets/icons/Famosos/K_Saenz_Icon.png",
       Profesion:"Actriz, modelo, influencer.",
       Exp:"Avon Fragancias, Chevrolet.",
@@ -609,12 +658,14 @@ export const data = [
                {
                   Link:"https://www.instagram.com/kathysaenzh/",
                   img:"/assets/icons/Insta_Pink.png",
+                  Nick:"kathysaenzh",
                }
             ],
             face:[
                {
                   Link:"",
                   img:"",
+                  Nick:"",
                }
             ],
             Twitter:[
@@ -634,6 +685,7 @@ export const data = [
    {
       Nombre:"Laura",
       Apellido:"Barjum",
+      ID:"#$18",
       Icon:"/assets/icons/Famosos/L_Barjum.png",
       Profesion:"Artista, modelo, influencer.",
       Exp:"",
@@ -644,12 +696,14 @@ export const data = [
                {
                   Link:"https://www.instagram.com/laurabarjum/",
                   img:"/assets/icons/Insta_Pink.png",
+                  Nick:"laurabarjum",
                }
             ],
             face:[
                {
                   Link:"https://www.tiktok.com/@laurabarjum?lang=es",
                   img:"/assets/icons/.png",
+                  Nick:"laurabarjum",
                }
             ],
             Twitter:[
@@ -669,6 +723,7 @@ export const data = [
    {
       Nombre:"Laura",
       Apellido:"Londoño",
+      ID:"#$19",
       Icon:"/assets/icons/Famosos/L_Londoño_Icon.png",
       Profesion:"Artista, modelo. ",
       Exp:"MNG Colombia, Metamucil.",
@@ -679,12 +734,14 @@ export const data = [
                {
                   Link:"https://www.instagram.com/londonotlaura/",
                   img:"/assets/icons/Insta_Pink.png",
+                  Nick:"londonotlaura",
                }
             ],
             face:[
                {
                   Link:"https://www.tiktok.com/@londonotlaura?lang=es",
                   img:"/assets/icons/.png",
+                  Nick:"londonotlaura",
                }
             ],
             Twitter:[
@@ -704,6 +761,7 @@ export const data = [
    {
       Nombre:"Laura",
       Apellido:"Tobón",
+      ID:"#$20",
       Icon:"/assets/icons/Famosos/L_Tobon_Icon.png",
       Profesion:"Modelo, Influencer.",
       Exp:"",
@@ -714,12 +772,14 @@ export const data = [
                {
                   Link:"https://www.instagram.com/laura_tobon/",
                   img:"/assets/icons/Insta_Pink.png",
+                  Nick:"laura_tobon",
                }
             ],
             face:[
                {
                   Link:"https://www.tiktok.com/@laura_tobon?lang=es",
                   img:"/assets/icons/",
+                  Nick:"laura_tobon",
                }
             ],
             Twitter:[
@@ -739,6 +799,7 @@ export const data = [
    {
       Nombre:"María José",
       Apellido:"Barraza",
+      ID:"#$21",
       Icon:"/assets/icons/Famosos/M_Barraza_Icon.png",
       Profesion:"Presentadora TV.",
       Exp:"",
@@ -749,12 +810,14 @@ export const data = [
                {
                   Link:"https://www.instagram.com/barrazamariajose/",
                   img:"/assets/icons/Insta_Pink.png",
+                  Nick:"barrazamariajose",
                }
             ],
             face:[
                {
                   Link:"",
                   img:"",
+                  Nick:"",
                }
             ],
             Twitter:[
@@ -774,6 +837,7 @@ export const data = [
    {
       Nombre:"María Lucía",
       Apellido:"Fernández",
+      ID:"#$22",
       Icon:"/assets/icons/Famosos/.png",
       Profesion:"Presentadora TV",
       Exp:"",
@@ -784,12 +848,14 @@ export const data = [
                {
                   Link:"https://www.instagram.com/maluperiodista/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
+                  Nick:"maluperiodista",
                }
             ],
             face:[
                {
                   Link:"",
                   img:"",
+                  Nick:"",
                }
             ],
             Twitter:[
@@ -809,6 +875,7 @@ export const data = [
    {
       Nombre:"Pilar",
       Apellido:"Schmitt",
+      ID:"#$23",
       Icon:"/assets/icons/Famosos/P_Schmitt_Icon.png",
       Profesion:"Presentadora, modelo.",
       Exp:"",
@@ -819,12 +886,14 @@ export const data = [
                {
                   Link:"https://www.instagram.com/pilarschmitt/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
+                  Nick:"pilarschmitt",
                }
             ],
             face:[
                {
                   Link:"",
                   img:"",
+                  Nick:"",
                }
             ],
             Twitter:[
@@ -844,6 +913,7 @@ export const data = [
    {
       Nombre:"Toya",
       Apellido:"Montoya",
+      ID:"#$24",
       Icon:"/assets/icons/Famosos/T_Montoya_Icon.png",
       Profesion:"Modelo, Influencer.",
       Exp:"Bronzini, Chocolyne.",
@@ -854,12 +924,14 @@ export const data = [
                {
                   Link:"https://www.instagram.com/toyamontoya/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
+                  Nick:"toyamontoya",
                }
             ],
             face:[
                {
                   Link:"",
                   img:"",
+                  Nick:"",
                }
             ],
             Twitter:[
@@ -879,6 +951,7 @@ export const data = [
    {
       Nombre:"Tatiana",
       Apellido:"Calderón",
+      ID:"#$25",
       Icon:"/assets/icons/Famosos/T_Calderon_Icon.png",
       Profesion:"Deportista, piloto de automovilismo.",
       Exp:"",
@@ -889,12 +962,14 @@ export const data = [
                {
                   Link:"https://www.instagram.com/tatacalde7/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
+                  Nick:"tatacalde7",
                }
             ],
             face:[
                {
                   Link:"",
                   img:"",
+                  Nick:"",
                }
             ],
             Twitter:[
@@ -914,6 +989,7 @@ export const data = [
    {
       Nombre:"Yeimy Paola",
       Apellido:"Vargas",
+      ID:"#$26",
       Icon:"/assets/icons/Famosos/Y_Vargas_Icon.png",
       Profesion:"Actriz y modelo.",
       Exp:"",
@@ -924,12 +1000,14 @@ export const data = [
                {
                   Link:"https://www.instagram.com/yeimypv/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
+                  Nick:"yeimypv",
                }
             ],
             face:[
                {
                   Link:"",
                   img:"",
+                  Nick:"",
                }
             ],
             Twitter:[
@@ -949,6 +1027,7 @@ export const data = [
    {
       Nombre:"Yaneth",
       Apellido:"Waldman",
+      ID:"#$27",
       Icon:"/assets/icons/Famosos/Y_Waldman_Icon.png",
       Profesion:"Artista, presentadora, conferencista.",
       Exp:"Alimentos BARY.",
@@ -959,12 +1038,14 @@ export const data = [
                {
                   Link:"https://www.instagram.com/yanethwaldman/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
+                  Nick:"yanethwaldman",
                }
             ],
             face:[
                {
                   Link:"https://www.tiktok.com/@yanethwaldman?lang=es",
                   img:"/assets/icons/.png",
+                  Nick:"yanethwaldman",
                }
             ],
             Twitter:[
@@ -984,6 +1065,7 @@ export const data = [
    {
       Nombre:"Carlitos",
       Apellido:"Vargas",
+      ID:"#$28",
       Icon:"/assets/icons/Famosos/C_Vargas_Icon.png",
       Profesion:"Presentador.",
       Exp:"",
@@ -994,12 +1076,14 @@ export const data = [
                {
                   Link:"https://www.instagram.com/carlitosvargasm/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
+                  Nick:"carlitosvargasm",
                }
             ],
             face:[
                {
                   Link:"https://www.tiktok.com/@carlitosvargasm?lang=es",
                   img:"/assets/icons/.png",
+                  Nick:"carlitosvargasm",
                }
             ],
             Twitter:[
@@ -1019,6 +1103,7 @@ export const data = [
    {
       Nombre:"Josse",
       Apellido:"Narváez",
+      ID:"#$29",
       Icon:"/assets/icons/Famosos/J_Narvaez_Icon.png",
       Profesion:"Actor, cantante, presentador, modelo.",
       Exp:"",
@@ -1029,12 +1114,14 @@ export const data = [
                {
                   Link:"https://www.instagram.com/jossenarvaezm/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
+                  Nick:"jossenarvaezm",
                }
             ],
             face:[
                {
                   Link:"https://www.tiktok.com/@jossenarvaezm?lang=es",
                   img:"/assets/icons/.png",
+                  Nick:"jossenarvaezm",
                }
             ],
             Twitter:[
@@ -1054,6 +1141,7 @@ export const data = [
    {
       Nombre:"Rafael",
       Apellido:"Novoa",
+      ID:"#$30",
       Icon:"/assets/icons/Famosos/R_Novoa_Icon.png",
       Profesion:"Actor, Presentador, Modelo.",
       Exp:"",
@@ -1064,12 +1152,14 @@ export const data = [
                {
                   Link:"https://www.instagram.com/novoarafael/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
+                  Nick:"novoarafael",
                }
             ],
             face:[
                {
                   Link:"",
                   img:"",
+                  Nick:"",
                }
             ],
             Twitter:[
@@ -1089,6 +1179,7 @@ export const data = [
    {
       Nombre:"Sebastián",
       Apellido:"Martínez",
+      ID:"#$31",
       Icon:"/assets/icons/Famosos/S_Martinez_Icon.png",
       Profesion:"Actor, Presentador, Modelo.",
       Exp:"Fragancias Avon, Chevrolet, MNGcol.",
@@ -1099,12 +1190,14 @@ export const data = [
                {
                   Link:"https://www.instagram.com/sebastianmartinezn/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
+                  Nick:"sebastianmartinezn",
                }
             ],
             face:[
                {
                   Link:"https://www.tiktok.com/@sebillasboy1?lang=es",
                   img:"/assets/icons/.png",
+                  Nick:"sebillasboy1",
                }
             ],
             Twitter:[
@@ -1124,6 +1217,7 @@ export const data = [
    {
       Nombre:"Mario Alberto",
       Apellido:"Yepes",
+      ID:"#$32",
       Icon:"/assets/icons/Famosos/M_Yepes_Icon.png",
       Profesion:"Exfutbolista, excapitán de la Selección Colombia y entrenador de fútbol. ",
       Exp:"",
@@ -1134,19 +1228,21 @@ export const data = [
                {
                   Link:"https://www.instagram.com/marioayepes/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
+                  Nick:"marioyepes",
                }
             ],
             face:[
                {
                   Link:"",
                   img:"",
+                  Nick:"",
                }
             ],
             Twitter:[
                {
                   Link:"https://twitter.com/MarioAYepes",
                   img:"/assets/icons/Twitter_Pink.png",
-                  Nick:"MArioAYepes",
+                  Nick:"MarioAYepes",
                }
             ]
          }
@@ -1159,6 +1255,7 @@ export const data = [
    {
       Nombre:"Falcao",
       Apellido:"",
+      ID:"#$33",
       Icon:"/assets/icons/Famosos/Falcao_Icon.png",
       Profesion:"Deportista.",
       Exp:"",
@@ -1169,12 +1266,14 @@ export const data = [
                {
                   Link:"https://www.instagram.com/falcao/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
+                  Nick:"falcao",
                }
             ],
             face:[
                {
                   Link:"",
                   img:"",
+                  Nick:"",
                }
             ],
             Twitter:[
@@ -1195,6 +1294,7 @@ export const data = [
    {
       Nombre:"Santiago",
       Apellido:"Arias",
+      ID:"#$34",
       Icon:"/assets/icons/Famosos/S_Arias_Icon.png",
       Profesion:"Deportista, Influencer.",
       Exp:"",
@@ -1205,12 +1305,14 @@ export const data = [
                {
                   Link:"https://www.instagram.com/santiagoarias13/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
+                  Nick:"santiagoarias13",
                }
             ],
             face:[
                {
                   Link:"",
                   img:"",
+                  Nick:"",
                }
             ],
             Twitter:[
@@ -1230,6 +1332,7 @@ export const data = [
    {
       Nombre:"Karin",
       Apellido:"Jiménez",
+      ID:"#$35",
       Icon:"/assets/icons/Famosos/K_Jimenez_Icon.png",
       Profesion:"Modelo, Influencer.",
       Exp:"",
@@ -1240,12 +1343,14 @@ export const data = [
                {
                   Link:"https://www.instagram.com/karinjimenez91/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
+                  Nick:"karinjimenez91",
                }
             ],
             face:[
                {
                   Link:"",
                   img:"",
+                  Nick:"",
                }
             ],
             Twitter:[
@@ -1263,7 +1368,9 @@ export const data = [
       ]
    },
    {
-      Nombre:"Yuri Buenaventura",
+      Nombre:"Yuri",
+      Apellido:"Buenaventura",
+      ID:"#$36",
       Icon:"/assets/icons/Famosos/Y_Buenaventura_Icon.png",
       Profesion:"Cantante",
       Exp:"",
@@ -1274,12 +1381,14 @@ export const data = [
                {
                   Link:"https://www.instagram.com/yuri_buenaventura/?hl=es-la",
                   img:"/assets/icons/Insta_Pink.png",
+                  Nick:"yuri_buenaventura",
                }
             ],
             face:[
                {
                   Link:"",
                   img:"",
+                  Nick:"",
                }
             ],
             Twitter:[
