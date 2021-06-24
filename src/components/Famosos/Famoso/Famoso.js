@@ -11,6 +11,7 @@ function Famoso(props){
    let id = props.location.state.param1;
    return(
       <React.Fragment>
+         
          <FamosoWeb id={id}/>
          <FamosoMov id={id}/>
       </React.Fragment>

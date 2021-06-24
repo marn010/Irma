@@ -3,6 +3,9 @@
 }
 
 @media(min-width:769px){
+   .FamousMainMov{
+      display: none;
+   }
    .FamousMainBox{
       position: relative;
       display: flex;
@@ -39,38 +42,48 @@
    }
 }
 @media(max-width:768px){
+   .FamousMainWeb{
+      display: none;
+   }
+   .FamousMainMov{
+      display: block;
+      width: 95%;
+      margin: 0% auto;
+   }
    .FamousMainBox{
       position: relative;
       display: flex;
       /* height: 79.8vh; */
       align-items: center;
       padding: 5% 0% 5% 0%;
-
+      margin: 20% auto 20%;
    }
    .FamousPics{
       display: block;
-      width: 80%;
+      width: 100%;
       margin: 0% auto;
+   }
+   .ProductBox{
+      display: block;
+      width: 100%;
+      margin: 10% auto 10% auto;  
    }
    .FamousName{
       writing-mode: vertical-lr;
       transform: rotate(180deg);
       color: #E9817C;
       margin: 0% 2% 0% 0%;
-      font-size: 24px;
+      font-size: 15px;
    }
-   .ProductBox{
-      display: block;
-      width: 80%;
-      margin: 0% auto 0% auto;  
-   }
+   
    .FamousMainPic{
+      display: inline-block !important;
       width: 80%;
       vertical-align: bottom !important;
    }
    .VerMas{
-      position: absolute;
-      right: 15.5%;
-      bottom: 20px;
+      position: relative;
+      left: 63%;
+      bottom: 23px;
    }
 }
