@@ -7,3 +7,18 @@
 .input{
    margin: 0% 5% 5% 5%;
 }
+.input input{
+   border-width: 1px;
+   border-color: #E9817C;
+   border-radius: 10px !important;
+}
+.mainLogBox button{
+   border-width: 1px;
+   border-color: #E9817C;
+   border-radius: 15px;
+   color: white;
+   background-color: #E9817C;
+}
+.logTitle{
+   margin: 0% 0% 0% 0%;
+}

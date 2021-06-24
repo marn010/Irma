@@ -60,7 +60,7 @@ const Navigation = () => {
                   <NavItem>
                      <NavLink
                         className="nav-link"
-                        to="AboutMe"
+                        to="AboutMe" 
                         target=""
                         onClick={closeNavbar}>
                            IRMA

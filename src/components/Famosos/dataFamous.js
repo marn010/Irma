@@ -6,7 +6,7 @@ export const data = [
    },
    {
       Nombre:"Adriana Arboleda",
-      Foto:"/assets/img/Famosos/Adriana_Arboleda.png",
+      Foto:"/assets/img/Famosos/Adriana_Arboleda.jpeg",
       ID:"1",
    },
    {
@@ -31,12 +31,12 @@ export const data = [
    },
    {
       Nombre:"Alexandra Santos",
-      Foto:"/assets/img/Famosos/Alexandra_Santos.png",
+      Foto:"/assets/img/Famosos/Alexandra_Santos.jpg",
       ID:"6",
    },
    {
       Nombre:"Ángela Cardozo",
-      Foto:"/assets/img/Famosos/Angela_Cardozo.png",
+      Foto:"/assets/img/Famosos/Angela_Cardozo.jpg",
       ID:"7",
    },
    {
@@ -76,7 +76,7 @@ export const data = [
    },
    {
       Nombre:"Fanny Lu",
-      Foto:"/assets/img/Famosos/Fanny_Lu.png",
+      Foto:"/assets/img/Famosos/Fanny_Lu.jpg",
       ID:"15",
    },
    {
@@ -96,7 +96,7 @@ export const data = [
    },
    {
       Nombre:"Laura Londoño",
-      Foto:"/assets/img/Famosos/Laura_Londono.png",
+      Foto:"/assets/img/Famosos/Laura_Londono.jpg",
       ID:"19",
    },
    {
@@ -106,12 +106,12 @@ export const data = [
    },
    {
       Nombre:"María José Barraza",
-      Foto:"/assets/img/Famosos/Maria_Jose_Barraza.png",
+      Foto:"/assets/img/Famosos/Maria_Jose_Barraza.jpg",
       ID:"21",
    },
    {
       Nombre:"María Lucía Fernández",
-      Foto:"/assets/img/Famosos/Maria_Lucia_Fernandez.png",
+      Foto:"/assets/img/Famosos/Maria_Lucia_Fernandez.jpg",
       ID:"22",
    },
    {
@@ -136,7 +136,7 @@ export const data = [
    },
    {
       Nombre:"Yaneth Waldman",
-      Foto:"/assets/img/Famosos/Yaneth_Waldman.png",
+      Foto:"/assets/img/Famosos/Yaneth_Waldman.jpg",
       ID:"27",
    },
    {
@@ -151,7 +151,7 @@ export const data = [
    },
    {
       Nombre:"Rafael Novoa",
-      Foto:"/assets/img/Famosos/Rafael_Novoa.png",
+      Foto:"/assets/img/Famosos/Rafael_Novoa.jpg",
       ID:"30",
    },
    {
@@ -161,27 +161,27 @@ export const data = [
    },
    {
       Nombre:"Mario Alberto Yepes",
-      Foto:"/assets/img/Famosos/Mario_Alberto_Yepes.png",
+      Foto:"/assets/img/Famosos/Mario_Alberto_Yepes.jpg",
       ID:"32",
    },
    {
       Nombre:"Falcao",
-      Foto:"/assets/img/Famosos/Falcao.png",
+      Foto:"/assets/img/Famosos/Falcao.jpg",
       ID:"33",
    },
    {
       Nombre:"Santiago Arias",
-      Foto:"/assets/img/Famosos/Santiago_Arias.png",
+      Foto:"/assets/img/Famosos/Santiago_Arias.jpg",
       ID:"34",
    },
    {
       Nombre:"Karin Jiménez",
-      Foto:"/assets/img/Famosos/Karim_Jimenez.png",
+      Foto:"/assets/img/Famosos/Karin_Jimenez.png",
       ID:"35",
    },
    {
       Nombre:"Yuri Buenaventura",
-      Foto:"/assets/img/Famosos/Yuri_Buenaventura.png",
+      Foto:"/assets/img/Famosos/Yuri_Buenaventura.jpg",
       ID:"36",
    },
 ]

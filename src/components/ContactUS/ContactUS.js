@@ -21,7 +21,7 @@ export default function ContactUS(props){
    useEffect(() => {
       /*http://localhost/ */
       /*/api/ */
-      axios.post('/api/',{
+      axios.post('http://localhost/',{
          nick: param3,
       }).then(res=>{
          console.log(res.data.twitter.name)
@@ -33,7 +33,7 @@ export default function ContactUS(props){
       }).catch(err=>{
          console.error(err)
       })
-   },[])
+   },[param3])
    if(!token){
       return(
          <Forms param1={param1} param2={param2} ID={ID}/>

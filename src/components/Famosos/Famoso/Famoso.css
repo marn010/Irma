@@ -26,6 +26,9 @@
       align-items: center;
       justify-content: center;
    }
+   .FamosoMovBox{
+      display: none;
+   }
    .FamosoPics{
       display: block;
       width: 45%;
@@ -40,9 +43,11 @@
       justify-content: center;
       align-items: center;
    }
-   .FamousMainPics{
-      display: block;
-      padding: 5% 0%;
+   .FamousMainPic{
+      filter: grayscale(100%);
+   }
+   .FamousMainPic:hover{
+      filter: none;
    }
    .FamousPic{
       display: block;
@@ -83,5 +88,51 @@
 
 }
 @media(max-width:768px){
+   .FamosoWebBox{
+      display: none;
+   }
+   .FamosoMovBox{
+      display: block;
+      width: 90%;
+      margin: 0% auto;
+   }
+   .FamosoMainBox{
+      display: block;
+      /* height: 80vh; */
+      padding: 0% 0% 0% 0%;
+   }
+   .FamosoText{
+      display: block;
+      /* margin: 0% auto; */
+      padding: 5% 0%;
+   }
+   .FamosoTitle{
+      position: relative;
+      font-size: 28px;
+      width: 100%;
+   }
+   .MainIcon{
+      position: absolute;
+      top: -25%;
+      right: 5%;
+   }
+   .FamosoPics{
+      display: block;
+      width: 100%;
+   }
+   .FamousPic{
+      display: block;
+      margin: 0% auto 0% auto;
+      /* padding: 10% 0% 10% 0%; */
+      width: 90%;
+   }
 
+   .MoreInfoBox{
+      display: block;
+      width: 80%;
+      margin: 1% auto 0% auto;
+      border: solid 2px #E9817C;
+      border-radius: 20px;
+      text-align: center;
+   }
 }

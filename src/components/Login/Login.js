@@ -164,13 +164,14 @@ export default function Login({setToken,handleCloseModal}){
          <form onSubmit={handleSubmit}>
             <div className="input">
                <label className="">
-                  <p>Ingresa el codigo</p>
+                  <p className="logTitle Rosa">Ingresa el codigo</p>
                   <input type="password" onChange={e => setPassword(e.target.value)} />
+                  <p className="logTitle Rosa">Ingresa el ID suministrado</p>
                   <input type="text" onChange={e => setId(e.target.value)} />
                </label>
             </div>
             <div>
-               <button className="" type="submit" >Ingresar</button>
+               <button className="Rosa" type="submit" >Acceder</button>
             </div>
          </form>
       </div>

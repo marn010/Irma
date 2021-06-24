@@ -35,8 +35,8 @@ export const data = [
       Fotos:[
          "/assets/img/Famosos/A_Serna01.png",
          "/assets/img/Famosos/A_Serna02.png",
-         "/assets/img/Famosos/A_Serna01.png",
-         "/assets/img/Famosos/A_Serna02.png",
+         "/assets/img/Famosos/A_Serna03.png",
+         
       ]
    },
    {
@@ -75,6 +75,7 @@ export const data = [
       Fotos:[
          "/assets/img/Famosos/A_Arboleda01.png",
          "/assets/img/Famosos/A_Arboleda02.png",
+         "/assets/img/Famosos/A_Arboleda03.jpeg",
       ]
    },
    {
@@ -113,6 +114,8 @@ export const data = [
       Fotos:[
          "/assets/img/Famosos/A_Tarud01.png",
          "/assets/img/Famosos/A_Tarud02.png",
+         "/assets/img/Famosos/A_Tarud03.png",
+
       ]
    },
    {
