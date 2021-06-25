@@ -10,3 +10,15 @@
       margin: 0% 1%;
    }
 }
+@media(max-width:768px){
+   .SocialBox{
+      display: block;
+      position: relative;
+      width: 25%;
+      margin: 1% auto;
+      text-align: center;
+   }
+   .socialIcon{
+      margin: 0% 5% 8% 5%;
+   }
+}

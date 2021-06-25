@@ -42,7 +42,7 @@ function FamosoMov(props){
                      {data[id].Exp}
                   </span>
                </div>
-               <div>
+               <div className="famousText">
                   <p>
                      {data[id].Texto}
                   </p>

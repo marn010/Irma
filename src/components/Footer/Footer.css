@@ -12,3 +12,10 @@
 .CopyRight p{
    margin: 0% 0% 0.0% 0%;
 }
+@media(max-width:768px){
+   .CopyRight{
+      color: white;
+      background-color: #E9817C;
+      padding: 1% 0% 2% 0%;
+   }  
+}
