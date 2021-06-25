@@ -147,12 +147,8 @@ export default function Login({setToken,handleCloseModal}){
       handleCloseModal();
       if(hash===pass){
          setToken(pass)
-         alert("codigo aceptado");
+         /* alert("codigo aceptado"); */
          handleID(Id);
-         /* history.push({
-            pathname: '/ContactUS',
-            state: {ID:Idd,param1:param1,param2:param2,param3:param3}
-          }) */
          history.push('/ContactUS',{ID:Idd,param1:param1,param2:param2,param3:param3});
       }else{
          alert("El código ingresado no corresponde con nuestra base de datos.")

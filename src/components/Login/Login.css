@@ -1,24 +1,53 @@
-.mainLogBox{
-   display: block;
-   width: 50%;
-   margin: 0% auto;
-   text-align: center;
+@media(min-width:769px){
+   .mainLogBox{
+      display: block;
+      width: 50%;
+      margin: 0% auto;
+      text-align: center;
+   }
+   .input{
+      margin: 0% 5% 5% 5%;
+   }
+   .input input{
+      border-width: 1px;
+      border-color: #E9817C;
+      border-radius: 10px !important;
+   }
+   .mainLogBox button{
+      border-width: 1px;
+      border-color: #E9817C;
+      border-radius: 15px;
+      color: white;
+      background-color: #E9817C;
+   }
+   .logTitle{
+      margin: 0% 0% 0% 0%;
+   }
 }
-.input{
-   margin: 0% 5% 5% 5%;
-}
-.input input{
-   border-width: 1px;
-   border-color: #E9817C;
-   border-radius: 10px !important;
-}
-.mainLogBox button{
-   border-width: 1px;
-   border-color: #E9817C;
-   border-radius: 15px;
-   color: white;
-   background-color: #E9817C;
-}
-.logTitle{
-   margin: 0% 0% 0% 0%;
+@media(max-width:768px){
+   .mainLogBox{
+      display: block;
+      width: 100%;
+      margin: 0% auto;
+      text-align: center;
+   }
+   .input{
+      margin: 0% 5% 5% 5%;
+   }
+   .input input{
+      width: 90%;
+      border-width: 1px;
+      border-color: #E9817C;
+      border-radius: 10px !important;
+   }
+   .mainLogBox button{
+      border-width: 1px;
+      border-color: #E9817C;
+      border-radius: 15px;
+      color: white;
+      background-color: #E9817C;
+   }
+   .logTitle{
+      margin: 0% 0% 0% 0%;
+   }
 }

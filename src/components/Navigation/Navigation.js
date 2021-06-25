@@ -4,6 +4,7 @@ import { Form, Input } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 import Login from '../Login/Login';
 import Modal from 'react-modal';
+import { Link } from 'react-router-dom';
 
 import './Navigation.css'
 import GlobalState from '../../globalState';
@@ -65,6 +66,18 @@ const Navigation = () => {
                         onClick={closeNavbar}>
                            IRMA
                      </NavLink>
+                  </NavItem>
+                  <NavItem>
+                     <Link className="nav-link" onClick={closeNavbar} to={{
+                        pathname:"/ContactUS",
+                        state: {
+                           param1: "",
+                           param2: "",
+                           param3: "",
+                        },
+                     }}>
+                        Contacto
+                     </Link>
                   </NavItem>
                </Nav>
             </Collapse>

@@ -46,6 +46,18 @@
 	.searchBar{
 		display: none;
 	}
+	.navbar-nav{
+		width: 200px;
+		background-color: #E9817C;
+	}
+	.nav-link{
+		color: rgba(255,255,255,0.5) !important;
+		text-align: center;
+		border-bottom: solid 1px white;
+	}
+	.nav-link.active{
+		color: rgba(255,255,255,1.0) !important;
+	}
 }
 @media(min-width:769px){
 	.navbar{
@@ -66,7 +78,6 @@
 	}
 	.nav-link.active{
 		color: rgba(255,255,255,1.0) !important;
-
 	}
 	.navbar-dark {
 		background-color: white;
