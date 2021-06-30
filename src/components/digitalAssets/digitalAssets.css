@@ -31,5 +31,46 @@
      display: block;
      width: 33%;
      margin: 0% auto 0% auto;
+ }
+ .Nombre{
+     display: block;
  }   
+}
+@media(max-width:768px){
+    .MainBox{
+        display: block;
+        width: 100%;
+        margin: 0% auto 0% auto;
+        text-align: center;
+        color: #e9817c;
+    }
+    .MainBox p{
+        color: black;
+    }
+    .MainBox span{
+        color: #e9817c;
+    }
+    .socialBox{
+        display: flex;
+        width: 100%;
+        margin: 0% auto 0% auto;
+    }
+    .twitterBox{
+        display: block;
+        width: 33%;
+        margin: 0% auto 0% auto;
+    }
+    .instaBox{
+        display: block;
+        width: 33%;
+        margin: 0% auto 0% auto;
+    }
+    .faceBox{
+        display: block;
+        width: 33%;
+        margin: 0% auto 0% auto;
+    }
+    .Nombre{
+        display: block;
+    }   
 }

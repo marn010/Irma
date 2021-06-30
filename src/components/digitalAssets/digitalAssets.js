@@ -11,12 +11,15 @@ export default function DigitalAssets(props){
     let fNick = props.fNick;
     let nick = props.nick;
     let ID = props.ID;
+    let Nombre = props.param1;
+    let Apellido = props.param2;
     return(
         <React.Fragment>
            <div className="MainBox">
                <h1>
-                   Activos Digitales {ID}
+                   Activos Digitales 
                </h1>
+               <span className="Nombre">{Nombre} {Apellido}</span>
                 <div className="socialBox">
                     {nick && <Twitter fName={fName} fFollowers={fFollowers} fNick={fNick} />}
                     <div className="instaBox">

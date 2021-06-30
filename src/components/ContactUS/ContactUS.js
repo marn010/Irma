@@ -21,7 +21,7 @@ export default function ContactUS(props){
    useEffect(() => {
       /*http://localhost/ */
       /*/api/ */
-      axios.post('/api/',{
+      axios.post('http://localhost/',{
          nick: param3,
       }).then(res=>{
          console.log(res.data.twitter.name)
@@ -41,7 +41,7 @@ export default function ContactUS(props){
    }
    return(
       <React.Fragment>
-         <DigitalAssets fName={fName} fFollowers={fFollowers} fNick={fNick} nick={param3}  ID={ID} />
+         <DigitalAssets fName={fName} fFollowers={fFollowers} fNick={fNick} nick={param3}  ID={ID} param1={param1} param2={param2} />
       </React.Fragment>
    );
 }
