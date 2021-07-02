@@ -7,6 +7,13 @@
 @media(min-width:769px){
    .IrmaForm Label{
       font-size: 23px;
+      text-align: center;
+   }
+   .IrmaForm{
+      display: block;
+      text-align: center;
+      max-width: 560px;
+      margin: 0% auto;
    }
    .formMainBox{
       display: flex;
@@ -47,9 +54,6 @@
       position: absolute;
       right: 5%;
       bottom: 5%;
-   }
-   .IrmaForm Label{
-      text-align: center;
    }
    .form-group{
       display: block;
