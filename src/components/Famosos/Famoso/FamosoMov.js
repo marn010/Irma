@@ -11,7 +11,7 @@ import { data } from './dataFamoso';
 
 function FamosoMov(props){
    const settings = {
-      arrows:false,
+      arrows:true,
       dots: false,
       infinite: true,
       speed: 500,

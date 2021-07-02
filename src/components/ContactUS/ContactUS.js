@@ -21,7 +21,7 @@ export default function ContactUS(props){
    useEffect(() => {
       /*http://localhost/ */
       /*/api/ */
-      axios.post('http://localhost/',{
+      axios.post('/api/',{
          nick: param3,
       }).then(res=>{
          console.log(res.data.twitter.name)

@@ -14,7 +14,7 @@ const FamososMov = (props) => {
 
    const {state: globalState} = useContext(GlobalState);
    const settings = {
-      arrows:false,
+      arrows:true,
       infinite: true,
       slidesToShow: 1,
       initialSlide: 0,
