@@ -48,6 +48,14 @@
       right: 5%;
       bottom: 5%;
    }
+   .IrmaForm Label{
+      text-align: center;
+   }
+   .form-group{
+      display: block;
+      width: 75%;
+      margin: 0% auto;
+   }
    .formBox{
       display: block;
       width: 45%;
