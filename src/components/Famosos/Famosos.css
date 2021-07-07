@@ -55,8 +55,8 @@
       display: flex;
       /* height: 79.8vh; */
       align-items: center;
-      padding: 5% 0% 5% 0%;
-      margin: 00% auto 20%;
+      padding: 0% 0% 0% 0%;
+      margin: 0% auto 0%;
    }
    .FamousPics{
       display: block;
@@ -66,7 +66,7 @@
    .ProductBox{
       display: block;
       width: 100%;
-      margin: 10% auto 10% auto;  
+      margin: 10% auto 0% auto;  
    }
    .FamousName{
       writing-mode: vertical-lr;
@@ -85,5 +85,11 @@
       position: relative;
       left: 63%;
       bottom: 23px;
+   }
+   .slide{
+      display: block;
+      width: auto;
+      margin: 0% auto;
+      text-align: center;
    }
 }
