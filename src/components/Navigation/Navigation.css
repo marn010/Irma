@@ -44,8 +44,10 @@
 		border: solid 1px #E9817C !important;
 	}
 	.navbarIrma{
-		width: 50%;
-		margin: 0% 0% 0% 3% ;
+		display: block;
+		width: 40%;
+		margin: 0% 0% 0% 0% ;
+		align-items: center;
 	}
 	.formTitle{
 		margin: 5% 0% 0% 25%;

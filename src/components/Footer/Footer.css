@@ -1,8 +1,9 @@
 .FooterMainBox{
-   position: absolute;
+   position: fixed;
    width: 100%;
    bottom: 0%;
    text-align: center;
+   margin: 1% 0% 0% 0%;
 }
 .CopyRight{
    color: white;
