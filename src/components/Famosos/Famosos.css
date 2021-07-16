@@ -56,7 +56,7 @@
    .FamousMainBox{
       position: relative;
       display: block;
-      /* height: 79.8vh; */
+      height: 72.8vh;
       align-items: center;
       padding: 0% 0% 0% 0%;
       margin: 0% auto 0%;
@@ -64,7 +64,7 @@
    .FamousPics{
       display: block;
       width: 100%;
-      margin: 0% auto;
+      margin: 10% auto 5% auto;
    }
    .ProductBox{
       display: block;
