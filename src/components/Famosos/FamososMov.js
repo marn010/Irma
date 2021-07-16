@@ -21,7 +21,7 @@ const FamososMov = (props) => {
       speed: 500,
       rows: 1,
       slidesPerRow: 1,
-    };
+   };
    
    return(
       <div className="FamousMainMov">
@@ -41,6 +41,7 @@ const FamososMov = (props) => {
                      }
                </Slider>
             </div>
+            <img className="slide" src="/assets/icons/slide.png" alt="desliza" />
          </div>
       </div>
    );

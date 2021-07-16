@@ -122,9 +122,11 @@ export default class Forms extends Component{
                      <FormGroup>
                         <Input className="form" type="textarea" rows="2" name="message" id="message" placeholder="¿En qué podemos ayudarlo?*" required onChange={this.handleMessage}/>
                      </FormGroup>
-                     <FormGroup>
-                        <Input className="form" type="checkbox" name="Terms" id="Terms" required onChange={this.handleAggree}/>{' '}
-                        En cumplimiento de las disposiciones de la Ley 1581 de 2012 y del Decreto reglamentario 1377 de 2013 que desarrollan el derecho de habeas data, solicitamos su autorización para que la XXX en calidad de Responsable del Tratamiento pueda recopilar, almacenar, archivar, copiar, analizar, usar y consultar los datos que se señalan a continuación.
+                     <FormGroup className="legalBox">
+                        <Input className="form legalcheck" type="checkbox" name="Terms" id="Terms" required onChange={this.handleAggree}/>{' '}
+                        <span className="legalForm">
+                        En cumplimiento de las disposiciones de la Ley 1581 de 2012 y del Decreto reglamentario 1377 de 2013 que desarrollan el derecho de habeas data, solicitamos su autorización para que <i>IRMA manager</i> en calidad de Responsable del Tratamiento pueda recopilar, almacenar, archivar, copiar, analizar, usar y consultar los datos que se señalan a continuación.
+                        </span>
                      </FormGroup>
                      <FormGroup>
                         <Button type="submit" disabled={FormAvaible}  className="submitBTN" >

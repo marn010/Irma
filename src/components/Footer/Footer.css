@@ -1,5 +1,4 @@
 .FooterMainBox{
-   position: fixed;
    width: 100%;
    bottom: 0%;
    text-align: center;
@@ -18,5 +17,13 @@
       color: white;
       background-color: #E9817C;
       padding: 1% 0% 2% 0%;
+   }
+   .FooterMainBox{
+      position: fixed;
    }  
+}
+@media(min-width:769px){
+   .FooterMainBox{
+      position: fixed;
+   }
 }

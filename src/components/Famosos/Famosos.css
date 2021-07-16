@@ -68,8 +68,9 @@
    }
    .ProductBox{
       display: block;
-      width: 100%;
-      margin: 15% auto 0% auto;  
+      width: 95%;
+      margin: 5% auto 0% auto;
+      text-align: center;  
    }
    .FamousName{
       writing-mode: vertical-lr;
@@ -81,7 +82,7 @@
    
    .FamousMainPic{
       display: inline-block !important;
-      width: 80%;
+      width: 75%;
       vertical-align: bottom !important;
    }
    .VerMas{
@@ -93,7 +94,7 @@
       position: relative;
       display: block;
       width: auto;
-      margin: 0% auto;
+      margin: 5% auto 5% auto;
       text-align: center;
    }
 }

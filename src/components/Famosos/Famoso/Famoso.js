@@ -6,7 +6,7 @@ import './Famoso.css';
 
 import FamosoWeb from './FamosoWeb';
 import FamosoMov from './FamosoMov';
-
+import Social from '../../Social/Social';
 function Famoso(props){
    let id = props.location.state.param1;
    return(
@@ -14,6 +14,7 @@ function Famoso(props){
          
          <FamosoWeb id={id}/>
          <FamosoMov id={id}/>
+         <Social/>
       </React.Fragment>
    );
    }

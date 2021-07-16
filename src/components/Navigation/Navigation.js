@@ -44,7 +44,7 @@ const Navigation = () => {
       <div className="MainNavbar " >
          <Navbar color="faded" light>
             <NavbarToggler onClick={toggleNav} className="mr-2"/>
-            <NavbarBrand href="/" className="mr-auto" style={{textAlign:"left"}}>
+            <NavbarBrand href="/" className="mr-auto">
                <img src="/assets/img/Irma/IrmaSigning.png" alt="" className="navbarIrma" />
             </NavbarBrand>
             <Collapse isOpen={isNavOpen} navbar>

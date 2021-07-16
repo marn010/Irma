@@ -28,7 +28,7 @@ function FamosoWeb(props){
       <div className="FamosoWebBox">
          <div className="FamosoMainBox">
             <div className="FamosoPics">
-             <Slider {...settings}>
+            <Slider {...settings}>
                   {
                      data[id].Fotos.map(() =>{
                         idx=idx+1;

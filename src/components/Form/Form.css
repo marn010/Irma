@@ -83,10 +83,23 @@
    .submitBTN:disabled{
       background-color: #6C757D !important;
    }
+   .legalBox{
+      width: 100%;
+      line-height: 1.5;
+   }
+   .legalcheck{
+      font-size: 0.8rem;
+      margin: 1.4% 0% 0% 0% !important;
+   }
+   .legalForm{
+      font-size: 0.8rem;
+      line-height: 0.5;
+      margin: 0% 0% 0% 0%;
+   }
 }
 @media(max-width:768px){
    .IrmaForm Label{
-      font-size: 23px;
+      font-size: 1.2rem;
    }
    .formMainBox{
       display: flex;
@@ -156,5 +169,15 @@
    }
    .submitBTN:disabled{
       background-color: #6C757D !important;
+   }
+   .legalBox{
+      line-height: 1.35;
+   }
+   .legalcheck{
+      font-size: 0.8rem;
+   }
+   .legalForm{
+      font-size: 0.8rem;
+      line-height: 0.5;
    }
 }

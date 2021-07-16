@@ -10,7 +10,7 @@ export default function DigitalAssets(props){
     let fFollowers = Intl.NumberFormat("es-ES").format(props.fFollowers);
     let fNick = props.fNick;
     let nick = props.nick;
-    let ID = props.ID;
+    /* let ID = props.ID; */
     let Nombre = props.param1;
     let Apellido = props.param2;
     return(

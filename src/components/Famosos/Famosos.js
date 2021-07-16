@@ -5,6 +5,7 @@ import './Famosos.css'
 
 import FamososWeb from './FamososWeb';
 import FamososMov from './FamososMov';
+import Social from '../Social/Social';
 
 const Famosos = (props) => {
 
@@ -12,6 +13,7 @@ const Famosos = (props) => {
       <div>
          <FamososWeb/>
          <FamososMov/>
+         <Social/>
       </div>
    );
 }

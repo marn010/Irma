@@ -9,7 +9,7 @@ export default class HomeWeb extends Component{
       return(
          <React.Fragment>
             <Famosos/>
-            <img className="slide" src="/assets/icons/slide.png" alt="desliza" />
+            
          </React.Fragment>
       );
    }

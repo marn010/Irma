@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 
 import './Social.css';
 
-export default class Social extends Component{
-   render(){
-      return(
+export default class Social extends Component {
+   render() {
+      return (
          <React.Fragment>
             <div className="SocialBox">
                <a href="https://www.instagram.com/irma.manager/" target="blank">
@@ -16,7 +16,7 @@ export default class Social extends Component{
                <a href="https://wa.link/mhskvm" target="blank">
                   <img className="socialIcon" src="/assets/icons/WP_Pink.png" alt="WhatsApp" />
                </a>
-               
+
             </div>
          </React.Fragment>
       );
