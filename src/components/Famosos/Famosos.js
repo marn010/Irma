@@ -10,7 +10,7 @@ import Social from '../Social/Social';
 const Famosos = (props) => {
 
    return(
-      <div>
+      <div ID="Famous">
          <FamososWeb/>
          <FamososMov/>
          <Social/>

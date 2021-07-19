@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Social from '../Social/Social';
+
 
 import './Footer.css';
 

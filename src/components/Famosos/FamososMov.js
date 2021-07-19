@@ -25,7 +25,7 @@ const FamososMov = (props) => {
    
    return(
       <div className="FamousMainMov">
-         <div className="FamousMainBox" id="Famous">
+         <div className="FamousMainBox">
             <div className="FamousPics">
                <Slider {...settings}>
                      {  

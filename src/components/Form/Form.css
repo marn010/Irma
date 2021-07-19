@@ -62,7 +62,7 @@
    }
    .formBox{
       display: block;
-      width: 45%;
+      width: 50%;
       margin: 0% auto 0% auto;
       padding: 0% 2% 0% 2%;
    }
@@ -163,7 +163,7 @@
    .submitBTN{
       display: block !important;
       width: 80%;
-      margin: 0% auto 0% auto;
+      margin: 5% auto 5% auto;
       background-color: #E9817C !important;
       color: white !important;
    }

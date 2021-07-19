@@ -30,7 +30,7 @@ const FamososWeb = (props) => {
    };
    return(
       <div className="FamousMainWeb">
-         <div className=" FamousMainBox" id="Famous">
+         <div className="FamousMainBox" >
             <div className="FamousPics">
                <Carousel 
                   autoPlay={false}

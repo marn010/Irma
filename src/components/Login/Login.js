@@ -5,43 +5,43 @@ import { data } from '../Famosos/Famoso/dataFamoso';
 
 import './Login.css';
 
-export default function Login({setToken,handleCloseModal}){
+export default function Login({ setToken, handleCloseModal }) {
    let Idd;
    let param1;
    let param2;
    let param3;
    let idx;
-   function handleID(Id){
-      let ID=(Id+'').slice(-2)
-      idx= parseInt(ID) ;
-      param1=data[idx].Nombre;
-      param2= data[idx].Apellido;
-      param3= data[idx].Redes[0].Twitter[0].Nick;
-      return (param1,param2,param3,Idd)
-  }
-   const [password,setPassword] = useState();
-   const [Id,setId] = useState();
+   function handleID(Id) {
+      let ID = (Id + '').slice(-2)
+      idx = parseInt(ID);
+      param1 = data[idx].Nombre;
+      param2 = data[idx].Apellido;
+      param3 = data[idx].Redes[0].Twitter[0].Nick;
+      return (param1, param2, param3, Idd)
+   }
+   const [password, setPassword] = useState();
+   const [Id, setId] = useState();
    /* const {token: globalToken} = useContext(GlobalState); */
    let history = useHistory();
-   const pass= 'r3yIDGF4x9qEnFUheBa69M3zfY9v1cMuaTqycscZbvk=';
+   const pass = 'r3yIDGF4x9qEnFUheBa69M3zfY9v1cMuaTqycscZbvk=';
    var crypto = require('crypto');
-   const handleSubmit = async e=> {
+   const handleSubmit = async e => {
       e.preventDefault();
       const hash = crypto.createHash('sha256').update(password).digest('base64');
       /* alert("La clave ingresada fue: " + password); */
       /* alert("El Hash producido es: " + hash); */
       handleCloseModal();
-      if(hash===pass){
+      if (hash === pass) {
          setToken(pass)
          /* alert("codigo aceptado"); */
          handleID(Id);
-         history.push('/ContactUS',{ID:Idd,param1:param1,param2:param2,param3:param3});
-      }else{
+         history.push('/ContactUS', { ID: Idd, param1: param1, param2: param2, param3: param3 });
+      } else {
          alert("El código ingresado no corresponde con nuestra base de datos.")
       }
    }
 
-   return(
+   return (
       <div className="mainLogBox">
          <form onSubmit={handleSubmit}>
             <div className="input">
