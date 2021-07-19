@@ -30,30 +30,8 @@
       max-width: 480px;
       max-height: 527px;
    }
-   .Foto1{
+   .Foto{
       position: relative;
-   }
-   .Foto2{
-      position: absolute;
-      top: 26.1875px;
-      right: 23.875px;
-   }
-   .Foto3{
-      position: absolute;
-      top: 46%;
-      right: 5%;
-   }
-   .Foto4{
-      position: relative;
-      
-   }
-   .Foto5{
-      position: relative;
-   }
-   .Foto6{
-      position: absolute;
-      right: 5%;
-      bottom: 5%;
    }
    .form-group{
       display: block;
@@ -116,35 +94,8 @@
       max-width: 480px;
       max-height: 527px;
    }
-   .Foto1{
+   .Foto{
       position: relative;
-      display: none;
-   }
-   .Foto2{
-      position: absolute;
-      top: 26.1875px;
-      right: 23.875px;
-      display: none;
-   }
-   .Foto3{
-      position: absolute;
-      top: 46%;
-      right: 5%;
-      display: none;
-   }
-   .Foto4{
-      position: relative;
-      display: none;
-      
-   }
-   .Foto5{
-      position: relative;
-      display: none;
-   }
-   .Foto6{
-      position: absolute;
-      right: 5%;
-      bottom: 5%;
       display: none;
    }
    .formBox{
