@@ -8,14 +8,37 @@ import './Famoso.css';
 
 import { data } from './dataFamoso';
 
+function SampleNextArrow(props) {
+   const { className, style, onClick } = props;
+   return (
+      <div
+         className={className}
+         style={{ ...style, display: "block", background: "red" }}
+         onClick={onClick}
+      />
+   );
+}
 
+function SamplePrevArrow(props) {
+   const { className, style, onClick } = props;
+   return (
+      <div
+         className={className}
+         style={{ ...style, display: "block", backgroundImage: "/assets/icons/prevArrow.png" }}
+         onClick={onClick}
+      />
+   );
+}
 function FamosoWeb(props) {
    const settings = {
       dots: false,
       infinite: true,
+      arrows: true,
       speed: 500,
       slidesToShow: 2,
-      slidesToScroll: 2
+      slidesToScroll: 2,
+      /* nextArrow:<SampleNextArrow/>,
+      prevArrow:<SamplePrevArrow/>, */
    };
 
    let id = props.id;
@@ -26,6 +49,9 @@ function FamosoWeb(props) {
    let ID = data[id].ID;
    return (
       <div className="FamosoWebBox">
+         <a href="/home">
+            <img className="backArrow" src="/assets/icons/backArrow.png" alt="" />
+         </a>
          <div className="FamosoMainBox">
             <div className="FamosoPics">
                <Slider {...settings}>
@@ -82,7 +108,7 @@ function FamosoWeb(props) {
                      param2: lastname,
                      param3: nick,
                      ID: ID,
-                     id:id,
+                     id: id,
                   }
                }} >
                   click aqui.
@@ -93,21 +119,21 @@ function FamosoWeb(props) {
 }
 export default FamosoWeb;
    /* <p> El param es: {this.props.location.state.param1}</p>
-   const ButtonGroup = ({ next, previous, ...rest }) => {
-   const {
-         carouselState: { currentSlide, totalItems, slidesToShow }
-   } = rest;
+const ButtonGroup = ({ next, previous, ...rest }) => {
+const {
+   carouselState: { currentSlide, totalItems, slidesToShow }
+} = rest;
 
-   return (
-         <div className="carousel-button-group">
-            <button aria-label="Go to previous slide"
-               className={currentSlide === 0 ? "disable" : "react-multiple-carousel__arrow react-multiple-carousel__arrow--left"}
-               onClick={() => previous()}></button>
-            <button aria-label="Go to next slide"
-               className={currentSlide === totalItems - slidesToShow ? "disable" : "react-multiple-carousel__arrow react-multiple-carousel__arrow--right"}
-               onClick={() => next()}></button>
-         </div>
-   );
+return (
+   <div className="carousel-button-group">
+      <button aria-label="Go to previous slide"
+         className={currentSlide === 0 ? "disable" : "react-multiple-carousel__arrow react-multiple-carousel__arrow--left"}
+         onClick={() => previous()}></button>
+      <button aria-label="Go to next slide"
+         className={currentSlide === totalItems - slidesToShow ? "disable" : "react-multiple-carousel__arrow react-multiple-carousel__arrow--right"}
+         onClick={() => next()}></button>
+   </div>
+);
 };
 /* let { token, setToken } = useToken(); */
 /* if(!token){

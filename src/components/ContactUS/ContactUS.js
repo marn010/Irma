@@ -21,6 +21,7 @@ export default function ContactUS(props) {
    const [fName, setFName] = useState('');
    const [fFollowers, setFollowers] = useState('');
    const [fNick, setfNick] = useState('');
+
    useEffect(() => {
       /*http://localhost/ */
       /*/api/ */

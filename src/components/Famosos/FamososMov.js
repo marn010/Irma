@@ -14,7 +14,7 @@ const FamososMov = (props) => {
 
    const {state: globalState} = useContext(GlobalState);
    const settings = {
-      arrows:false,
+      arrows:true,
       infinite: true,
       slidesToShow: 1,
       initialSlide: 0,
@@ -41,7 +41,7 @@ const FamososMov = (props) => {
                      }
                </Slider>
             </div>
-            <img className="slide" src="/assets/icons/slide.png" alt="desliza" />
+            {/* <img className="slide" src="/assets/icons/slide.png" alt="desliza" /> */}
          </div>
       </div>
    );

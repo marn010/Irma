@@ -62,7 +62,7 @@
       display: block;
       width: 40%;
       /* margin: 0% auto; */
-      padding: 2%;
+      padding: 2% 3%;
    }
    .FamosoTitle {
       position: relative;
@@ -87,6 +87,37 @@
    }
    .MoreInfoBox p {
       margin: 1% 0%;
+   }
+   .backArrow{
+      margin-left: 8%;
+   }
+   .slick-prev:before {
+      /* background-color: blue !important; */
+      width: 45px;
+      height: 45px;
+      content: '' !important;
+      position: absolute;
+      top: -11px;
+      left: -25px;
+      background-image: url('../../../img/prevArrow.png');
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      background-size: 46px;
+      opacity: 1 !important;
+   }
+   .slick-next:before {
+      /* background-color: blue !important; */
+      width: 46px;
+      height: 48px;
+      content: '' !important;
+      position: absolute;
+      top: -11px;
+      left: 0px;
+      background-image: url('../../../img/nextArrow.png');
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      background-size: 46px;
+      opacity: 1 !important;
    }
 }
 
@@ -144,4 +175,5 @@
       border-radius: 20px;
       text-align: center;
    }
+   
 }

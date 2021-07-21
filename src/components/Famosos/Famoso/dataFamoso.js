@@ -220,7 +220,7 @@ export const data = [
             face:[
                {
                   Link:"https://www.tiktok.com/@laazcarate?lang=es",
-                  img:"/assets/icons/.png",
+                  img:"/assets/icons/tiktok.png",
                   Nick:"laazcarate",
                }
             ],
@@ -373,7 +373,7 @@ export const data = [
             face:[
                {
                   Link:"https://www.tiktok.com/@catalinaaristizabal_ca?lang=es",
-                  img:"/assets/icons/.png",
+                  img:"/assets/icons/tiktok.png",
                   Nick:"catalinaaristizabal_ca",
                }
             ],
@@ -412,7 +412,7 @@ export const data = [
             face:[
                {
                   Link:"https://www.tiktok.com/@cristinahurtadoalvarez?lang=es",
-                  img:"/assets/icons/.png",
+                  img:"/assets/icons/tiktok.png",
                   Nick:"cristinahurtadoalvarez",
                }
             ],
@@ -568,7 +568,7 @@ export const data = [
             face:[
                {
                   Link:"https://www.tiktok.com/@estefiborge?lang=es",
-                  img:"/assets/icons/.png",
+                  img:"/assets/icons/tiktok.png",
                   Nick:"estefiborge",
                }
             ],
@@ -724,7 +724,7 @@ export const data = [
             face:[
                {
                   Link:"https://www.tiktok.com/@laurabarjum?lang=es",
-                  img:"/assets/icons/.png",
+                  img:"/assets/icons/tiktok.png",
                   Nick:"laurabarjum",
                }
             ],
@@ -763,7 +763,7 @@ export const data = [
             face:[
                {
                   Link:"https://www.tiktok.com/@londonotlaura?lang=es",
-                  img:"/assets/icons/.png",
+                  img:"/assets/icons/tiktok.png",
                   Nick:"londonotlaura",
                }
             ],
@@ -863,7 +863,7 @@ export const data = [
       Nombre:"María Lucía",
       Apellido:"Fernández",
       ID:"#$22",
-      Icon:"/assets/icons/Famosos/.png",
+      Icon:"/assets/icons/Famosos/tiktok.png",
       Profesion:"Presentadora TV",
       Exp:"",
       pdf:"/assets/pdf/Falcao.pdf",
@@ -1075,7 +1075,7 @@ export const data = [
             face:[
                {
                   Link:"https://www.tiktok.com/@yanethwaldman?lang=es",
-                  img:"/assets/icons/.png",
+                  img:"/assets/icons/tiktok.png",
                   Nick:"yanethwaldman",
                }
             ],
@@ -1114,7 +1114,7 @@ export const data = [
             face:[
                {
                   Link:"https://www.tiktok.com/@carlitosvargasm?lang=es",
-                  img:"/assets/icons/.png",
+                  img:"/assets/icons/tiktok.png",
                   Nick:"carlitosvargasm",
                }
             ],
@@ -1153,7 +1153,7 @@ export const data = [
             face:[
                {
                   Link:"https://www.tiktok.com/@jossenarvaezm?lang=es",
-                  img:"/assets/icons/.png",
+                  img:"/assets/icons/tiktok.png",
                   Nick:"jossenarvaezm",
                }
             ],
@@ -1231,7 +1231,7 @@ export const data = [
             face:[
                {
                   Link:"https://www.tiktok.com/@sebillasboy1?lang=es",
-                  img:"/assets/icons/.png",
+                  img:"/assets/icons/tiktok.png",
                   Nick:"sebillasboy1",
                }
             ],

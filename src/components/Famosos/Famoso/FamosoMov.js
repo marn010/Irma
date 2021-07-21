@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Slider from 'react-slick';
-import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import './Famoso.css';
@@ -9,23 +9,23 @@ import './Famoso.css';
 import { data } from './dataFamoso';
 
 
-function FamosoMov(props){
+function FamosoMov(props) {
    const settings = {
-      arrows:true,
+      arrows: true,
       dots: false,
       infinite: true,
       speed: 500,
       slidesToShow: 2,
       slidesToScroll: 2
-    };
-   
+   };
+
    let id = props.id;
    let idx = -1;
-   let name = data[id].Nombre ;
+   let name = data[id].Nombre;
    let lastname = data[id].Apellido;
    let nick = data[id].Redes[0].Twitter[0].Nick;
    let ID = data[id].ID;
-   return(
+   return (
       <div className="FamosoMovBox">
          <div className="FamosoMainBox">
             <div className="FamosoText">
@@ -38,7 +38,7 @@ function FamosoMov(props){
                   <p className="Rosa">
                      {data[id].Profesion}
                   </p>
-                  <span className="Rosa"> 
+                  <span className="Rosa">
                      {data[id].Exp}
                   </span>
                </div>
@@ -48,7 +48,7 @@ function FamosoMov(props){
                   </p>
                </div>
                <div>
-                  <a className="redesIcon"  href={data[id].Redes[0].insta[0].Link} target="blank" >
+                  <a className="redesIcon" href={data[id].Redes[0].insta[0].Link} target="blank" >
                      <img src={data[id].Redes[0].insta[0].img} alt="" />
                   </a>
                   <a className="redesIcon" href={data[id].Redes[0].face[0].Link} target="blank" >
@@ -60,36 +60,36 @@ function FamosoMov(props){
                </div>
             </div>
             <div className="FamosoPics">
-             <Slider {...settings}>
+               <Slider {...settings}>
                   {
-                     data[id].Fotos.map(() =>{
-                        idx=idx+1;
-                        return(
+                     data[id].Fotos.map(() => {
+                        idx = idx + 1;
+                        return (
                            <div className="FamousMainPics" key={idx}>
-                              <img className="FamousPic" src={data[id].Fotos[idx]} alt=""  /> 
+                              <img className="FamousPic" src={data[id].Fotos[idx]} alt="" />
                            </div>
                         );
                      })
                   }
                </Slider>
             </div>
-           
+
          </div>
          <div className="MoreInfoBox">
-            <p>Para saber más de <span className="Rosa">{data[id].Nombre}</span>, marcas y estadisticas digitales haz&nbsp; 
-            <Link to={{
-               pathname:"/ContactUS",
-               state:{
-                  param1: name,
-                  param2: lastname,
-                  param3: nick,
-                  ID: ID,
-               }
-            }} >
+            <p>Para saber más de <span className="Rosa">{data[id].Nombre}</span>, marcas y estadisticas digitales haz&nbsp;
+               <Link to={{
+                  pathname: "/ContactUS",
+                  state: {
+                     param1: name,
+                     param2: lastname,
+                     param3: nick,
+                     ID: ID,
+                  }
+               }} >
                   click aqui.
-            </Link></p>
+               </Link></p>
          </div>
       </div>
    );
-   }
+}
 export default FamosoMov;

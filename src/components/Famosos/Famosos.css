@@ -97,4 +97,35 @@
       margin: 5% auto 5% auto;
       text-align: center;
    }
+   .slick-prev:before {
+      /* background-color: blue !important; */
+      width: 45px;
+      height: 45px;
+      content: '' !important;
+      position: absolute;
+      top: -11px;
+      left: 8px;
+      background-image: url('../../img/prevMovArrow.png');
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      background-size: 46px;
+      opacity: 1 !important;
+   }
+   .slick-prev{
+      z-index: 1000;
+   }
+   .slick-next:before {
+      /* background-color: blue !important; */
+      width: 46px;
+      height: 48px;
+      content: '' !important;
+      position: absolute;
+      top: -11px;
+      left: -30px;
+      background-image: url('../../img/nextMovArrow.png');
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      background-size: 46px;
+      opacity: 1 !important;
+   }
 }

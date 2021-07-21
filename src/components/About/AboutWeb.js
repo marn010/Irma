@@ -15,6 +15,9 @@ function AboutWeb(){
                   <img className="IrmaPic" src="/assets/img/IrmaMain.png" alt="Irma" />
                </div>
          </div>
+         <a href="/home">
+            <img className="backArrow" src="/assets/icons/backArrow.png" alt="" />
+         </a>
          <div className="IrmaAboutBox">
                <div className="IrmaPicsBox">
                   <Slider />
