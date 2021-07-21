@@ -6,6 +6,7 @@ export const data = [
       Icon:"/assets/icons/Famosos/Andrea_Serna.png",
       Profesion:"Presentadora, influencer, modelo campañas",
       Exp:"Head and Shoulders, Cetaphil, Tous, Avon, Pat Primo, Samsung, Rappi",
+      pdf:"/assets/pdf/Falcao.pdf",
       Texto:"Andrea es una gran profesional que ha tenido mucho éxito y reconocimientos a lo largo de su carrera, es una persona muy comprometida con su entrega  en el trabajo. Con Andrea hemos logrado hacer un gran equipo y hemos podido realizar todos nuestros proyectos, tanto nacionales como internacionales.",
       Redes:[
          {
@@ -46,6 +47,7 @@ export const data = [
       Icon:"/assets/icons/Famosos/A_Arboleda_Icon.png",
       Profesion:"Diseñadora de modas, presentadora, empresaria, modelo de campañas.",
       Exp:"Pink Filosofy, vocera  del movimento 'Vístete de Colombia'.",
+      pdf:"/assets/pdf/Falcao.pdf",
       Texto:"Con su trabajo, que he acompañado durante toda su carrera como modelo, presentador y diseñador, Adriana es una persona que ha creado una marca con estilo, glamour y elegancia. Gracias a su larga trayectoria, es recordada y querida por todos los colombianos.",
       Redes:[
          {
@@ -85,6 +87,7 @@ export const data = [
       Icon:"/assets/icons/Famosos/A_Tarud_Icon.png",
       Profesion:"Ex señorita colombia ( ), PR,modelo y presentadora de eventos. ",
       Exp:"",
+      pdf:"/assets/pdf/Falcao.pdf",
       Texto:"Adriana se ha posicionado en el medio como una de las mejores relacionistas públicas  del país. Su carísima siempre la ha caracterizado para destacarse en todos sus trabajos.",
       Redes:[
          {
@@ -125,6 +128,7 @@ export const data = [
       Icon:"/assets/icons/Famosos/A_Beliza_Icon.png",
       Profesion:"Modelo, influencer, editora de moda @revistalternativa.",
       Exp:"",
+      pdf:"/assets/pdf/Falcao.pdf",
       Texto:"Ana es una de las editoras de moda y modelos más jóvenes y preparadas del país. Su carrera siempre ha estado rodeada en el mundo de la moda, se ha destacado notoriamente en las mejores pasarelas de Colombia y por su exitoso blog de moda.",
       Redes:[
          {
@@ -163,6 +167,7 @@ export const data = [
       Icon:"/assets/icons/Famosos/A_Henao_Icon.png",
       Profesion:"Modelo, influencer. ",
       Exp:"Aquarella, Kalley , Baby Ganics , Rappi.",
+      pdf:"/assets/pdf/Falcao.pdf",
       Texto:"Es una  de las celebridades más recordadas y queridas por los colombianos, desde los inicios  de su trabajo siendo adolecente. Su profesionalismo la ha hecho destacar en diferentes proyectos. Ahora como influencer y escritora de libros para niños ha logrado un reconocimiento especial en el medio. Ana es una persona cariñosa y comprometida.",
       Redes:[
          {
@@ -201,6 +206,7 @@ export const data = [
       Icon:"/assets/icons/Famosos/A_Azcarate_Icon.png",
       Profesion:"Comediante, modelo, presentadora, locutora. ",
       Exp:"Studio F, Aviatur, Blind, Jaguar,Ishop, Apple, Bulova.",
+      pdf:"/assets/pdf/Falcao.pdf",
       Texto:"Alejandra es toda una celebridad, un personaje que ha logrado trascender desde sus comienzos como modelo, actriz y presentadora. Con sus shows de stand up comedy demuestra que es una persona con un gran carácter y brillante humor, creatividad y directa al decir las cosas.",
       Redes:[
          {
@@ -239,6 +245,7 @@ export const data = [
       Icon:"/assets/icons/Famosos/A_Santos_Icon.png",
       Profesion:"Presentadora, modelo, Health Coach.",
       Exp:"",
+      pdf:"/assets/pdf/Falcao.pdf",
       Texto:"Es una persona que ha aprovechado el medio de las comunicaciones para realizarse profesionalmente y ha avanzando en el camino desde el modelaje, la presentación y ahora como health coach y una de sus grandes pasiones la práctica del Yoga.",
       Redes:[
          {
@@ -276,6 +283,7 @@ export const data = [
       Icon:"/assets/icons/Famosos/A_Cardozo_Icon.png",
       Profesion:"Presentadora TV, modelo, influencer.",
       Exp:"",
+      pdf:"/assets/pdf/Falcao.pdf",
       Texto:"A Ángela la he acompañado desde sus inicios en el modelaje y luego como presentadora de magazines. Con un buen manejo ante las cámaras, es una comunicadora que proyecta credibilidad y empatía.",
       Redes:[
          {
@@ -312,6 +320,7 @@ export const data = [
       Icon:"/assets/icons/Famosos/C_Bahamon_Icon.png",
       Profesion:"Modelo, presentadora, influencer, ecologista.",
       Exp:"Vanart, Intibon, Desodorante Savital.",
+      pdf:"/assets/pdf/Falcao.pdf",
       Texto:"Desde sus inicios Claudia llegó con toda la intención de poder sobresalir en los medios. Ha creado una marca tanto en lo personal como en lo profesional. Es una de las mejores presentadoras del país, que con su carisma y encanto ha llegado a ser imagen de marcas nacionales e internacionales. Claudia es embajadora y defensora de nuestro planeta.",
       Redes:[
          {
@@ -350,6 +359,7 @@ export const data = [
       Icon:"/assets/icons/Famosos/C_Aristizabal_Icon.png",
       Profesion:"Modelo, presentadora, influencer.",
       Exp:"",
+      pdf:"/assets/pdf/Falcao.pdf",
       Texto:"Desde su inicio la he acompañado en su desarrollo profesional como modelo, actriz, presentadora e influencer. Es una apasionada  por el ejercicio y la vida sana, donde es ejemplo de disciplina y constancia.",
       Redes:[
          {
@@ -388,6 +398,7 @@ export const data = [
       Icon:"/assets/icons/Famosos/C_Hurtado_Icon.png",
       Profesion:"Presentadora TV y radio, modelo, empresaria, influencer.",
       Exp:"Tuti fruti, Henkell Igora.",
+      pdf:"/assets/pdf/Falcao.pdf",
       Texto:"Cristina ha sobresalido como modelo y presentadora desde sus inicios como participante de un reconocido reality donde  mostró desde el principio su interés por ser reconocida en el medio de la TV nacional.",
       Redes:[
          {
@@ -426,6 +437,7 @@ export const data = [
       Icon:"/assets/icons/Famosos/C_Castro_Icon.png",
       Profesion:"Empresaria, modelo, influencer.",
       Exp:"Tuti fruti, Henkell Igora.",
+      pdf:"/assets/pdf/Falcao.pdf",
       Texto:"Carolina inició su carrera de modelaje a sus 14 años, desde entonces la he acompañado. Gracias a su empeño de sobresalir logró trabajar con los más reconocidos diseñadores internacionales y estar en las mejores pasarelas del mundo. Sobresale como una de las influencers de Colombia por su estilo y su pasión por la moda.",
       Redes:[
          {
@@ -464,6 +476,7 @@ export const data = [
       Icon:"/assets/icons/Famosos/C_Madameperine_Icon.png",
       Profesion:"Cantante.",
       Exp:"",
+      pdf:"/assets/pdf/Falcao.pdf",
       Texto:"Catalina es una joven cantante colombiana, reconocida por su grupo Monsieur Periné. Ella ha sobresalido rápidamente en Latinoamérica y Europa por su gran talento musical y estilo particular; además, por ser una embajadora de los temas ambientales.",
       Redes:[
          {
@@ -502,6 +515,7 @@ export const data = [
       Icon:"/assets/icons/Famosos/E_Ruini_Icon.png",
       Profesion:"Modelo.",
       Exp:"Punto Blanco, Johanna Ortiz, Kaanass Shoes, Spirito.",
+      pdf:"/assets/pdf/Falcao.pdf",
       Texto:"Erica es una modelo colombo-italiana. Desde hace varios años reside en Colombia, donde ha sido imagen de grandes marcas. Su elegancia y belleza la han llevado a ser fotografiada por los mejores fotógrafos del país.",
       Redes:[
          {
@@ -540,6 +554,7 @@ export const data = [
       Icon:"/assets/icons/Famosos/E_Borge.png",
       Profesion:"Actriz, modelo, presentadora, escritora.",
       Exp:"",
+      pdf:"/assets/pdf/Falcao.pdf",
       Texto:"Estefi comenzó su carrera como modelo, luego se enfocó en la actuación, y participó en el reality MasterChef Celebrity donde desarrolló la pasion por cocinar. Es creadora del libro best seller '¡Atrévete a cocinar!' Su enorme disciplina la ha llevado a destacarse como embajadora del mundo fitness.",
       Redes:[
          {
@@ -578,6 +593,7 @@ export const data = [
       Icon:"/assets/icons/Famosos/F_Lu_Icon.png",
       Profesion:"Cantante.",
       Exp:"",
+      pdf:"/assets/pdf/Falcao.pdf",
       Texto:"Fanny Lu es una talentosa cantante, presentadora y animadora. Con un gran talento, su voz y su arrolladora personalidad, se ha consolidado como uno de los talentos colombianos más importantes. Con Fanny hemos trabajado en diferentes campañas publicitarias, en donde su personalidad es la atracción principal por su originalidad y su manera de crear versatilidad.",
       Redes:[
          {
@@ -616,6 +632,7 @@ export const data = [
       Icon:"/assets/icons/Famosos/G_Tafur_Icon.png",
       Profesion:"Modelo, influencer. ",
       Exp:"ARKITECT & DANIELLA BATLLE, BMW, W Radio, Yanbal.",
+      pdf:"/assets/pdf/Falcao.pdf",
       Texto:"Gabriela sin duda es una de las más reconocidas ex reinas de Colombia, modelo y abogada de profesión. Se ha destacado por su carrera como modelo trabajando en las mejores pasarelas, ahora incursiona en el mundo de las comunicaciones mediante su participación como presentadora de la W Radio Colombia.",
       Redes:[
          {
@@ -654,6 +671,7 @@ export const data = [
       Icon:"/assets/icons/Famosos/K_Saenz_Icon.png",
       Profesion:"Actriz, modelo, influencer.",
       Exp:"Avon Fragancias, Chevrolet.",
+      pdf:"/assets/pdf/Falcao.pdf",
       Texto:"Kathy ha sobresalido como emprendedora, modelo, actriz y empresaria. Enamorada de la vida, el amor y de la naturaleza. Ahora incursiona en su nuevo proyecto como diseñadora de joyas.",
       Redes:[
          {
@@ -692,6 +710,7 @@ export const data = [
       Icon:"/assets/icons/Famosos/L_Barjum.png",
       Profesion:"Artista, modelo, influencer.",
       Exp:"",
+      pdf:"/assets/pdf/Falcao.pdf",
       Texto:"Laura, ex señorita Colombia, modelo, presentadora y actriz. Su personalidad la hace sobresalir en cualquier escenario acompañada de su buen humor y carisma. ",
       Redes:[
          {
@@ -730,6 +749,7 @@ export const data = [
       Icon:"/assets/icons/Famosos/L_Londoño_Icon.png",
       Profesion:"Artista, modelo. ",
       Exp:"MNG Colombia, Metamucil.",
+      pdf:"/assets/pdf/Falcao.pdf",
       Texto:"Desde que la conocí a sus trece años de edad, emprendimos muchos trabajos en el modelaje. Con su gran potencial y espontaneidad, ella fue abriendo espacio para la actuación. A su vez, con su perseverancia y carisma, ha logrado ser una de las actrices e influencers más activas y queridas en Colombia y Latinoamérica.",
       Redes:[
          {
@@ -768,6 +788,7 @@ export const data = [
       Icon:"/assets/icons/Famosos/L_Tobon_Icon.png",
       Profesion:"Modelo, Influencer.",
       Exp:"",
+      pdf:"/assets/pdf/Falcao.pdf",
       Texto:"Laura es una de las modelos más activas del momento; desde su inicio se propuso sobresalir en el medio. Con su gran dominio frente a la cámara y el manejo de redes sociales es una de la influenciadoras más solicitadas en Colombia. Con su trabajo ha logrado internacionalizar su nombre en mercados tan importantes como el mexicano, y canales de televisión internacionales como E! Entertainment.",
       Redes:[
          {
@@ -806,6 +827,7 @@ export const data = [
       Icon:"/assets/icons/Famosos/M_Barraza_Icon.png",
       Profesion:"Presentadora TV.",
       Exp:"",
+      pdf:"/assets/pdf/Falcao.pdf",
       Texto:"María José fue reina de belleza, modelo y presentadora de TV. Trabaja en uno de los canales con mayor audiencia de Latinoamérica, Hola! TV. Se desempeña como  influencer de moda colombiana, gracias a su conocimiento y su pasión por la moda.",
       Redes:[
          {
@@ -844,6 +866,7 @@ export const data = [
       Icon:"/assets/icons/Famosos/.png",
       Profesion:"Presentadora TV",
       Exp:"",
+      pdf:"/assets/pdf/Falcao.pdf",
       Texto:"María Lucía es una de las más reconocidas periodistas y presentadoras en Colombia, es una de las caras más reconocidas y de mayor credibilidad entre los presentadores de noticias. Comenzó como modelo y ha realizado una impecable carrera profesional en los medios de comunicación.",
       Redes:[
          {
@@ -882,6 +905,7 @@ export const data = [
       Icon:"/assets/icons/Famosos/P_Schmitt_Icon.png",
       Profesion:"Presentadora, modelo.",
       Exp:"",
+      pdf:"/assets/pdf/Falcao.pdf",
       Texto:"Pilar es reconocida desde hace varios años como modelo y presentadpra de farándula de Noticias Caracol. Se caracteriza por su buen manejo ante la cámara, su carisma y profesionalismo.",
       Redes:[
          {
@@ -920,6 +944,7 @@ export const data = [
       Icon:"/assets/icons/Famosos/T_Montoya_Icon.png",
       Profesion:"Modelo, Influencer.",
       Exp:"Bronzini, Chocolyne.",
+      pdf:"/assets/pdf/Falcao.pdf",
       Texto:"La Toya es una samaria que empezó su modelaje conmigo desde su juventud. Gracias a su sensibilidad social y medioambiental, es una abanderada de estos temas. Hemos trabajado en diversos proyectos en España y en México ahora radicada en Colombia nos muestra ",
       Redes:[
          {
@@ -958,6 +983,7 @@ export const data = [
       Icon:"/assets/icons/Famosos/T_Calderon_Icon.png",
       Profesion:"Deportista, piloto de automovilismo.",
       Exp:"",
+      pdf:"/assets/pdf/Falcao.pdf",
       Texto:"A sus 27 años, Tatiana es corredora en la Fórmula 2 y se alista para llegar a la Fórmula Uno, siendo la primera mujer de nuestros tiempos en competir en esta categoría. Con su dedicación y profesionalismo muestra grandes resultados en su profesión. ",
       Redes:[
          {
@@ -996,6 +1022,7 @@ export const data = [
       Icon:"/assets/icons/Famosos/Y_Vargas_Icon.png",
       Profesion:"Actriz y modelo.",
       Exp:"",
+      pdf:"/assets/pdf/Falcao.pdf",
       Texto:"Yeimy es una mujer cartagenera que fue virreina nacional y luego se hizo modelo conmigo, de manera que la he acompañado desde el comienzo de su carrera. Incursionó en la actuación y ha participado en importantes telenovelas colombianas. Se  distingue por ser polifacética y muy versátil en sus actuaciones.",
       Redes:[
          {
@@ -1034,6 +1061,7 @@ export const data = [
       Icon:"/assets/icons/Famosos/Y_Waldman_Icon.png",
       Profesion:"Artista, presentadora, conferencista.",
       Exp:"Alimentos BARY.",
+      pdf:"/assets/pdf/Falcao.pdf",
       Texto:"Con su impresionante personalidad y gran sonrisa, Yaneth conquista los corazones de su público. Con una gran tayectoria en la música  y actuación, se consolida como una celebridad. ",
       Redes:[
          {
@@ -1072,6 +1100,7 @@ export const data = [
       Icon:"/assets/icons/Famosos/C_Vargas_Icon.png",
       Profesion:"Presentador.",
       Exp:"",
+      pdf:"/assets/pdf/Falcao.pdf",
       Texto:"Carlos ha sobresalido como uno de los mejores presentadores de farándula del pais. Con su gran personalidad, humor, irreverencia y su gran honestidad, ha logrado poner su sello personal en cada uno de sus proyectos. ",
       Redes:[
          {
@@ -1110,6 +1139,7 @@ export const data = [
       Icon:"/assets/icons/Famosos/J_Narvaez_Icon.png",
       Profesion:"Actor, cantante, presentador, modelo.",
       Exp:"",
+      pdf:"/assets/pdf/Falcao.pdf",
       Texto:"Josse es un actor, cantante y presentador colombiano que comenzó como modelo conmigo. Cuenta con una buena trayectoria como actor y estamos planeando nuevos proyectos.",
       Redes:[
          {
@@ -1148,6 +1178,7 @@ export const data = [
       Icon:"/assets/icons/Famosos/R_Novoa_Icon.png",
       Profesion:"Actor, Presentador, Modelo.",
       Exp:"",
+      pdf:"/assets/pdf/Falcao.pdf",
       Texto:"Rafael empezó su carrera como modelo donde trabajamos e hicimos muchas campañas, luego trascendió como actor y ahora es reconocido no solo en Colombia sino a nivel internacional. ",
       Redes:[
          {
@@ -1186,6 +1217,7 @@ export const data = [
       Icon:"/assets/icons/Famosos/S_Martinez_Icon.png",
       Profesion:"Actor, Presentador, Modelo.",
       Exp:"Fragancias Avon, Chevrolet, MNGcol.",
+      pdf:"/assets/pdf/Falcao.pdf",
       Texto:"Con Sebastián tenemos una relación comercial de muchos años: juntos hemos participado exitosamente en grandes campañas publicitarias, logrando consolidar  su imagen como figura pública y como defensor de la vida saludable y del sano bienestar. Su gran sentido del humor y su ",
       Redes:[
          {
@@ -1224,6 +1256,7 @@ export const data = [
       Icon:"/assets/icons/Famosos/M_Yepes_Icon.png",
       Profesion:"Exfutbolista, excapitán de la Selección Colombia y entrenador de fútbol. ",
       Exp:"",
+      pdf:"/assets/pdf/Falcao.pdf",
       Texto:"Al ser exjugador de la Selección Colombia, es un gran referente deportivo de nuestro país y reconocido tanto a nivel nacional como internacional. ",
       Redes:[
          {
@@ -1262,6 +1295,7 @@ export const data = [
       Icon:"/assets/icons/Famosos/Falcao_Icon.png",
       Profesion:"Deportista.",
       Exp:"",
+      pdf:"/assets/pdf/Falcao.pdf",
       Texto:"Radamel Falcao es uno de los mejores jugadores del mundo, con el cual he podido compartir grandes campañas publicitarias colombianas. Es todo un referente deportivo y una figura pública  con gran carisma y profesionalismo. ",
       Redes:[
          {
@@ -1301,6 +1335,7 @@ export const data = [
       Icon:"/assets/icons/Famosos/S_Arias_Icon.png",
       Profesion:"Deportista, Influencer.",
       Exp:"",
+      pdf:"/assets/pdf/Falcao.pdf",
       Texto:"Santiago es futbolista de la Selección Colombia que actualmente juega en Europa, específicamente en el equipo Bayer 04 Liverkusen de la Bundesliga. Con su juventud y profesionalismo nos ha dejado un gran ejemplo de disciplina y compromiso.",
       Redes:[
          {
@@ -1339,6 +1374,7 @@ export const data = [
       Icon:"/assets/icons/Famosos/K_Jimenez_Icon.png",
       Profesion:"Modelo, Influencer.",
       Exp:"",
+      pdf:"/assets/pdf/Falcao.pdf",
       Texto:"Karin una mujer apasionada por la moda y ha  sobresalido como influencer en los medios digitales. Ahora, como empresaria, nos muestra una nueva etapa donde su diseño y creatividad son sus mejores aliados. ",
       Redes:[
          {
@@ -1377,6 +1413,7 @@ export const data = [
       Icon:"/assets/icons/Famosos/Y_Buenaventura_Icon.png",
       Profesion:"Cantante",
       Exp:"",
+      pdf:"/assets/pdf/Falcao.pdf",
       Texto:"Yuri, gran maestro y referente de la música  colombiana. Como compositor y cantante, con sus letras impregnadas de poesía y vivencias, y su voz inigualable, es conocido tanto a nivel nacional como internacional. ",
       Redes:[
          {

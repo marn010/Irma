@@ -5,42 +5,51 @@ import Forms from '../Form/Form';
 /* import GlobalState from '../../globalState'; */
 import useToken from '../Hooks/useToken';
 import DigitalAssets from '../digitalAssets/digitalAssets';
+import { Link } from 'react-router-dom';
+import { data } from '../Famosos/Famoso/dataFamoso';
 
 
 
-export default function ContactUS(props){
+export default function ContactUS(props) {
    /* const {token: globalToken} =useContext(GlobalState); */
    let { token } = useToken();
    let param1 = props.location.state.param1;
    let param2 = props.location.state.param2;
    let param3 = props.location.state.param3;
    let ID = props.location.state.ID;
-   const [fName, setFName ] = useState('');
-   const [fFollowers, setFollowers ] = useState('');
-   const [fNick, setfNick ] = useState('');
+   let id = props.location.state.id;
+   const [fName, setFName] = useState('');
+   const [fFollowers, setFollowers] = useState('');
+   const [fNick, setfNick] = useState('');
    useEffect(() => {
       /*http://localhost/ */
       /*/api/ */
-      axios.post('/api/',{
+      axios.post('/api/', {
          nick: param3,
-      }).then(res=>{
+      }).then(res => {
          console.log(res.data.twitter.name)
          setFName(res.data.twitter.name);
          console.log(res.data.twitter.screen_name)
          setfNick(res.data.twitter.screen_name)
          console.log(res.data.twitter.followers_count)
          setFollowers(res.data.twitter.followers_count);
-      }).catch(err=>{
+      }).catch(err => {
          console.error(err)
       })
-   },[param3])
-   if(!token){
-      return(
-         <Forms param1={param1} param2={param2} ID={ID}/>
+   }, [param3])
+   if (!token) {
+      return (
+         <Forms param1={param1} param2={param2} ID={ID} />
       );
    }
-   return(
+   return (
       <React.Fragment>
+         {/* <Link
+            to={{ pathname: data[id].pdf }}
+            target="_blank"
+         >
+            Descarga aquí tu resultado
+         </Link> */}
          <DigitalAssets fName={fName} fFollowers={fFollowers} fNick={fNick} nick={param3}  ID={ID} param1={param1} param2={param2} />
       </React.Fragment>
    );
