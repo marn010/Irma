@@ -6,13 +6,6 @@
    color: #E9817C !important;
 }
 
-/* .slick-prev::before{
-   content: '\003C';
-}
-.slick-next::before{
-   content: '\003E';
-} */
-
 .slick-next {
    right: -10px;
 }
@@ -88,7 +81,7 @@
    .MoreInfoBox p {
       margin: 1% 0%;
    }
-   .backArrow{
+   .backArrow {
       margin-left: 8%;
    }
    .slick-prev:before {
@@ -141,25 +134,25 @@
       /* margin: 0% auto; */
       padding: 10% 0% 2% 0%;
    }
-   .FamosoText p{
+   .FamosoText p {
       margin: 0% 0% 1% 0%;
    }
    .FamosoTitle {
       position: relative;
-      font-size: 26px;
+      font-size: 22px;
       width: 100%;
       margin: 0% 0% 3% 0%;
    }
-   .FamosoProf{
+   .FamosoProf {
       font-size: 16px;
    }
-   .FamosoExp{
+   .FamosoExp {
       font-size: 12px;
    }
    .MainIcon {
       position: absolute;
       top: -120%;
-      right: 5%;
+      right: 0%;
    }
    .FamosoPics {
       display: block;
@@ -185,8 +178,7 @@
       border-radius: 20px;
       text-align: center;
    }
-   .MoreInfoBox p{
+   .MoreInfoBox p {
       margin: 0% 0% 1% 0%;
    }
-   
 }
