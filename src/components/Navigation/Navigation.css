@@ -1,106 +1,109 @@
-
-.formTitle{
+.formTitle {
 	letter-spacing: 15px;
 }
-.searchfield{
+
+.searchfield {
 	border: solid 1px #E9817C !important;
 	color: #E9817C !important;
 	background-color: transparent !important;
 	border-radius: 25px !important;
 }
-.searchfield::placeholder{
+
+.searchfield::placeholder {
 	color: #E9817C !important;
 }
-.Overlay{
+
+.Overlay {
 	position: fixed;
-	top:0%;
+	top: 0%;
 	right: 0%;
 	bottom: 0%;
 	left: 0%;
 	background-color: rgba(27, 27, 24, 0.9);
 	z-index: 100 !important;
-
 }
-.Modal{
+
+.Modal {
 	position: relative;
 	margin: 15% 20%;
 	padding: 5% 5% 5% 5%;
 	border-radius: 30px;
-	background-color: white;	
+	background-color: white;
 }
-@media(max-width:768px){
-	.Modal{
+
+@media(max-width:768px) {
+	.Modal {
 		position: relative;
 		margin: 80% 20%;
 		padding: 5% 5% 5% 5%;
 		border-radius: 30px;
-		background-color: white;	
+		background-color: white;
 	}
-	.LoginBTN{
+	.LoginBTN {
 		position: absolute;
 		top: 15%;
 		right: 5%;
 		background-color: #E9817C !important;
 		border: solid 1px #E9817C !important;
 	}
-	.navbarIrma{
+	.navbarIrma {
 		display: block;
 		position: absolute;
 		top: 25%;
 		left: 30%;
-		/* width: 40%; */
+		width: 50%;
 		max-width: 125px !important;
-		margin: 0% 50% 0% 0% ;
+		margin: 0% 50% 0% 0%;
 	}
-	.formTitle{
+	.formTitle {
 		margin: 5% 0% 0% 25%;
 	}
-	.searchBar{
+	.searchBar {
 		display: none;
 	}
-	.navbar-nav{
+	.navbar-nav {
 		width: 200px;
 		background-color: #E9817C;
 	}
-	.nav-link{
-		color: rgba(255,255,255,0.5) !important;
+	.nav-link {
+		color: rgba(255, 255, 255, 0.5) !important;
 		text-align: center;
 		border-bottom: solid 1px white;
 	}
-	.nav-link.active{
-		color: rgba(255,255,255,1.0) !important;
+	.nav-link.active {
+		color: rgba(255, 255, 255, 1.0) !important;
 	}
 }
-@media(min-width:769px){
-	.navbar{
+
+@media(min-width:769px) {
+	.navbar {
 		justify-content: start !important;
 	}
-	.navbar-nav{
+	.navbar-nav {
 		width: 200px;
 		background-color: #E9817C;
 	}
-	.nav-item{
+	.nav-item {
 		margin: 0% 10%;
 	}
-
-	.nav-link{
-		color: rgba(255,255,255,0.5) !important;
+	.nav-link {
+		color: rgba(255, 255, 255, 0.5) !important;
 		text-align: center;
 		border-bottom: solid 1px white;
 	}
-	.nav-link.active{
-		color: rgba(255,255,255,1.0) !important;
+	.nav-link.active {
+		color: rgba(255, 255, 255, 1.0) !important;
 	}
 	.navbar-dark {
 		background-color: white;
 	}
-	.searchBar{
+	.searchBar {
 		position: absolute;
 		width: 50%;
 		right: 10%;
 		top: 25%;
 	}
-	.LoginBTN{
+	.LoginBTN {
 		position: absolute;
 		border-radius: 18px !important;
 		background-color: #E9817C !important;
@@ -111,23 +114,23 @@
 	/* .NavBtn{
 		background-color: rgb(225,225,225) !important;
 	} */
-	.navbar-light .navbar-toggler{
-	   border-color: transparent !important;
-	   color: #E9817C !important;
+	.navbar-light .navbar-toggler {
+		border-color: transparent !important;
+		color: #E9817C !important;
 	}
-	.navbar-toggler-icon{
-	   background-image: url(../../img/NavbarIcon.png) !important;
+	.navbar-toggler-icon {
+		background-image: url(../../img/NavbarIcon.png) !important;
 	}
-	.NavMenu{
-		background-color:white;
+	.NavMenu {
+		background-color: white;
 	}
-	.navbarIrma{
-		width: 50%;
-		margin: 0% 0% 0% 10% ;
+	.navbarIrma {
+		width: 100%;
+		margin: 0% 0% 0% 10%;
 	}
-	.MainNavbar{
+	.MainNavbar {
 		/* position: fixed; */
 		/* width: 100%; */
 		margin: 0% 0% 0% 5%;
-	}	
+	}
 }

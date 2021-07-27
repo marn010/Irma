@@ -14,12 +14,11 @@
 }
 @media(max-width:768px){
    .CopyRight{
-      color: white;
-      background-color: #E9817C;
-      padding: 1% 0% 2% 0%;
+      font-size: 15px;
+      padding: 1% 0% 1% 0%;
    }
    .FooterMainBox{
-      position: relative;
+      position: fixed;
    }  
 }
 @media(min-width:769px){

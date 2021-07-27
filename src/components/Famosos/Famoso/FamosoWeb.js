@@ -8,7 +8,7 @@ import './Famoso.css';
 
 import { data } from './dataFamoso';
 
-function SampleNextArrow(props) {
+/* function SampleNextArrow(props) {
    const { className, style, onClick } = props;
    return (
       <div
@@ -28,7 +28,7 @@ function SamplePrevArrow(props) {
          onClick={onClick}
       />
    );
-}
+} */
 function FamosoWeb(props) {
    const settings = {
       dots: false,

@@ -56,14 +56,14 @@
    .FamousMainBox{
       position: relative;
       display: block;
-      height: 72.8vh;
+      /* height: 72.8vh; */
       align-items: center;
       padding: 0% 0% 0% 0%;
-      margin: 0% auto 0%;
+      margin: 10% auto 10% auto;
    }
    .FamousPics{
       display: block;
-      width: 100%;
+      width: 95%;/*100%*/
       margin: 10% auto 5% auto;
    }
    .ProductBox{
@@ -104,7 +104,7 @@
       content: '' !important;
       position: absolute;
       top: -11px;
-      left: 8px;
+      left: -8px;
       background-image: url('../../img/prevMovArrow.png');
       background-repeat: no-repeat;
       vertical-align: middle;
@@ -121,7 +121,7 @@
       content: '' !important;
       position: absolute;
       top: -11px;
-      left: -30px;
+      left: -18px;
       background-image: url('../../img/nextMovArrow.png');
       background-repeat: no-repeat;
       vertical-align: middle;

@@ -29,19 +29,17 @@ function FamosoMov(props) {
       <div className="FamosoMovBox">
          <div className="FamosoMainBox">
             <div className="FamosoText">
-               <div>
-                  <div className="FamosoTitle Rosa">
-                     <p>
-                        ____ {data[id].Nombre} {data[id].Apellido} <span className="MainIcon"><img src={data[id].Icon} alt="" /> </span>
-                     </p>
-                  </div>
-                  <p className="Rosa">
-                     {data[id].Profesion}
+               <div className="FamosoTitle Rosa">
+                  <p>
+                     ____ {data[id].Nombre} {data[id].Apellido} <span className="MainIcon"><img src={data[id].Icon} alt="" /> </span>
                   </p>
-                  <span className="Rosa">
-                     {data[id].Exp}
-                  </span>
                </div>
+               <p className="Rosa FamosoProf">
+                  {data[id].Profesion}
+               </p>
+               <p className="Rosa FamosoExp">
+                  {data[id].Exp}
+               </p>
                <div className="famousText">
                   <p>
                      {data[id].Texto}

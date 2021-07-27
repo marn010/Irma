@@ -141,14 +141,24 @@
       /* margin: 0% auto; */
       padding: 10% 0% 2% 0%;
    }
+   .FamosoText p{
+      margin: 0% 0% 1% 0%;
+   }
    .FamosoTitle {
       position: relative;
-      font-size: 28px;
+      font-size: 26px;
       width: 100%;
+      margin: 0% 0% 3% 0%;
+   }
+   .FamosoProf{
+      font-size: 16px;
+   }
+   .FamosoExp{
+      font-size: 12px;
    }
    .MainIcon {
       position: absolute;
-      top: -90%;
+      top: -120%;
       right: 5%;
    }
    .FamosoPics {
@@ -169,11 +179,14 @@
    }
    .MoreInfoBox {
       display: block;
-      width: 80%;
-      margin: 1% auto 5% auto;
+      width: 100%;
+      margin: 1% auto 1% auto;
       border: solid 2px #E9817C;
       border-radius: 20px;
       text-align: center;
+   }
+   .MoreInfoBox p{
+      margin: 0% 0% 1% 0%;
    }
    
 }
