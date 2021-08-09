@@ -19,4 +19,3 @@ function Famoso(props){
    );
    }
 export default Famoso;
-  

@@ -168,7 +168,7 @@ export const data = [
       Profesion:"Modelo, influencer. ",
       Exp:"Aquarella, Kalley , Baby Ganics , Rappi.",
       pdf:"/assets/pdf/Falcao.pdf",
-      Texto:"Es una  de las celebridades más recordadas y queridas por los colombianos, desde los inicios  de su trabajo siendo adolecente. Su profesionalismo la ha hecho destacar en diferentes proyectos. Ahora como influencer y escritora de libros para niños ha logrado un reconocimiento especial en el medio. Ana es una persona cariñosa y comprometida.",
+      Texto:"Es una  de las celebridades más recordadas y queridas por los colombianos, desde los inicios de su trabajo siendo adolescente. Su profesionalismo la ha hecho destacar en diferentes proyectos. Ahora como influencer y escritora de libros para niños ha logrado un reconocimiento especial en el medio. Ana es una persona cariñosa y comprometida.",
       Redes:[
          {
             insta:[

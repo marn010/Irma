@@ -6,13 +6,7 @@
    color: #E9817C !important;
 }
 
-.slick-next {
-   right: -10px;
-}
 
-.slick-prev {
-   left: -10px;
-}
 
 @media(min-width:769px) {
    .FamosoMainBox {
@@ -112,6 +106,13 @@
       background-size: 46px;
       opacity: 1 !important;
    }
+   .slick-next {
+      right: -10px;
+   }
+   
+   .slick-prev {
+      left: -10px;
+   }
 }
 
 @media(max-width:768px) {
@@ -156,7 +157,16 @@
    }
    .FamosoPics {
       display: block;
-      width: 100%;
+      width: 85%;
+      margin: 0% auto 0% auto;
+      
+   }
+   .slick-next {
+      right: -10px;
+   }
+   
+   .slick-prev {
+      left: -10px;
    }
    .FamousPic {
       display: block;
@@ -181,4 +191,5 @@
    .MoreInfoBox p {
       margin: 0% 0% 1% 0%;
    }
+   
 }
