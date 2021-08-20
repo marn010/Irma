@@ -24,7 +24,6 @@ export default function Main() {
                <Route path="/AboutMe" component={About}></Route>
                {/* <Route path="/login" component={Login}></Route> */}
                {/* <Route path="/" component={}></Route> */}
-
                <Redirect to="/home"></Redirect>
             </Switch>
             <Footer />

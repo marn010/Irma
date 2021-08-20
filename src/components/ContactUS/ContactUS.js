@@ -5,8 +5,8 @@ import Forms from '../Form/Form';
 /* import GlobalState from '../../globalState'; */
 import useToken from '../Hooks/useToken';
 import DigitalAssets from '../digitalAssets/digitalAssets';
-/* import { Link } from 'react-router-dom';
-import { data } from '../Famosos/Famoso/dataFamoso'; */
+import { Link } from 'react-router-dom';
+import { data } from '../Famosos/Famoso/dataFamoso'; 
 
 
 
@@ -17,7 +17,7 @@ export default function ContactUS(props) {
    let param2 = props.location.state.param2;
    let param3 = props.location.state.param3;
    let ID = props.location.state.ID;
-   /* let id = props.location.state.id; */
+   let id = props.location.state.id;
    const [fName, setFName] = useState('');
    const [fFollowers, setFollowers] = useState('');
    const [fNick, setfNick] = useState('');
